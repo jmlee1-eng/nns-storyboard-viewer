@@ -1,0 +1,902 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NNS · 전체 대본 JP</title>
+<style>
+:root{color-scheme:light;--ink:#233b37;--muted:#626e66;--accent:#257461;--dialogue:#7b3486;--line:#dcded4}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:150px}body{margin:0;color:var(--ink);background:#fffefa;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Hiragino Sans","Malgun Gothic",sans-serif}
+a{color:var(--accent);text-underline-offset:4px}a:focus-visible{outline:3px solid #b27d39;outline-offset:4px}.bar{position:sticky;top:0;z-index:1;background:#fffefa;border-bottom:1px solid var(--line)}.bar-inner{max-width:920px;margin:auto;padding:20px 28px 16px}.heading{display:flex;align-items:center;justify-content:space-between;gap:20px}.back{font-size:13px;white-space:nowrap}h1{font-size:24px;letter-spacing:-.035em;margin:0}.controls{display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin-top:16px}.languages{display:flex;gap:4px}.language{padding:8px 16px;border-radius:5px;text-decoration:none;font-size:14px}.language.active{background:var(--accent);color:#fff;font-weight:700}.download{font-size:13px;margin-left:auto}.parts{display:flex;gap:17px;margin:14px 0 0;font-size:12px}.parts a{color:var(--muted);text-decoration:none}
+main{max-width:820px;margin:auto;padding:32px 28px 80px}.note{font-size:12px;color:var(--muted);margin:0 0 30px}.note span{color:var(--dialogue)}section+section{margin-top:64px;padding-top:30px;border-top:1px solid var(--line)}h2{font-size:17px;margin:0 0 26px;color:var(--muted);font-weight:650}.script p{font-size:18px;line-height:2.05;white-space:pre-wrap;overflow-wrap:anywhere;word-break:keep-all;margin:0 0 18px}.script[lang=ja] p{word-break:normal}.script .dialogue{color:var(--dialogue)}.dialogue strong{font-weight:700}footer{margin-top:54px;font-size:13px;color:var(--muted)}
+body{-webkit-user-select:none;user-select:none}.cut-body,.cut-body *{-webkit-user-select:text;user-select:text;cursor:text}.noncopy,.noncopy *{-webkit-user-select:none;user-select:none;pointer-events:none}.noncopy[data-label]::before,.cut-number span::before{content:attr(data-label)}.cut{display:grid;grid-template-columns:100px minmax(0,1fr);gap:24px}.cut-number{padding-top:8px;color:var(--muted);font-size:11px;line-height:1.7;font-variant-numeric:tabular-nums;white-space:nowrap}.cut-number span{display:block}.cut-number span+span{font-weight:650}.silent{color:var(--muted);font-size:13px;line-height:37px;margin-bottom:18px}.script h2{padding-left:124px}main{max-width:1040px}.script p::selection,.script p *::selection{background:#d7e8ff;color:#172f42}
+@media(max-width:540px){.bar-inner{padding:16px 20px 13px}h1{font-size:21px}.controls{gap:8px}.language{padding:8px 11px}.download{font-size:12px}main{padding:26px 16px 60px}.cut{grid-template-columns:76px minmax(0,1fr);gap:12px}.cut-number{font-size:10px}.script h2{padding-left:88px}.script p{font-size:17px;line-height:1.95}}
+html{scroll-padding-top:var(--header-offset,220px)}.searchbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:14px}.searchbar input{flex:1;min-width:160px;width:240px;padding:9px 12px;background:white;border:1px solid #b6c7bc;border-radius:5px;font:inherit;font-size:14px;color:var(--ink);-webkit-user-select:text;user-select:text}.searchbar button{font:inherit;font-size:14px;padding:8px 11px;border:1px solid var(--line);border-radius:5px;background:#f4f5ef;color:var(--ink);cursor:pointer}.searchbar button:disabled{opacity:.4;cursor:default}.searchbar :focus-visible{outline:3px solid #b27d39;outline-offset:2px}.searchbar input::-webkit-search-cancel-button{display:none}.searchinfo{display:flex;gap:12px;align-items:center;font-size:12px;color:var(--muted);margin-top:7px;min-height:18px}.searchinfo output{font-variant-numeric:tabular-nums}.search-hit{background:#fff1af;color:inherit}.script mark.search-current{background:#ffce7a;outline:1px solid #c98920;border-radius:2px}.cut-number.search-hit{padding:8px 6px;align-self:start;border-radius:4px}.cut-number.search-current{background:#ffce7a;color:#4f3c19;outline:1px solid #c98920}
+@media(max-width:540px){.searchbar input{min-width:100px;width:120px}.searchbar button{padding:8px}.searchinfo{font-size:11px;flex-wrap:wrap;gap:5px 10px}}
+@media print{.bar{position:static;border:0}.back,.controls,.parts,.note,.searchbar,.searchinfo,footer{display:none}.bar-inner,main{max-width:none;padding:0}h1{margin-bottom:25px}.script p{font-size:11pt;line-height:1.8;orphans:3;widows:3}.dialogue{print-color-adjust:exact;-webkit-print-color-adjust:exact}section+section{break-before:page;border:0;margin-top:0}.search-hit,.script mark.search-current,.cut-number.search-current{background:transparent;outline:none}}
+</style></head><body><header class="bar"><div class="bar-inner"><div class="heading"><h1>전체 대본</h1><a class="back" href="../">촬영 뷰어로 돌아가기</a></div><div class="controls"><nav class="languages" aria-label="대본 언어"><a href="index.html" lang="ko" class="language">KR · 한국어</a><a href="jp.html" lang="ja" class="language active" aria-current="page">JP · 日本語</a></nav><a class="download" href="full_jp.txt" download="NNS_통합본_JP_20261103_134246.txt">JP TXT 다운로드</a></div><nav class="parts" aria-label="대본 구간"><a href="#part-01">第1部</a><a href="#part-02">第2部</a><a href="#part-03">エピローグ</a></nav><div class="searchbar" role="search" aria-label="전체 대본 검색"><input id="scriptSearch" type="search" aria-label="대본·컷 번호 검색" placeholder="대사·이름·컷 번호 검색" autocomplete="off" spellcheck="false"><button type="button" id="searchPrevious" aria-label="이전 검색 결과" title="이전 결과 · Shift+Enter" disabled>↑</button><button type="button" id="searchNext" aria-label="다음 검색 결과" title="다음 결과 · Enter" disabled>↓</button><button type="button" id="searchClear" aria-label="검색어 지우기" title="검색 지우기 · Esc" disabled>×</button></div><div class="searchinfo"><output id="searchStatus" aria-live="polite" aria-atomic="true">검색어를 입력하세요</output><span id="searchLocation"></span></div></div></header>
+<main><p class="note">본문을 드래그해 복사하세요. 부·씬·컷 번호는 복사에서 제외됩니다. <span>인물 대사는 보라색입니다.</span></p><article class="script" lang="ja"><section id="part-01" aria-labelledby="heading-01">
+<h2 class="noncopy" id="heading-01" data-label="第1部" aria-label="第1部"></h2>
+<div class="cut" id="P01-S01-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S01 · C01" title="P01-S01-C01"><span data-label="第1部"></span><span data-label="S01 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">猫の忍者少女たちと、猫谷の里を守っていた男がいます。少女たちが「主君」と呼ぶ人物です。</p>
+</div></div>
+<div class="cut" id="P01-S01-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S01 · C02" title="P01-S01-C02"><span data-label="第1部"></span><span data-label="S01 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">ところが今、彼は見知らぬ街の裏路地に召喚されています。どうやって来たのかもわからないまま、武器すら持たない彼に怪物が襲いかかります。そのとき、一人の魔法少女が現れ、怪物をあっという間に倒します。主君を救ったのは、故郷で知る少女と同じ顔の持ち主でした。懐かしさに名前を呼ぶと、少女は驚いた表情で警戒します。</p>
+<p class="dialogue"><strong>レオナ：</strong>…どうして僕の名前を知ってるんですか？初めてお会いする方ですけど。</p>
+<p class="narration">知っている顔が、自分を知りません。</p>
+<p class="narration">故郷で、この少女は火の忍術に才能を見せていた忍者の少女、レオナでした。けれど、ここでのレオナは[紅蓮の少女]と呼ばれる魔法少女なのだそうです。</p>
+<p class="narration">問いただしたいことは山ほどありますが、まずは生きて路地を抜け、故郷へ帰る方法を探さなければなりません。事情を聞いたレオナは、主君を自分の後ろに立たせ、出口へ案内します。</p>
+</div></div>
+<div class="cut" id="P01-S01-C03">
+<aside class="cut-number noncopy" aria-label="第1部 · S01 · C03" title="P01-S01-C03"><span data-label="第1部"></span><span data-label="S01 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">レオナについて歩きながら、主君はこの街の夜を知っていきます。</p>
+</div></div>
+<div class="cut" id="P01-S01-C04">
+<aside class="cut-number noncopy" aria-label="第1部 · S01 · C04" title="P01-S01-C04"><span data-label="第1部"></span><span data-label="S01 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">ここでは夜になると空間が折り畳まれ、</p>
+</div></div>
+<div class="cut" id="P01-S01-C05">
+<aside class="cut-number noncopy" aria-label="第1部 · S01 · C05" title="P01-S01-C05"><span data-label="第1部"></span><span data-label="S01 · C05"></span></aside>
+<div class="cut-body">
+<p class="narration">その中に生まれた結界に怪異が現れます。普通の人には結界がよく見えず、無意識に避けて歩きますが、先ほどの主君のように巻き込まれて閉じ込められることもあります。そうした人を救い、怪異を倒すのが魔法少女の役目でした。</p>
+</div></div>
+<div class="cut" id="P01-S01-C06">
+<aside class="cut-number noncopy" aria-label="第1部 · S01 · C06" title="P01-S01-C06"><span data-label="第1部"></span><span data-label="S01 · C06"></span></aside>
+<div class="cut-body">
+<p class="narration">そして、そんな少女たちでさえ恐れる魔女も、この街にはいたのです。</p>
+</div></div>
+<div class="cut" id="P01-S02-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S02 · C01" title="P01-S02-C01"><span data-label="第1部"></span><span data-label="S02 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">「折り畳まれた路地」を抜けようとすると、路地の奥に古い骨董屋が一軒ありました。店主は中年の男。</p>
+<p class="narration">人間の姿をしていますが、故郷の上忍の一人、黒猫のハケさんに間違いありませんでした。</p>
+<p class="narration">ハケさんはいきなり主君を「契約者」と呼び、代金も取らずに一対の狐の人形を渡します。ワカとタマ。故郷ではチコの仲間だった人形たちが、ここではハケさんの店にいたのです。</p>
+</div></div>
+<div class="cut" id="P01-S02-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S02 · C02" title="P01-S02-C02"><span data-label="第1部"></span><span data-label="S02 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">主君は何もかもがわからないまま、なぜかほんの少し温かい人形を懐に入れます。</p>
+</div></div>
+<div class="cut" id="P01-S03-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S03 · C01" title="P01-S03-C01"><span data-label="第1部"></span><span data-label="S03 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">帰る手がかりを探しながら、主君は街を歩きます。昼の街は、ごく普通です。生徒たちは登校し、人々は魔法少女の目撃談を、本物か合成かと話しています。</p>
+<p class="narration">そして、見覚えのある顔も見つけます。故郷で一緒にいた忍者の少女たちが、この世界では生徒として暮らしていたのです。けれど、役だけが入れ替わった芝居を見ているように、誰も彼に気づきません。</p>
+<p class="narration">学校の前にいたチコもそうでした。神社の見習い巫女として、二体の狐の人形と陰陽術を使っていたあの子が、今は人形も連れず、友だちと約束をしたり宿題を心配したりする、ごく普通の中学生になっていました。</p>
+<p class="narration">魔法少女はかっこいいという友だちの言葉には、怖がりながらも目を輝かせ、憧れを抱きます。</p>
+<p class="dialogue"><strong>チコ：</strong>ま、魔法少女……そ、それ、危ないんじゃないの…？た、戦うんでしょ……。</p>
+<p class="dialogue"><strong>あかり：</strong>え〜、かっこいいじゃん！チコちゃんは怖い？</p>
+<p class="dialogue"><strong>チコ：</strong>こ、怖いよ…。怖いけど……で、でも、かっこいいとも、思う…。す、少しだけ。</p>
+<p class="narration">そして、その憧れは、その夜、さらに強くなりました。</p>
+</div></div>
+<div class="cut" id="P01-S04-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S04 · C01" title="P01-S04-C01"><span data-label="第1部"></span><span data-label="S04 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">チコが商店街の結界に巻き込まれます。主君がチコを助けているあいだに、レオナが現れ、炎で敵を一体ずつ焼き払います。</p>
+<p class="narration">主君に導かれて逃げ出すチコは、逃げていたことも忘れ、自分を救ったレオナから目を離せません。つい先ほどまで怖かった炎が、誰かを生かす光に見えはじめたのです。</p>
+</div></div>
+<div class="cut" id="P01-S04-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S04 · C02" title="P01-S04-C02"><span data-label="第1部"></span><span data-label="S04 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">チコの憧れを見ていた人形たちが、主君の懐で小さく囁きます。あの子には素質がある、と。どこか変だとは思っていましたが、やはり普通の人形ではありませんでした。</p>
+</div></div>
+<div class="cut" id="P01-S05-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S05 · C01" title="P01-S05-C01"><span data-label="第1部"></span><span data-label="S05 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">下宿へ戻った主君が人形たちを机に出すと、そこで初めて、人形たちは待っていたとばかりに騒ぎはじめます。そして、チコとの魔法少女契約を勧めるのでした。</p>
+<p class="dialogue"><strong>ワカ：</strong>私たちはワカ！そしてタマ！願いを叶える不思議な人形だよ！取り扱い品目は、たったひとつ──それはズバリ「契約」！</p>
+<p class="dialogue"><strong>タマ：</strong>契約〜！</p>
+<p class="dialogue"><strong>ワカ：</strong>契約しよう！契約すれば、誰でも魔法少女になれるよ！魔法少女になれば、誰でも守れるんだ！</p>
+<p class="dialogue"><strong>タマ：</strong>守れるよ！</p>
+<p class="narration">けれど、力の代価を尋ねると、人形たちは答えをはぐらかします。</p>
+<p class="dialogue"><strong>主君：</strong>ひとつ聞く。契約したら──あの子たちは、何を支払うことになる？</p>
+<p class="dialogue"><strong>ワカ：</strong>支払うだなんて〜？変なこと言うね！願いを叶えて、力をもらって、大切なものを守る！いいことばかりじゃない？</p>
+<p class="narration">契約をやめられるのかと聞いても、秘密だと言うばかりでした。</p>
+<p class="narration">ただし、契約には、人形たちを所有する大人、主君の署名が必要です。チコが望んでも、主君が署名しなければ契約はできません。子どもを戦場へ送り出す責任が自分に押しつけられるのだと悟った主君は、署名しないときっぱり告げます。</p>
+<p class="dialogue"><strong>主君：</strong>署名はしない。今日は──いや、この先もだ。</p>
+</div></div>
+<div class="cut" id="P01-S05-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S05 · C02" title="P01-S05-C02"><span data-label="第1部"></span><span data-label="S05 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">チコは無事に帰り、主君は契約を阻止しました。けれど、結界は増え続けていました。</p>
+</div></div>
+<div class="cut" id="P01-S06-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S06 · C01" title="P01-S06-C01"><span data-label="第1部"></span><span data-label="S06 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">主君の決意が揺らいだのは、それから間もなくのことでした。チコが幼なじみのヒスイと下校していた、ごく普通の夕暮れのことです。</p>
+<p class="narration">ヒスイは、故郷では幼くして中忍になった実力者ですが、ここではチコと夕食の約束をしている生徒です。</p>
+<p class="narration">二人を見守る主君の目の前で、歩道橋の向こう側が折り畳まれます。そして、よりによってヒスイが、歪んだ空間の向こうへ吞み込まれてしまったのです。</p>
+<p class="narration">結界へ入るには魔法の力が必要ですが、レオナもほかの少女たちも、それぞれ別の結界にいて間に合いません。主君には、扉を開くことすらできませんでした。そのとき、人形たちが待っていたとばかりに懐から飛び出します。</p>
+<p class="dialogue"><strong>ワカ：</strong>契約者！今だよ！あの子が契約すれば、今すぐ開けられる！</p>
+<p class="dialogue"><strong>タマ：</strong>今だよ〜！</p>
+<p class="narration">人形たちは、今すぐチコが魔法少女にならなければヒスイを救えないと言って、契約を迫ります。</p>
+<p class="narration">怖いことがあると、いつも友だちの後ろに隠れていたチコが、今度は引き下がりませんでした。いつも先にチコの手を握ってくれた友だちが、今は中に閉じ込められています。</p>
+<p class="dialogue"><strong>チコ：</strong>あ、あの……！しょ、署名してください…！</p>
+<p class="dialogue"><strong>チコ：</strong>ヒスイちゃんがあの中にいるのに、怖くて何もできないのが……そ、それが一番、嫌なんです……！</p>
+<p class="narration">主君は、しぶしぶうなずきます。ワカが契約書を広げ、タマがペンをくわえてきます。</p>
+</div></div>
+<div class="cut" id="P01-S06-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S06 · C02" title="P01-S06-C02"><span data-label="第1部"></span><span data-label="S06 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">契約書で主君が署名するのは「立会人」の欄です。主君は最後まで、契約書の全文を見せるよう求めますが、ワカは時間がないと急かします。結局、主君は読めていない巻物に自分の名を記します。</p>
+</div></div>
+<div class="cut" id="P01-S06-C03">
+<aside class="cut-number noncopy" aria-label="第1部 · S06 · C03" title="P01-S06-C03"><span data-label="第1部"></span><span data-label="S06 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">署名が終わると、夜明けの光がチコを包みます。光の中で、ワカが名前を尋ねます。</p>
+<p class="dialogue"><strong>ワカ：</strong>魔法少女には名前が必要だよ！なんて呼ばれたい？</p>
+<p class="dialogue"><strong>チコ：</strong>……チコりんに、します！</p>
+<p class="narration">チコは[黎明の少女]という称号を授かり、魔法少女チコりんとして姿を現します。彼女が結界の前に立つと、主君には開けられなかった境界が開きます。チコりんはヒスイを救うため、その中へ入っていくのです。</p>
+</div></div>
+<div class="cut" id="P01-S07-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S07 · C01" title="P01-S07-C01"><span data-label="第1部"></span><span data-label="S07 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">チコは不慣れながらも、ついに怪異を倒し、ヒスイとともに結界の外へ戻ってきます。</p>
+</div></div>
+<div class="cut" id="P01-S07-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S07 · C02" title="P01-S07-C02"><span data-label="第1部"></span><span data-label="S07 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんを抱きしめたヒスイも、魔法少女になると言います。チコりんは危ないと止めますが、ヒスイは結界の中で、友だちが震えながら自分を呼ぶ声を聞いてしまったのです。自分を救いに来た友だちを、これから一人で怖がらせておくことはできませんでした。一度の署名が、次の署名を呼びます。</p>
+<p class="dialogue"><strong>ヒスイ：</strong>危ないから、やるんじゃん。チコがやるのに、私だけ寝てるわけにいかないでしょ。……めんどくさいけど。</p>
+</div></div>
+<div class="cut" id="P01-S07-C03">
+<aside class="cut-number noncopy" aria-label="第1部 · S07 · C03" title="P01-S07-C03"><span data-label="第1部"></span><span data-label="S07 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">ヒスイはチコりんにつけてもらった名を使い、風を操る[旋風の少女]、ひーたんになります。</p>
+</div></div>
+<div class="cut" id="P01-S08-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S08 · C01" title="P01-S08-C01"><span data-label="第1部"></span><span data-label="S08 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">子どもたちが帰ってこられる拠点を用意してくれたのは、クロコでした。故郷で建築の忍術を使って防壁を築いていたクロコは、ここでは大工です。</p>
+<p class="narration">夜の危険から目をそらすわけにはいかないと、木工所を貸してくれます。</p>
+<p class="narration">[閃華の少女]ネネりん、[輪廻の少女]エンマまで。散り散りだった魔法少女たちが、この木工所を拠点に集まりました。寝られる場所は古いソファだけですが、少女たちは食事を分け合い、笑い、互いを慰めます。</p>
+</div></div>
+<div class="cut" id="P01-S08-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S08 · C02" title="P01-S08-C02"><span data-label="第1部"></span><span data-label="S08 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんは、怖かったことと嬉しかったことを日記に書きます。</p>
+</div></div>
+<div class="cut" id="P01-S09-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S09 · C01" title="P01-S09-C01"><span data-label="第1部"></span><span data-label="S09 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんは、憧れのスター、[流星の少女]ジュリたんの公開戦にも初めて足を運びます。</p>
+<p class="narration">ジュリたんは、故郷でプロの忍者を夢見ていたギャル、ジュリと同じ顔でした。</p>
+</div></div>
+<div class="cut" id="P01-S09-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S09 · C02" title="P01-S09-C02"><span data-label="第1部"></span><span data-label="S09 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">公開戦は、市民が実際の怪異退治を観戦する催しです。結界予報が出るたびに安全線が引かれ、屋台や電光掲示板が並びます。</p>
+<p class="narration">ジュリたんは、堂に入ったファンサービスで笑顔を振りまき、手を振りながらも、怪異を観客とは逆の方向へ誘導して倒します。彼女は恐ろしい結界の夜を祭りに変え、そのおかげで、街は彼女と魔法少女を愛していました。</p>
+</div></div>
+<div class="cut" id="P01-S09-C03">
+<aside class="cut-number noncopy" aria-label="第1部 · S09 · C03" title="P01-S09-C03"><span data-label="第1部"></span><span data-label="S09 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんはジュリたんにサインをもらい、憧れを打ち明けます。するとジュリたんは、チコりんにだけ、ほんの一瞬、ステージの笑顔を消し、忠告します。</p>
+</div></div>
+<div class="cut" id="P01-S09-C04">
+<aside class="cut-number noncopy" aria-label="第1部 · S09 · C04" title="P01-S09-C04"><span data-label="第1部"></span><span data-label="S09 · C04"></span></aside>
+<div class="cut-body">
+<p class="dialogue"><strong>ジュリたん：</strong>……ねえ、新入りさん。ひとつだけ。ステージは楽しいよ。拍手も、照明も。でも──拍手のために戦うようになったら、それはちょっと危険信号だよ。</p>
+</div></div>
+<div class="cut" id="P01-S10-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S10 · C01" title="P01-S10-C01"><span data-label="第1部"></span><span data-label="S10 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">祭りを終えて帰る路地で、主君たちに靴音が近づいてきます。空気さえ止まりました。姿を現したのは、魔女たちの頂点、[切花の魔女]イリス。</p>
+<p class="narration">主君には、パンと花が好きで、忍者になろうとしていた故郷のアヤメと同じ顔に見えました。</p>
+<p class="narration">レオナは全員に散開するよう叫びます。けれど、チコりんは後ずさろうとしても体が動かず、主君も一歩も動けません。イリスは攻撃する代わりに、花を見定めるように少女たちを見渡し、チコりんの前で視線を止めます。</p>
+<p class="dialogue"><strong>イリス：</strong>──まだ、満開ではないんですね。</p>
+<p class="dialogue"><strong>チコりん：</strong>ま、満開……？</p>
+<p class="dialogue"><strong>レオナ：</strong>……どういう意味だ、それ。</p>
+<p class="dialogue"><strong>イリス：</strong>ふふ。急がなくていいんですよ。花は必ず咲きますから。……その時にまた会いましょう、皆さん。</p>
+<p class="narration">彼女が去ると、一行はその場にへたり込みます。戦うことすらできない相手でした。</p>
+<p class="dialogue"><strong>チコりん：</strong>レ、レオナさん……あの人は、いったい……。</p>
+<p class="dialogue"><strong>レオナ：</strong>……今は知らなくていい。いや──頼むから、知らないままでいてくれ。</p>
+<p class="narration">その日は、無事に帰ることができました。イリスが待つという「満開」が何なのか、聞けないままに。</p>
+</div></div>
+<div class="cut" id="P01-S11-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S11 · C01" title="P01-S11-C01"><span data-label="第1部"></span><span data-label="S11 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">一行は、新たに現れた結界の危険を探るため、座標を頼りに丘の上の聖堂を偵察します。足を踏み入れると、これまでとは格が違うとわかりました。</p>
+<p class="narration">薔薇の蔓が出入口を覆い、[結縛の魔女]エグランティーヌが迎えます。</p>
+<p class="narration">故郷で捕縛術を使っていた見習い巫女、シズクと同じ顔をしていました。</p>
+</div></div>
+<div class="cut" id="P01-S11-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S11 · C02" title="P01-S11-C02"><span data-label="第1部"></span><span data-label="S11 · C02"></span></aside>
+<div class="cut-body">
+<p class="dialogue"><strong>エグランティーヌ：</strong>イリスさまがおっしゃいましたの。もうすぐ、きれいに咲くお花たちが来るって。…ですから、枯れる前に、ここに結わえられていてくださいな。わたくしがお守りしますわ。永遠に、どこへも行けないように。</p>
+<p class="narration">蔓は、切っても焼いても生え直します。レオナが退却を命じますが、仲間の魔法少女、[閃華の少女]ネネりんが前へ出ます。閃光を操る先輩のネネりんは、侮られたまま帰りたくなかったのです。</p>
+</div></div>
+<div class="cut" id="P01-S11-C03">
+<aside class="cut-number noncopy" aria-label="第1部 · S11 · C03" title="P01-S11-C03"><span data-label="第1部"></span><span data-label="S11 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">まばゆい光が弾け、聖堂を照らします。けれど、棘の方が速かった。</p>
+<p class="narration">一撃をまともに受けて倒れるネネりんを、チコりんが抱きとめます。ところが、様子がおかしいのです。傷はかすり傷だけなのに力が入らず、自慢の光も出せません。</p>
+</div></div>
+<div class="cut" id="P01-S11-C04">
+<aside class="cut-number noncopy" aria-label="第1部 · S11 · C04" title="P01-S11-C04"><span data-label="第1部"></span><span data-label="S11 · C04"></span></aside>
+<div class="cut-body">
+<p class="dialogue"><strong>レオナ：</strong>……棘に何を塗った。答えろ。</p>
+<p class="dialogue"><strong>エグランティーヌ：</strong>わたくし、何もしておりませんのよ？棘はただ……掴まえただけですわ。いつものように。</p>
+<p class="dialogue"><strong>エグランティーヌ：</strong>ああ。そうなのね。あなた、すでに少し『枯れて』しまっているのね？</p>
+<p class="dialogue"><strong>ネネりん：</strong>……枯れ……てる、って……何よ……このネネが……。</p>
+<p class="dialogue"><strong>ひーたん：</strong>……取り消して。その言葉。</p>
+<p class="dialogue"><strong>エグランティーヌ：</strong>あら。お慰めしたつもりですのに。枯れたお花にも、枯れたお花の美しさが──</p>
+<p class="dialogue"><strong>レオナ：</strong>──黙れ！！</p>
+<p class="narration">レオナが最大火力を放ち、蔓の壁を丸ごと焼き払ったおかげで、一行は退却できました。エグランティーヌは、最後まで追ってはきませんでした。</p>
+</div></div>
+<div class="cut" id="P01-S12-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S12 · C01" title="P01-S12-C01"><span data-label="第1部"></span><span data-label="S12 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">ところが、その後、ネネりんは原因不明の衰弱で前線を離れ、入院します。</p>
+<p class="dialogue"><strong>チコりん：</strong>……ネネりんさん。あの、ひとつだけ……き、聞いてもいいですか？</p>
+<p class="dialogue"><strong>ネネりん：</strong>……何よ。</p>
+<p class="dialogue"><strong>チコりん：</strong>変身……今、できそうですか？</p>
+<p class="dialogue"><strong>ネネりん：</strong>…………やってみたくない。今は。</p>
+<p class="narration">できない、ではなく、やってみたくない。その答えが、すべてを物語っていました。</p>
+</div></div>
+<div class="cut" id="P01-S13-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S13 · C01" title="P01-S13-C01"><span data-label="第1部"></span><span data-label="S13 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">夜を重ねるほど、少女たちの体にも異変が現れます。</p>
+</div></div>
+<div class="cut" id="P01-S13-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S13 · C02" title="P01-S13-C02"><span data-label="第1部"></span><span data-label="S13 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんとひーたんの指先が、花びらのようにふっと薄れる一方で、</p>
+</div></div>
+<div class="cut" id="P01-S14-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S14 · C01" title="P01-S14-C01"><span data-label="第1部"></span><span data-label="S14 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">毎日公開戦に立つジュリたんも、息を整える時間が長くなっていきました。それでも、人々の歓声に背を向けることはできませんでした。</p>
+<p class="narration">三日目の公開戦。ジュリたんは観客席へそれた攻撃を身を挺して防ぎ、ついに倒れてしまいます。</p>
+</div></div>
+<div class="cut" id="P01-S15-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S15 · C01" title="P01-S15-C01"><span data-label="第1部"></span><span data-label="S15 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">主君はレオナを問い詰めます。</p>
+<p class="dialogue"><strong>主君：</strong>お前、知っていることがあるな。</p>
+<p class="dialogue"><strong>レオナ：</strong>……何をですか。</p>
+<p class="dialogue"><strong>主君：</strong>『枯れる』という言葉の意味だ。エグランティーヌがその言葉を口にしたとき、お前は驚かなかった。怒ったんだ。そして、あの子たちの指先に出るあの症状──お前は一度も、おかしいと言ったことがない。</p>
+<p class="narration">魔法少女たちは、拠点のクロコの木工所に集まりました。レオナは、隠してきた代価をすべて打ち明けます。</p>
+</div></div>
+<div class="cut" id="P01-S15-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S15 · C02" title="P01-S15-C02"><span data-label="第1部"></span><span data-label="S15 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">魔法少女は、力を使うほど、守りたいと強く願うほど強くなります。</p>
+</div></div>
+<div class="cut" id="P01-S15-C03">
+<aside class="cut-number noncopy" aria-label="第1部 · S15 · C03" title="P01-S15-C03"><span data-label="第1部"></span><span data-label="S15 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">この世界では、それを開花、花が咲くと呼んでいました。咲ききった満開のあとには、枯れることしか残っていません。その果てに、魔法少女は魔女になるのです。</p>
+</div></div>
+<div class="cut" id="P01-S15-C04">
+<aside class="cut-number noncopy" aria-label="第1部 · S15 · C04" title="P01-S15-C04"><span data-label="第1部"></span><span data-label="S15 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">聖堂の[結縛の魔女]エグランティーヌも、[切花の魔女]イリスも、かつては人を守っていた魔法少女の先輩でした。戦って勝つたびに満開へと近づき、やがて枯れて魔女になります。</p>
+</div></div>
+<div class="cut" id="P01-S15-C05">
+<aside class="cut-number noncopy" aria-label="第1部 · S15 · C05" title="P01-S15-C05"><span data-label="第1部"></span><span data-label="S15 · C05"></span></aside>
+<div class="cut-body">
+<p class="narration">かといって、戦いに敗れれば街が吞み込まれてしまうのです。魔法少女たちには、初めから出口がなかったのです。</p>
+</div></div>
+<div class="cut" id="P01-S15-C06">
+<aside class="cut-number noncopy" aria-label="第1部 · S15 · C06" title="P01-S15-C06"><span data-label="第1部"></span><span data-label="S15 · C06"></span></aside>
+<div class="cut-body">
+<p class="narration">なぜ隠していたのかと問われ、レオナは、知ったうえで戦う顔を見たくなかったと答えます。けれどジュリたんが倒れた今、話さなければ守れるという考えは間違っていたと認めます。</p>
+</div></div>
+<div class="cut" id="P01-S16-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S16 · C01" title="P01-S16-C01"><span data-label="第1部"></span><span data-label="S16 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">真実を聞いた少女たちは、考える時間がほしいと言ってその場を離れました。</p>
+</div></div>
+<div class="cut" id="P01-S16-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S16 · C02" title="P01-S16-C02"><span data-label="第1部"></span><span data-label="S16 · C02"></span></aside>
+<div class="cut-body">
+<div class="silent noncopy" data-label="台詞なし" aria-label="台詞なし"></div>
+</div></div>
+<div class="cut" id="P01-S16-C03">
+<aside class="cut-number noncopy" aria-label="第1部 · S16 · C03" title="P01-S16-C03"><span data-label="第1部"></span><span data-label="S16 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">木工所に再び明かりがともることはなく、</p>
+</div></div>
+<div class="cut" id="P01-S17-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S17 · C01" title="P01-S17-C01"><span data-label="第1部"></span><span data-label="S17 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">ジュリたんがステージから姿を消したあと、街でも魔法少女を話題にする声が少なくなりました。</p>
+</div></div>
+<div class="cut" id="P01-S17-C02">
+<aside class="cut-number noncopy" aria-label="第1部 · S17 · C02" title="P01-S17-C02"><span data-label="第1部"></span><span data-label="S17 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">結界だけが、静かに夜ごと増えていくばかりでした。</p>
+</div></div>
+<div class="cut" id="P01-S18-C01">
+<aside class="cut-number noncopy" aria-label="第1部 · S18 · C01" title="P01-S18-C01"><span data-label="第1部"></span><span data-label="S18 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">主君には、帰還より先にやるべきことができました。署名した大人としての責任。自分の署名で魔法少女になった子どもたちが魔女になる前に、生きたままやめられる方法を探さなければならなかったのです。</p>
+</div></div>
+</section>
+<section id="part-02" aria-labelledby="heading-02">
+<h2 class="noncopy" id="heading-02" data-label="第2部" aria-label="第2部"></h2>
+<div class="cut" id="P02-S01-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S01 · C01" title="P02-S01-C01"><span data-label="第2部"></span><span data-label="S01 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">夜ごと、結界を歩く小さな幽霊火がありました。[黎明の少女]チコりんです。一人で人々を守りに向かう少女に、主君は尋ねます。枯れるかもしれないと知りながら、なぜ続けるのか、と。</p>
+<p class="dialogue"><strong>チコりん：</strong>……こ、怖いです。怖いですけど。でも──今夜誰かがケガするのは、『今』怖いじゃないですか。</p>
+<p class="dialogue"><strong>チコりん：</strong>明日枯れるのは……明日の私が怖がれば、いいですから……！</p>
+</div></div>
+<div class="cut" id="P02-S02-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S02 · C01" title="P02-S02-C01"><span data-label="第2部"></span><span data-label="S02 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">主君も、契約を終わらせる手がかりを求め、さらに積極的に動きます。子どもたちが戦っているあいだに、彼女たちを生きて帰らせる道を見つけなければなりませんでした。</p>
+</div></div>
+<div class="cut" id="P02-S03-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S03 · C01" title="P02-S03-C01"><span data-label="第2部"></span><span data-label="S03 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">主君とチコりんは、噂を頼りに路地裏の古い喫茶店を訪ねます。店主は、満開の直前で自ら立ち止まった唯一の生還者、[氷華の少女]セナ。セナは、[切花の魔女]イリスが、[満開の少女]だった頃の話をしてくれます。</p>
+</div></div>
+<div class="cut" id="P02-S03-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S03 · C02" title="P02-S03-C02"><span data-label="第2部"></span><span data-label="S03 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">セナの記憶にある[満開の少女]は、誰よりも強く、優しい仲間でした。枯れていく友だちをみんな守ろうと、誰よりも必死に戦い、だからこそ、誰よりも先に満開になったのです。</p>
+<p class="narration">誰もが頼りにしていたその少女には、自分が崩れていく姿を見せられる場所がありませんでした。ついに、枯れていく姿を誰にも見せたくないと、自らを切り落としてしまったのです。</p>
+</div></div>
+<div class="cut" id="P02-S03-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S03 · C03" title="P02-S03-C03"><span data-label="第2部"></span><span data-label="S03 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">セナは、イリスが自分と同じ苦しみを、ほかの誰にも味わわせまいとしているのだと言います。</p>
+</div></div>
+<div class="cut" id="P02-S03-C04">
+<aside class="cut-number noncopy" aria-label="第2部 · S03 · C04" title="P02-S03-C04"><span data-label="第2部"></span><span data-label="S03 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">枯れる前に世界ごと切り落とし、いちばん美しい瞬間に、すべてを止めようとしているのです。かつて仲間を守っていた優しさは、今ではそんな形に歪んでいました。</p>
+</div></div>
+<div class="cut" id="P02-S04-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S04 · C01" title="P02-S04-C01"><span data-label="第2部"></span><span data-label="S04 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">勝つ方法をチコりんが尋ねると、セナの答えは短いものでした。</p>
+<p class="dialogue"><strong>セナ：</strong>ない。</p>
+</div></div>
+<div class="cut" id="P02-S04-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S04 · C02" title="P02-S04-C02"><span data-label="第2部"></span><span data-label="S04 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">勝つということは、イリスより強くなり、咲ききるということでした。その行き着く先は、チコりんが次の[切花の魔女]になることです。</p>
+</div></div>
+<div class="cut" id="P02-S04-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S04 · C03" title="P02-S04-C03"><span data-label="第2部"></span><span data-label="S04 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">けれど、セナのように満開の前に戦いをやめて立ち止まれば、街が吞み込まれます。</p>
+</div></div>
+<div class="cut" id="P02-S04-C04">
+<aside class="cut-number noncopy" aria-label="第2部 · S04 · C04" title="P02-S04-C04"><span data-label="第2部"></span><span data-label="S04 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">戦えばチコりんが敗れ、戦わなければ街が敗れる。そんな問題でした。</p>
+<p class="narration">チコりんが、問題そのものが間違っていると言うと、セナはその言葉こそが始まりだと答え、問題の外で答えを探すよう勧めます。これまで誰も見つけられなかった、「勝たない方法」を。</p>
+</div></div>
+<div class="cut" id="P02-S04-C05">
+<aside class="cut-number noncopy" aria-label="第2部 · S04 · C05" title="P02-S04-C05"><span data-label="第2部"></span><span data-label="S04 · C05"></span></aside>
+<div class="cut-body">
+<p class="narration">セナにも、それ以上のことはわかりませんでした。ただ、イリスも契約を終わらせる「扉」を探したものの、自分の手では歌わないと言っていた、という手がかりを残します。</p>
+</div></div>
+<div class="cut" id="P02-S05-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S05 · C01" title="P02-S05-C01"><span data-label="第2部"></span><span data-label="S05 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんは、エグランティーヌにもう一度会うと決めます。魔女もかつて人を守っていた少女なら、話が通じるかもしれません。前の戦いで、一行を最後まで追ってこなかったことも、心に残っていました。</p>
+<p class="narration">今度は、ひーたんも隣に立ちます。話が通じる保証はありません。それでも、ネネりんが倒れた場所へ、チコりんを一人で行かせるわけにはいきませんでした。</p>
+</div></div>
+<div class="cut" id="P02-S05-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S05 · C02" title="P02-S05-C02"><span data-label="第2部"></span><span data-label="S05 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんは、勝ちに来たのではないと言って、光の武器を下ろします。ひーたんが破片や聖堂の外へ伸びる蔓を食い止めるあいだ、チコりんは棘に裂かれる痛みに耐えながら、エグランティーヌへ近づいていきます。</p>
+<p class="dialogue"><strong>エグランティーヌ：</strong>……勝たない、魔法少女？</p>
+<p class="dialogue"><strong>エグランティーヌ：</strong>ふふ……ふふふ。それはただの……獲物ですわ。</p>
+<p class="narration">ところが、チコりんが刺されるたびに、エグランティーヌの方が先に身を震わせます。</p>
+<p class="dialogue"><strong>エグランティーヌ：</strong>来ないでください。…来ないで。棘に裂かれます。痛いんですよ。</p>
+<p class="dialogue"><strong>チコりん：</strong>い、痛いです……！すごく痛いです……！で、でも──あなたの棘、おかしいです……！</p>
+<p class="dialogue"><strong>チコりん：</strong>棘の向きが……ぜ、全部、内側じゃないですか……！それって、縛りたいんじゃなくて──本当は、は、離したくないんじゃないですか……！</p>
+</div></div>
+<div class="cut" id="P02-S06-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S06 · C01" title="P02-S06-C01"><span data-label="第2部"></span><span data-label="S06 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんの言葉に、[結縛の魔女]は、忘れていた名を思い出します。[縁の少女]。赤い糸で、人と人をつないでいた少女でした。</p>
+</div></div>
+<div class="cut" id="P02-S06-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S06 · C02" title="P02-S06-C02"><span data-label="第2部"></span><span data-label="S06 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">けれど、縁がほどけるのが怖くて、何度も結び目を締め直すうちに、糸は棘になりました。離したくないという気持ちが、人々を閉じ込めてしまったのです。</p>
+</div></div>
+<div class="cut" id="P02-S06-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S06 · C03" title="P02-S06-C03"><span data-label="第2部"></span><span data-label="S06 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">祭壇の前まで来たチコりんの周りでだけ、蔓が退きます。</p>
+<p class="narration">チコりんは、何も持たない手を差し伸べます。</p>
+<p class="dialogue"><strong>チコりん：</strong>え、縁っていうのは。縛るものじゃなくて──つかむものなんです。</p>
+<p class="narration">ついに、エグランティーヌがチコりんの手を握ります。</p>
+<p class="narration">誰一人失いたくないと抱き続けていた想いを手放すと、少女たちを締めつけていた蔓がほどけ、エグランティーヌの体も足先から消えはじめます。</p>
+<p class="dialogue"><strong>エグランティーヌ：</strong>……ああ。そういう、ことでしたのね。魔女は……この想いを手放すと、体も消えてしまうのですね。</p>
+<p class="dialogue"><strong>エグランティーヌ：</strong>わたくしをつなぎとめていたのは、この力ではなく──『誰も失いたくない』という想いでしたから。</p>
+<p class="narration">エグランティーヌは、薄れていく指先を見つめます。驚いたチコりんが今のことを取り消そうとしても、エグランティーヌはその手を、さらに強く握ります。</p>
+<p class="narration">最後に、棘のない手をつなげただけで十分だと告げ、チコりんとひーたんに、[縁の少女]という名を覚えていてほしいと頼みます。</p>
+<p class="narration">温かかった手が消えると、</p>
+<p class="narration">チコりんは泣き出し、ひーたんが抱きしめます。</p>
+<p class="narration">少女たちは、知りました。魔女と手をつなぐことはできても、人に戻すことはできない。残された少女たちには、魔女になる前に、生きて出られる出口が必要でした。</p>
+</div></div>
+<div class="cut" id="P02-S07-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S07 · C01" title="P02-S07-C01"><span data-label="第2部"></span><span data-label="S07 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">そのあいだ、主君はワカとタマに契約書の全文を要求します。立会人には、自分が署名した書類を最後まで読む権利がありました。読めないまま署名したからといって、その権利までなくなったわけではありません。主君が最後まで引き下がらないので、人形たちはついに巻物を広げます。</p>
+<p class="narration">巻物には、願いと力、開花と代価がすべて記されていました。けれど、解約条項があるはずの最後の一行だけが、破り取られています。</p>
+<p class="narration">人形たちも、自分たちが生まれたときからなかった一行なので、知らないと言います。主君は、ほかの記録に残っていないか、探しはじめます。</p>
+</div></div>
+<div class="cut" id="P02-S08-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S08 · C01" title="P02-S08-C01"><span data-label="第2部"></span><span data-label="S08 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">書類を調べている主君の前に、黄昏色の子どもが現れます。魔法少女でも魔女でもない、名前も正体もわからない子です。契約書を燃やせばすべて終わると勧めますが、主君は断ります。子どもたちの運命がどうなるかわからないまま、終わらせるわけにはいきません。</p>
+<p class="narration">子どもたちが出ていく扉を探すという主君に、黄昏色の子どもは手がかりを与えます。</p>
+<p class="dialogue"><strong>[黄昏]：</strong>書かれたものを破いても、語られたことは残る。その一行を『聞いた』者が、この街のどこかにまだいる。…いちばん古い品のそばを探してみて。</p>
+</div></div>
+<div class="cut" id="P02-S09-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S09 · C01" title="P02-S09-C01"><span data-label="第2部"></span><span data-label="S09 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">長く残り、声をしまっておけるもの。そんな骨董品を探して、人形をもらったハケさんの店へ戻ります。</p>
+<p class="narration">ハケさんが待っていたかのように取り出したのは、蓄音機のシリンダー。声を録音した筒です。イリスも満開になる前に探し当てたものの、力を受け取った少女の手では開けなかったという品でした。</p>
+</div></div>
+<div class="cut" id="P02-S10-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S10 · C01" title="P02-S10-C01"><span data-label="第2部"></span><span data-label="S10 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">主君は壊れたシリンダーを木工所へ持ち込み、クロコがゼンマイを修理します。</p>
+</div></div>
+<div class="cut" id="P02-S10-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S10 · C02" title="P02-S10-C02"><span data-label="第2部"></span><span data-label="S10 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">シリンダーを見たワカとタマは、契約書の原本を主君に渡します。</p>
+</div></div>
+<div class="cut" id="P02-S10-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S10 · C03" title="P02-S10-C03"><span data-label="第2部"></span><span data-label="S10 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">それは、一人の少女の契約書ではなく、この街の個々の契約を束ねる共通の原本でした。</p>
+<p class="narration">人形たちは管理者の権限で、その原本につながる契約の解約を執行する権利を、主君に託します。</p>
+</div></div>
+<div class="cut" id="P02-S10-C04">
+<aside class="cut-number noncopy" aria-label="第2部 · S10 · C04" title="P02-S10-C04"><span data-label="第2部"></span><span data-label="S10 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">ゼンマイは直りましたが、古いシリンダーは、署名した立会人の手でしか音を出せず、再生できるのも一度きりです。</p>
+<p class="narration">主君は、原本と筒を携えます。出口はないと信じるイリスの前で、解約の条件を一緒に聞き、世界を終わらせる代わりに、別の道を見つけようというのです。</p>
+</div></div>
+<div class="cut" id="P02-S11-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S11 · C01" title="P02-S11-C01"><span data-label="第2部"></span><span data-label="S11 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">木工所に、再び子どもたちが集まります。今度の戦いの目的は、主君とシリンダーを中心部まで送り届け、契約を終わらせる機会を作ることです。</p>
+</div></div>
+<div class="cut" id="P02-S12-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S12 · C01" title="P02-S12-C01"><span data-label="第2部"></span><span data-label="S12 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">そのとき、イリスの巨大な結界が完成します。空が花びらのように閉じ、人も街も、無理やり満開へと追い込まれていきます。夜が明ける前に、イリスは、いちばん美しい瞬間の街を丸ごと切り落とそうとしていました。</p>
+</div></div>
+<div class="cut" id="P02-S13-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S13 · C01" title="P02-S13-C01"><span data-label="第2部"></span><span data-label="S13 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">仲間たちが道を開き、クロコが防壁で守るあいだに、主君は前へ進みます。</p>
+</div></div>
+<div class="cut" id="P02-S14-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S14 · C01" title="P02-S14-C01"><span data-label="第2部"></span><span data-label="S14 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">目を覚ましたジュリたんも、松葉杖と拡声器を使って避難を誘導します。</p>
+</div></div>
+<div class="cut" id="P02-S15-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S15 · C01" title="P02-S15-C01"><span data-label="第2部"></span><span data-label="S15 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">仲間の助けで中心部へ入ったチコりんは、今回も武器を持ちません。力で勝てば、自分も魔女になる。自分たちの人生を終わらせる権利を、イリスに渡さないためでした。</p>
+<p class="narration">チコりんはイリスに向かって、人々は生きたいからこそ、助け合って逃げたのだと伝えます。</p>
+</div></div>
+<div class="cut" id="P02-S15-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S15 · C02" title="P02-S15-C02"><span data-label="第2部"></span><span data-label="S15 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">イリスは、仲間たちが歌も友だちも、最後には自分自身さえ忘れていった夜のことを語ります。チコりんにだけは、あんな終わりを迎えてほしくありませんでした。</p>
+</div></div>
+<div class="cut" id="P02-S15-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S15 · C03" title="P02-S15-C03"><span data-label="第2部"></span><span data-label="S15 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">エグランティーヌと手をつないだ先にあったのも、消滅でした。</p>
+</div></div>
+<div class="cut" id="P02-S15-C04">
+<aside class="cut-number noncopy" aria-label="第2部 · S15 · C04" title="P02-S15-C04"><span data-label="第2部"></span><span data-label="S15 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">イリスは、ほかに出口はないのだから、今、いちばん美しいまま終わるよう、チコりんに勧めます。</p>
+</div></div>
+<div class="cut" id="P02-S16-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S16 · C01" title="P02-S16-C01"><span data-label="第2部"></span><span data-label="S16 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんには、毎日書いてきた日記がありました。昨日は、怖かったとだけ書きました。でも今日は、相変わらず怖くても、少し早く足を踏み出せたと書いたのです。昨日の経験を足場にして、今日は変われたのです。</p>
+</div></div>
+<div class="cut" id="P02-S16-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S16 · C02" title="P02-S16-C02"><span data-label="第2部"></span><span data-label="S16 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">エグランティーヌが残した、手のつなぎ方も、チコりんの中に残っています。</p>
+</div></div>
+<div class="cut" id="P02-S17-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S17 · C01" title="P02-S17-C01"><span data-label="第2部"></span><span data-label="S17 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">ジュリたんは、ケガで飛べなくなっても、今夜、人々を守っています。</p>
+</div></div>
+<div class="cut" id="P02-S18-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S18 · C01" title="P02-S18-C01"><span data-label="第2部"></span><span data-label="S18 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">頂点を過ぎたからといって、人生まで終わったわけではありませんでした。</p>
+<p class="dialogue"><strong>チコりん：</strong>だから、怖くても──私は、明日の私に会いたいんです！</p>
+<p class="narration">閉じかけていた花びらが止まります。</p>
+</div></div>
+<div class="cut" id="P02-S18-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S18 · C02" title="P02-S18-C02"><span data-label="第2部"></span><span data-label="S18 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">イリスはふと、最後まで次の春の話をしていた仲間たちを思い出します。強がりだと思っていました。けれど彼女たちも、本当に明日を見たかったのかもしれません。</p>
+</div></div>
+<div class="cut" id="P02-S19-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S19 · C01" title="P02-S19-C01"><span data-label="第2部"></span><span data-label="S19 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">その隙に、主君がシリンダーを取り出し、ゼンマイを巻きます。古い声が、解約条項を読み上げます。</p>
+<p class="dialogue"><strong>声（シリンダー）：</strong>『──条項、最後。解約について。』</p>
+</div></div>
+<div class="cut" id="P02-S19-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S19 · C02" title="P02-S19-C02"><span data-label="第2部"></span><span data-label="S19 · C02"></span></aside>
+<div class="cut-body">
+<p class="dialogue"><strong>チコりん：</strong>……か、解約……。あ、あったんですね……。本当に、あったんだ……。</p>
+<p class="dialogue"><strong>主君：</strong>そうだ。一文字も、聞き逃すな。</p>
+</div></div>
+<div class="cut" id="P02-S19-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S19 · C03" title="P02-S19-C03"><span data-label="第2部"></span><span data-label="S19 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">シリンダーは、立会人が契約を破棄できると告げます。契約が破棄されると、力は魔法少女たちのもとを離れて種へと還り、少女たちは記憶を失うというのです。ただし、条件がありました。</p>
+<p class="dialogue"><strong>声（シリンダー）：</strong>『そして心せよ。破棄は──契約された者たちが、自らその力を手放すときにのみ成立する。握りしめた花は、紙を破いても散らない。』</p>
+</div></div>
+<div class="cut" id="P02-S19-C04">
+<aside class="cut-number noncopy" aria-label="第2部 · S19 · C04" title="P02-S19-C04"><span data-label="第2部"></span><span data-label="S19 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">シリンダーの声が止まり、その場は静まり返りました。ワカもタマも、百年ぶりに戻ってきた言葉の前で、厳粛な表情になります。</p>
+<p class="narration">一方、イリスは、自分が満開になったあの最後の夜まで握りしめていたシリンダーから、目を離せません。</p>
+<p class="narration">夜通しゼンマイを巻き、どうか教えてほしいと願い続けた出口を、ついに知ったとき、</p>
+</div></div>
+<div class="cut" id="P02-S19-C05">
+<aside class="cut-number noncopy" aria-label="第2部 · S19 · C05" title="P02-S19-C05"><span data-label="第2部"></span><span data-label="S19 · C05"></span></aside>
+<div class="cut-body">
+<p class="narration">あの一節さえ聞けていれば、切らずに済んだ少女たちの顔が浮かび、</p>
+</div></div>
+<div class="cut" id="P02-S19-C06">
+<aside class="cut-number noncopy" aria-label="第2部 · S19 · C06" title="P02-S19-C06"><span data-label="第2部"></span><span data-label="S19 · C06"></span></aside>
+<div class="cut-body">
+<p class="narration">イリスは、刃のように薄く笑ってしまいました。</p>
+</div></div>
+<div class="cut" id="P02-S20-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S20 · C01" title="P02-S20-C01"><span data-label="第2部"></span><span data-label="S20 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">そのとき、結界の外で空が折り畳まれ、[悲嘆の魔女]ラルムが降りてきます。シリンダーの声の主であり、最初の立会人。願いに力と代価を与えるルールを書いた人物でした。</p>
+</div></div>
+<div class="cut" id="P02-S20-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S20 · C02" title="P02-S20-C02"><span data-label="第2部"></span><span data-label="S20 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">ラルムは、最後の一行を破った理由を打ち明けます。</p>
+<p class="dialogue"><strong>ラルム：</strong>ええ。解約は残酷です。子どもたちは力を失って、私を忘れて、去っていく。…だから破りました。去るための扉がなければ──誰も、去りはしないから。</p>
+</div></div>
+<div class="cut" id="P02-S20-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S20 · C03" title="P02-S20-C03"><span data-label="第2部"></span><span data-label="S20 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">ラルムは、枯れた子どもたちの種まで、黒い珠に閉じ込めていました。また咲けばまた傷つくのではないかと、永遠に眠らせていたのです。</p>
+</div></div>
+<div class="cut" id="P02-S21-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S21 · C01" title="P02-S21-C01"><span data-label="第2部"></span><span data-label="S21 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">ラルムは空間を折り畳み、一行を押し潰そうとします。レオナが炎で受け止めると、イリスもその隣で花びらを広げ、持ちこたえます。</p>
+<p class="narration">怖さから子どもたちの時間を止めようとするその手が、自分の手と同じだと気づいたのです。今はもう、子どもたちの終わりを代わりに決める企てを捨て、彼女たちが選んだ明日を守ります。</p>
+</div></div>
+<div class="cut" id="P02-S21-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S21 · C02" title="P02-S21-C02"><span data-label="第2部"></span><span data-label="S21 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">ともに持ちこたえていたレオナの体が、まばゆく咲きはじめます。このままでは、魔女になってしまいます。主君の叫びに、レオナは助けを求めます。主君は少女たちに、力を手放すよう呼びかけます。</p>
+</div></div>
+<div class="cut" id="P02-S21-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S21 · C03" title="P02-S21-C03"><span data-label="第2部"></span><span data-label="S21 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">ラルムは、手放せばこの夜も、お互いのことも忘れると警告します。</p>
+</div></div>
+<div class="cut" id="P02-S21-C04">
+<aside class="cut-number noncopy" aria-label="第2部 · S21 · C04" title="P02-S21-C04"><span data-label="第2部"></span><span data-label="S21 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">能力とともに、救って、泣いて、笑った時間まで失うかもしれません。</p>
+</div></div>
+<div class="cut" id="P02-S21-C05">
+<aside class="cut-number noncopy" aria-label="第2部 · S21 · C05" title="P02-S21-C05"><span data-label="第2部"></span><span data-label="S21 · C05"></span></aside>
+<div class="cut-body">
+<p class="narration">その選択を、大人が代わりにすることはできませんでした。</p>
+<p class="dialogue"><strong>ひーたん：</strong>……初めて本気、出したから。未練、なし。……手放すね。</p>
+</div></div>
+<div class="cut" id="P02-S22-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S22 · C01" title="P02-S22-C01"><span data-label="第2部"></span><span data-label="S22 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">ひーたんが風を手放し、街のあちこちで、少女たちも次々に手を開きます。</p>
+</div></div>
+<div class="cut" id="P02-S23-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S23 · C01" title="P02-S23-C01"><span data-label="第2部"></span><span data-label="S23 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">チコりんは、名前を書き留めた日記帳を胸に押し当て、レオナを見ます。</p>
+<p class="dialogue"><strong>チコりん：</strong>……私たちは、種ですから。──手放しても、また咲きますから！</p>
+</div></div>
+<div class="cut" id="P02-S23-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S23 · C02" title="P02-S23-C02"><span data-label="第2部"></span><span data-label="S23 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">レオナも力を抜き、生き残る方を選びます。ついに、契約した少女たち全員が、自ら力を手放します。</p>
+</div></div>
+<div class="cut" id="P02-S24-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S24 · C01" title="P02-S24-C01"><span data-label="第2部"></span><span data-label="S24 · C01"></span></aside>
+<div class="cut-body">
+<p class="dialogue"><strong>主君：</strong>──立会人の権限において。この契約を、破棄する！！</p>
+<p class="dialogue"><strong>ワカ＆タマ：</strong>──受理。</p>
+</div></div>
+<div class="cut" id="P02-S24-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S24 · C02" title="P02-S24-C02"><span data-label="第2部"></span><span data-label="S24 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">共通の原本が破られると、その原本に結びついていた契約が、ともに終わります。力が抜けていき、レオナの魔女化が止まり、</p>
+<p class="narration">黒い珠も砕けます。閉じ込められていた種たちに、再び咲く機会が開かれます。</p>
+<p class="narration">ラルムも契約とともに消え、</p>
+</div></div>
+<div class="cut" id="P02-S25-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S25 · C01" title="P02-S25-C01"><span data-label="第2部"></span><span data-label="S25 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">少女たちは普段着に戻り、本当の夜空を見上げます。</p>
+</div></div>
+<div class="cut" id="P02-S26-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S26 · C01" title="P02-S26-C01"><span data-label="第2部"></span><span data-label="S26 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">けれど、イリスも散っていきます。契約とともに庭が閉じ、魔女を支えていた結び目もほどけていくのです。</p>
+</div></div>
+<div class="cut" id="P02-S26-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S26 · C02" title="P02-S26-C02"><span data-label="第2部"></span><span data-label="S26 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">種まで力で焼き尽くしてしまったイリスには、戻る道がありませんでした。</p>
+</div></div>
+<div class="cut" id="P02-S26-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S26 · C03" title="P02-S26-C03"><span data-label="第2部"></span><span data-label="S26 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">チコが引き止めても、イリスは首を振ります。怖かったということは、自分のしてきたことの言い訳にはならない、と。もう一度庭を作ろうというチコに、頼みを残します。</p>
+</div></div>
+<div class="cut" id="P02-S26-C04">
+<aside class="cut-number noncopy" aria-label="第2部 · S26 · C04" title="P02-S26-C04"><span data-label="第2部"></span><span data-label="S26 · C04"></span></aside>
+<div class="cut-body">
+<p class="dialogue"><strong>イリス：</strong>……じゃあ、次の庭は──扉のある庭にしてください。入る扉と……出ていく扉が、ある庭に。</p>
+</div></div>
+<div class="cut" id="P02-S26-C05">
+<aside class="cut-number noncopy" aria-label="第2部 · S26 · C05" title="P02-S26-C05"><span data-label="第2部"></span><span data-label="S26 · C05"></span></aside>
+<div class="cut-body">
+<p class="narration">少女たちが再び咲くことを願いながら、イリスは花吹雪になります。</p>
+</div></div>
+<div class="cut" id="P02-S27-C01">
+<aside class="cut-number noncopy" aria-label="第2部 · S27 · C01" title="P02-S27-C01"><span data-label="第2部"></span><span data-label="S27 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">生き残った子どもたちにも、代価が訪れます。レオナはチコの名を思い出せず、ヒスイはなぜ泣いているのかわかりません。</p>
+</div></div>
+<div class="cut" id="P02-S27-C02">
+<aside class="cut-number noncopy" aria-label="第2部 · S27 · C02" title="P02-S27-C02"><span data-label="第2部"></span><span data-label="S27 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">ともに戦った夜が、消えていきます。</p>
+</div></div>
+<div class="cut" id="P02-S27-C03">
+<aside class="cut-number noncopy" aria-label="第2部 · S27 · C03" title="P02-S27-C03"><span data-label="第2部"></span><span data-label="S27 · C03"></span></aside>
+<div class="cut-body">
+<p class="narration">チコは小さな日記帳を抱きしめ、忘れる前に名前を書き留めようとします。何度も鉛筆を落としながら、そのたびに拾い上げ、思い出せない名前の場所には、せめて、ありがとうと残します。</p>
+</div></div>
+<div class="cut" id="P02-S27-C04">
+<aside class="cut-number noncopy" aria-label="第2部 · S27 · C04" title="P02-S27-C04"><span data-label="第2部"></span><span data-label="S27 · C04"></span></aside>
+<div class="cut-body">
+<p class="narration">主君の視界も白く薄れていき、やがて目を覚まします。</p>
+</div></div>
+</section>
+<section id="part-03" aria-labelledby="heading-03">
+<h2 class="noncopy" id="heading-03" data-label="エピローグ" aria-label="エピローグ"></h2>
+<div class="cut" id="P03-S01-C01">
+<aside class="cut-number noncopy" aria-label="エピローグ · S01 · C01" title="P03-S01-C01"><span data-label="エピローグ"></span><span data-label="S01 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">目覚めた場所は、猫谷の屋敷でした。</p>
+<p class="narration">主君の指先には、署名した感覚が残っています。</p>
+<p class="narration">机には、買った覚えもない、作者不明の古い脚本集が置かれています。チコりん、ひーたんといったあだ名も、黎明、旋風といった役名も、あの世界と一致していました。リストのいちばん最後の一行だけが、破り取られています。</p>
+<p class="narration">故郷のジュリは、チコりんというあだ名は自分がつけたのだと言います。けれど、いつつけたのかはわかりません。本を持ってきた覚えもないと言いながら、題名を読みます。その声が、ふとゆっくりになります。</p>
+<p class="dialogue"><strong>ジュリ：</strong>マ〜ジカル☆シノビ。マジカル……うん、やっぱり好き。口にしっくりくる。…でも、どうしてかな？好きなのに──ちょっと、泣きそう。</p>
+<p class="narration">すぐにジュリは、いつもどおり朝ごはんを欲しがります。</p>
+</div></div>
+<div class="cut" id="P03-S02-C01">
+<aside class="cut-number noncopy" aria-label="エピローグ · S02 · C01" title="P03-S02-C01"><span data-label="エピローグ"></span><span data-label="S02 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">数日後に会ったチコは、最近、日記を書きはじめたと言います。何かを忘れたわけでもないのに、忘れるのが怖くて、その日会った人の名前を全部書いているのだと。</p>
+<p class="dialogue"><strong>チコ：</strong>そ、それとですね……たまに、書きながら泣いちゃうんです。り、理由はわからないです。…だ、だから、それも書いておきました。『理由不明』って。</p>
+<p class="narration">主君は、いい習慣だから続けるといいと答えます。</p>
+</div></div>
+<div class="cut" id="P03-S02-C02">
+<aside class="cut-number noncopy" aria-label="エピローグ · S02 · C02" title="P03-S02-C02"><span data-label="エピローグ"></span><span data-label="S02 · C02"></span></aside>
+<div class="cut-body">
+<p class="narration">去っていくチコの胸元で、ワカとタマが顔を見合わせたように見えました。</p>
+<p class="narration">主君は、気のせいということにします。</p>
+</div></div>
+<div class="cut" id="P03-S03-C01">
+<aside class="cut-number noncopy" aria-label="エピローグ · S03 · C01" title="P03-S03-C01"><span data-label="エピローグ"></span><span data-label="S03 · C01"></span></aside>
+<div class="cut-body">
+<p class="narration">塀の向こうから、アヤメが焼きたてのパンを差し出します。パンに名前をつけ、花に挨拶するのだと笑う、いつものアヤメです。温かいパンと、咲き誇るアヤメの花を前に、彼女が首をかしげます。</p>
+<p class="dialogue"><strong>アヤメ：</strong>──ところで、主君様。</p>
+<p class="dialogue"><strong>アヤメ：</strong>……いい夢、見られましたか？</p>
+<p class="narration">主君は、誰にも夢の話をしていませんでした。</p>
+<p class="narration">風が通り過ぎると、アヤメの花が一輪、音もなく折れています。</p>
+<p class="narration">アヤメは、また寄ってほしいと手を振ります。主君はパンを持ったまま、とうとう答えることができませんでした。</p>
+</div></div>
+</section></article><footer><a href="#">맨 위로</a></footer></main>
+<script>
+// Copy only the selected portions of script paragraphs, including partial words.
+// This also excludes page controls and location labels from Select All + Copy.
+document.addEventListener('copy', event => {
+  if (event.target instanceof Element && event.target.closest('input, textarea, [contenteditable="true"]')) return;
+  const selection = window.getSelection();
+  if (!selection || selection.isCollapsed || !event.clipboardData) return;
+  const paragraphs = document.querySelectorAll('.cut-body p');
+  const pieces = [];
+  for (let i = 0; i < selection.rangeCount; i++) {
+    const selected = selection.getRangeAt(i);
+    for (const paragraph of paragraphs) {
+      if (!selected.intersectsNode(paragraph)) continue;
+      const contents = document.createRange();
+      contents.selectNodeContents(paragraph);
+      const piece = selected.cloneRange();
+      if (piece.compareBoundaryPoints(Range.START_TO_START, contents) < 0)
+        piece.setStart(contents.startContainer, contents.startOffset);
+      if (piece.compareBoundaryPoints(Range.END_TO_END, contents) > 0)
+        piece.setEnd(contents.endContainer, contents.endOffset);
+      const text = piece.toString();
+      if (text) pieces.push(text);
+    }
+  }
+  if (!pieces.length) return;
+  event.clipboardData.setData('text/plain', pieces.join('\n\n'));
+  event.preventDefault();
+});
+(() => {
+  const input = document.getElementById('scriptSearch');
+  const previous = document.getElementById('searchPrevious');
+  const next = document.getElementById('searchNext');
+  const clear = document.getElementById('searchClear');
+  const status = document.getElementById('searchStatus');
+  const location = document.getElementById('searchLocation');
+  const header = document.querySelector('.bar');
+  const cuts = [...document.querySelectorAll('.cut')];
+  let hits = [], current = -1, lastQuery = '', timer, composing = false;
+
+  function normalizeLocation(value) {
+    return value.toLocaleLowerCase().replace(/[\s·._-]/g, '');
+  }
+
+  function clearHighlights() {
+    document.querySelectorAll('mark.search-hit').forEach(mark => {
+      const parent = mark.parentNode;
+      mark.replaceWith(...mark.childNodes);
+      parent.normalize();
+    });
+    document.querySelectorAll('.cut-number.search-hit').forEach(label => {
+      label.classList.remove('search-hit', 'search-current');
+    });
+  }
+
+  function updateStatus() {
+    previous.disabled = next.disabled = hits.length === 0;
+    clear.disabled = !input.value;
+    status.textContent = !lastQuery ? '검색어를 입력하세요' :
+      hits.length ? `${current + 1} / ${hits.length}` : '검색 결과 없음';
+    location.textContent = hits.length ? hits[current].location : '';
+  }
+
+  function goTo(index) {
+    if (!hits.length) return;
+    if (current >= 0) hits[current].elements.forEach(node => node.classList.remove('search-current'));
+    current = (index + hits.length) % hits.length;
+    const hit = hits[current];
+    hit.elements.forEach(node => node.classList.add('search-current'));
+    const top = hit.elements[0].getBoundingClientRect().top + window.scrollY - header.offsetHeight - 28;
+    window.scrollTo({top: Math.max(0, top), behavior: 'instant'});
+    updateStatus();
+  }
+
+  function highlightParagraph(paragraph, pattern, cutLocation) {
+    const text = paragraph.textContent;
+    const matches = [...text.matchAll(pattern)];
+    if (!matches.length) return;
+    const walker = document.createTreeWalker(paragraph, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    let node, offset = 0;
+    while ((node = walker.nextNode())) {
+      nodes.push({node, start: offset, end: offset + node.length});
+      offset += node.length;
+    }
+    const groups = matches.map(match => ({start: match.index, end: match.index + match[0].length,
+      elements: [], location: cutLocation}));
+    for (const row of nodes) {
+      const parts = groups.filter(group => group.start < row.end && group.end > row.start);
+      if (!parts.length) continue;
+      const fragment = document.createDocumentFragment();
+      let cursor = 0;
+      for (const group of parts) {
+        const start = Math.max(0, group.start - row.start);
+        const end = Math.min(row.node.length, group.end - row.start);
+        fragment.append(document.createTextNode(row.node.data.slice(cursor, start)));
+        const mark = document.createElement('mark');
+        mark.className = 'search-hit';
+        mark.textContent = row.node.data.slice(start, end);
+        fragment.append(mark);
+        group.elements.push(mark);
+        cursor = end;
+      }
+      fragment.append(document.createTextNode(row.node.data.slice(cursor)));
+      row.node.replaceWith(fragment);
+    }
+    hits.push(...groups);
+  }
+
+  function search() {
+    clearTimeout(timer);
+    clearHighlights();
+    hits = [];
+    current = -1;
+    lastQuery = input.value.trim();
+    if (!lastQuery) { updateStatus(); return; }
+    const pattern = new RegExp(lastQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'giu');
+    const locationQuery = normalizeLocation(lastQuery);
+    for (const cut of cuts) {
+      const label = cut.querySelector('.cut-number');
+      const cutLocation = label.getAttribute('aria-label');
+      const [, part, scene, number] = cut.id.match(/^P(\d+)-S(\d+)-C(.+)$/);
+      const aliases = [cut.id, cutLocation, `${Number(part)}부 ${Number(scene)}씬 ${Number(number)}컷`,
+        `${Number(part)}부 씬${Number(scene)} 컷${Number(number)}`];
+      if (locationQuery && aliases.some(value => normalizeLocation(value).includes(locationQuery))) {
+        label.classList.add('search-hit');
+        hits.push({elements: [label], location: cutLocation});
+      }
+      cut.querySelectorAll('.cut-body p').forEach(paragraph => highlightParagraph(paragraph, pattern, cutLocation));
+    }
+    if (hits.length) goTo(0);
+    else updateStatus();
+  }
+
+  function move(direction) {
+    if (input.value.trim() !== lastQuery) search();
+    else if (hits.length) goTo(current + direction);
+  }
+
+  function reset() {
+    input.value = '';
+    search();
+    input.focus();
+  }
+
+  input.addEventListener('compositionstart', () => { composing = true; clearTimeout(timer); });
+  input.addEventListener('compositionend', () => { composing = false; search(); });
+  input.addEventListener('input', event => {
+    if (composing || event.isComposing) return;
+    clearTimeout(timer);
+    timer = setTimeout(search, 120);
+  });
+  input.addEventListener('keydown', event => {
+    if (composing || event.isComposing) return;
+    if (event.key === 'Enter') { event.preventDefault(); move(event.shiftKey ? -1 : 1); }
+    if (event.key === 'Escape') { event.preventDefault(); reset(); }
+  });
+  previous.addEventListener('click', () => move(-1));
+  next.addEventListener('click', () => move(1));
+  clear.addEventListener('click', reset);
+  document.addEventListener('keydown', event => {
+    if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'f') {
+      event.preventDefault();
+      input.focus();
+      input.select();
+    }
+  });
+  const resizeHeader = () => document.documentElement.style.setProperty('--header-offset', `${header.offsetHeight + 24}px`);
+  new ResizeObserver(resizeHeader).observe(header);
+  resizeHeader();
+  updateStatus();
+})();
+
+</script></body></html>
