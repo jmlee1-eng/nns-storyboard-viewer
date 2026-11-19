@@ -1,0 +1,24 @@
+.motion-controls{display:flex;flex-wrap:wrap;gap:.5rem;margin:.8rem 0}
+.motion-controls button{font:inherit;font-size:1rem;border:1px solid #abc0b4;border-radius:7px;padding:.55rem .8rem;background:#fff;color:#244b3c;cursor:pointer}
+.motion-controls .motion-play{background:#326b53;color:white;border-color:#326b53}
+.motion-controls .motion-camera[aria-pressed=true]{background:#e1efe6;box-shadow:inset 0 0 0 1px #39795d}
+.motion-controls button:focus-visible{outline:3px solid #48826b;outline-offset:2px}
+.motion-timeline{display:grid;grid-template-columns:1fr auto;gap:.45rem .8rem;padding:.8rem 1rem;margin-bottom:.8rem;border:1px solid #c4d5ca;border-radius:9px;background:#f4f8f4}
+.motion-slider-label{font-size:1rem;font-weight:650;color:#244b3c}
+.motion-readout{font-size:1rem;font-variant-numeric:tabular-nums;color:#3c5546}
+.motion-timeline input[type=range]{grid-column:1/-1;width:100%;height:28px;cursor:pointer;accent-color:#326b53;margin:0}
+.motion-timeline-ends{grid-column:1/-1;display:flex;justify-content:space-between;font-size:.875rem;color:#5b6d61}
+.motion-figure{overflow:hidden;background:#15241e}.motion-figure svg{display:block;overflow:hidden;width:100%;height:auto}
+.motion-figure figcaption{background:#fff}
+.motion-current{border-left:3px solid #4d8169;background:#f0f6f0;padding:.8rem 1rem;margin:.7rem 0}
+.motion-quote{font-size:1rem;line-height:1.65;margin:0;color:#254637}
+.motion-action{font-size:1rem;line-height:1.6;font-weight:650;margin:.45rem 0 0;color:#674b38}
+.motion-help{font-size:.875rem;line-height:1.6;color:#5b6b61}
+.motion-specs,.motion-directing{font-size:1rem;margin:.8rem 0;padding:.65rem .85rem;border:1px solid #d1ddd3;border-radius:8px;background:#fff}
+.motion-specs summary,.motion-directing summary{cursor:pointer;font-weight:650;color:#31533f}
+.motion-specs p{font-size:.875rem;line-height:1.6;color:#59695d}.motion-specs ul{padding-left:1.25rem}.motion-specs li{margin:.45rem 0;line-height:1.5;font-size:.875rem}
+.motion-cues{padding-left:1.3rem;margin:.6rem 0}.motion-cues li{border-top:1px solid #e0e8e0;padding:.65rem .4rem;line-height:1.6}
+.motion-cues li.active{background:#edf5ed}.motion-cues .cuequote,.motion-cues .cueaction{display:block;font-size:1rem}
+.motion-cue-time{font-size:.875rem;font-variant-numeric:tabular-nums;color:#52705d}
+.motion-card-size{font-size:.875rem;line-height:1.5;color:#365d49;font-variant-numeric:tabular-nums}
+@media(max-width:600px){.motion-controls button{flex:1 1 auto}.motion-timeline{padding:.65rem}.motion-current{padding:.65rem}.motion-readout{font-size:.875rem}}
