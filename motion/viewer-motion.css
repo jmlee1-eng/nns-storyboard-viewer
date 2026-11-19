@@ -21,4 +21,5 @@
 .motion-cues li.active{background:#edf5ed}.motion-cues .cuequote,.motion-cues .cueaction{display:block;font-size:1rem}
 .motion-cue-time{font-size:.875rem;font-variant-numeric:tabular-nums;color:#52705d}
 .motion-card-size{font-size:.875rem;line-height:1.5;color:#365d49;font-variant-numeric:tabular-nums}
+.motion-page-controls{display:flex;align-items:center;justify-content:center;gap:1rem;margin:.75rem 0}.motion-page-controls button{font:inherit;border:1px solid #abc0b4;border-radius:7px;padding:.55rem .8rem;background:#fff;color:#244b3c;cursor:pointer}.motion-page-label{min-width:3rem;text-align:center;font-weight:650;color:#31533f}
 @media(max-width:600px){.motion-controls button{flex:1 1 auto}.motion-timeline{padding:.65rem}.motion-current{padding:.65rem}.motion-readout{font-size:.875rem}}

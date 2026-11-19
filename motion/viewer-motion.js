@@ -21,7 +21,7 @@ function mpCompiled(c) {
   if (MP_CACHE.has(c)) return MP_CACHE.get(c);
   const poses = new Map(c.storyboard.elements.map(e => [e.id, {
     x:e.x, y:e.y, opacity:e.initialOpacity ?? 1, angle:e.initialAngle || 0,
-    flipped:false, squash:1, mirrored:e.mirrorX || false
+    flipped:false, squash:1, mirrored:e.mirrorX || false, image:e.image, vanish:0
   }]));
   const events = [];
   for (const q of c.motionPlan.events) {
@@ -31,20 +31,32 @@ function mpCompiled(c) {
     if (q.op === 'out') { Object.assign(to,mpOutside(e,q.side,from),{opacity:0}); }
     if (q.op === 'move') { to.x += q.dx || 0; to.y += q.dy || 0; }
     if (q.op === 'flip') to.flipped = !from.flipped;
+    if (q.op === 'show') to.opacity=1;
+    if (q.op === 'swap' || q.op === 'page') to.image=q.image;
+    if (q.op === 'fade') {to.opacity=q.toOpacity??0;to.vanish=1-to.opacity;}
+    let otherFrom=null,otherTo=null,revealTo=null;
+    if(q.op==='tear'){
+      to.x+=q.dx||-6;to.angle=-7;
+      if(q.otherTarget&&poses.has(q.otherTarget)){
+        otherFrom={...poses.get(q.otherTarget)};otherTo={...otherFrom,x:otherFrom.x+(q.otherDx||6),angle:7};
+        poses.set(q.otherTarget,{...otherTo});
+      }
+    }
+    if(q.reveal&&poses.has(q.reveal)){revealTo={...poses.get(q.reveal),opacity:1};poses.set(q.reveal,{...revealTo});}
     poses.set(e.id,{...to});
-    events.push({...q, from, to});
+    events.push({...q, from, to, otherFrom,otherTo,revealTo});
   }
   const value = {events}; MP_CACHE.set(c,value); return value;
 }
 function mpPoseAt(c, time) {
   const states = new Map(c.storyboard.elements.map(e => [e.id, {
     x:e.x, y:e.y, opacity:e.initialOpacity ?? 1, angle:e.initialAngle || 0,
-    flipped:false, squash:1, mirrored:e.mirrorX || false
+    flipped:false, squash:1, mirrored:e.mirrorX || false, image:e.image, vanish:0
   }]));
   let active = null, count = 0;
   for (const q of mpCompiled(c).events) {
     if (time < q.start) continue;
-    if (time >= q.end) { states.set(q.target,{...q.to}); continue; }
+    if (time >= q.end) { states.set(q.target,{...q.to});if(q.otherTo)states.set(q.otherTarget,{...q.otherTo});if(q.revealTo)states.set(q.reveal,{...q.revealTo});continue; }
     active = q;
     const p = (time-q.start)/q.duration, eased = mpEase(p), pose = {...q.from};
     if (q.op === 'enter' || q.op === 'out' || q.op === 'move') {
@@ -54,8 +66,15 @@ function mpPoseAt(c, time) {
     } else if (q.op === 'bump') pose.y -= Math.sin(Math.PI*p)*1.65;
     else if (q.op === 'shake') pose.x += Math.sin(Math.PI*4*p)*1.05*Math.sin(Math.PI*p);
     else if (q.op === 'flip') { pose.squash=Math.max(.018,Math.abs(1-2*eased));pose.flipped=p>=.5?q.to.flipped:q.from.flipped; }
+    else if (q.op === 'show') pose.opacity=1;
+    else if (q.op === 'swap'||q.op === 'page') {pose.squash=Math.max(.025,Math.abs(1-2*eased));pose.image=p>=.5?q.to.image:q.from.image;}
+    else if (q.op === 'fade') {pose.opacity=q.from.opacity+(q.to.opacity-q.from.opacity)*eased;pose.vanish=1-pose.opacity;}
+    else if (q.op === 'tear') {
+      pose.x=q.from.x+(q.to.x-q.from.x)*eased;pose.angle=q.to.angle*eased;
+      if(q.otherFrom){const s={...q.otherFrom,x:q.otherFrom.x+(q.otherTo.x-q.otherFrom.x)*eased,angle:q.otherTo.angle*eased};states.set(q.otherTarget,s);if(s.opacity>0)count++;}
+    }
     states.set(q.target,pose);
-    if(q.op!=='hold') count++;
+    if(q.op!=='hold'&&pose.opacity>0) count++;
   }
   // A loose printed page travels with its book as one assembled prop (at most two papers).
   for (const e of c.storyboard.elements) {
@@ -96,6 +115,7 @@ renderStoryboard = function(c) {
   const signature=JSON.stringify([c.script,c.background,c.people,c.props,c.layout,c.actions]);
   if(signature!==c.storyboard.signature)host.append(node('p','대본이나 준비물이 바뀌어 연출 포인트를 다시 확인해야 합니다.','board-stale'));
   if(c.preparationAudit)host.append(renderScreenAudit(c));
+  if(c.revisionSourceDisplays?.length&&(c.revisionSourceDisplays.length>1||c.previousDisplayId))host.append(node('p','컷 정리 전 '+c.revisionSourceDisplays.join(' + ')+' → '+c.displayId,'motion-help'));
 
   const controls=node('div',undefined,'motion-controls');
   const play=node('button',MP_AUTOPLAY?'일시정지':'자동 반복 재생','motion-play');play.type='button';
@@ -126,6 +146,14 @@ renderStoryboard = function(c) {
   const current=node('div',undefined,'motion-current'),quote=node('p','','motion-quote'),action=node('p','','motion-action');
   current.append(quote,action);host.append(current);
   host.append(node('p','나레이션 포인트 기준 연출 미리보기입니다. 슬라이더를 움직이면 재생이 멈추며 해당 프레임을 확인할 수 있습니다.','motion-help'));
+  let manualPage=null;
+  const pageReadout=node('span','','motion-page-label');
+  if(c.diaryPages?.length){
+    const nav=node('div',undefined,'motion-page-controls');
+    const prevPage=node('button','이전 페이지'),nextPage=node('button','다음 페이지');prevPage.type=nextPage.type='button';
+    const turn=direction=>{const currentImage=manualPage||mpPoseAt(c,time).states.get(c.diaryElement)?.image;const i=c.diaryPages.findIndex(p=>p.image===currentImage);const next=(Math.max(0,i)+direction+c.diaryPages.length)%c.diaryPages.length;manualPage=c.diaryPages[next].image;playing=false;MP_AUTOPLAY=false;draw(true)};
+    prevPage.onclick=()=>turn(-1);nextPage.onclick=()=>turn(1);nav.append(prevPage,pageReadout,nextPage);host.append(nav);
+  }
 
   const specs=node('details',undefined,'motion-specs');
   const used=[...new Set(c.storyboard.elements.map(e=>e.printSpecId))];
@@ -149,18 +177,20 @@ renderStoryboard = function(c) {
     const p=mpPoseAt(c,time),cam=mpCameraAt(c,time,MP_CAMERA),caption=mpCaptionAt(c,time,p.active);
     for(const e of c.storyboard.elements) {
       const g=groups.get(e.id),s=p.states.get(e.id);if(!g||!s)continue;
+      if(e.id===c.diaryElement&&manualPage)s.opacity=1;
       const cx=e.x*9.6,cy=e.y*5.4,dx=(s.x-e.x)*9.6,dy=(s.y-e.y)*5.4;
       mpSet(g,'transform',`translate(${dx.toFixed(3)} ${dy.toFixed(3)}) translate(${cx} ${cy}) rotate(${s.angle}) scale(${(s.mirrored?-1:1)*s.squash} 1) translate(${-cx} ${-cy})`);
       mpSet(g,'opacity',s.opacity);g.dataset.poseX=s.x.toFixed(4);g.dataset.poseY=s.y.toFixed(4);
       g.dataset.printSpec=e.printSpecId;g.dataset.moving=String(p.active?.target===e.id&&p.active.op!=='hold');
-      const id=s.flipped&&e.reverseImage?e.reverseImage:e.image,resource=DATA.storyboardImages[id];
+      const id=e.id===c.diaryElement&&manualPage?manualPage:s.flipped&&e.reverseImage?e.reverseImage:s.image||e.image,resource=DATA.storyboardImages[id];
       if(resource?.data)for(const im of imageNodes.get(e.id)||[])mpSet(im,'href',resource.data);
+      if(e.id===c.diaryElement)pageReadout.textContent=c.diaryPages?.find(p=>p.image===id)?.label||'';
     }
     mpSet(scene,'transform',`translate(480 270) scale(${cam.zoom.toFixed(6)}) translate(${-cam.x.toFixed(6)} ${-cam.y.toFixed(6)})`);
     svg.dataset.motionTime=time.toFixed(3);svg.dataset.actionCount=String(p.actionCount);svg.dataset.cameraMoving=String(cam.moving&&playing);svg.dataset.cameraEnabled=String(MP_CAMERA);
     for(const g of svg.querySelectorAll('.safe-guide'))g.style.display=SB_SAFE_VISIBLE?'':'none';
     // Brief neutral loop boundary keeps reset positions from looking like paper jumps.
-    const fade=Math.min(1,time/.35,(c.motionPlan.duration-time)/.35);scene.style.opacity=String(Math.max(0,fade));
+    const fade=playing?Math.min(1,time/.35,(c.motionPlan.duration-time)/.35):1;scene.style.opacity=String(Math.max(0,fade));
     if(force||Math.abs(time-lastText)>.12){
       slider.value=String(time);readout.textContent=mpClock(time)+' / '+mpClock(c.motionPlan.duration);
       slider.setAttribute('aria-valuetext',mpClock(time)+' / '+mpClock(c.motionPlan.duration)+' · '+caption.action);
@@ -180,10 +210,10 @@ renderStoryboard = function(c) {
     if(now-painted>32){draw();painted=now}
     raf=requestAnimationFrame(frameTick);
   }
-  play.onclick=()=>{playing=!playing;MP_AUTOPLAY=playing;last=null;draw(true)};
+  play.onclick=()=>{playing=!playing;MP_AUTOPLAY=playing;if(playing)manualPage=null;last=null;draw(true)};
   camera.onclick=()=>{MP_CAMERA=!MP_CAMERA;try{localStorage.setItem('nns-motion-camera-v1',MP_CAMERA?'on':'off')}catch(_){}draw(true)};
   safe.onclick=()=>{SB_SAFE_VISIBLE=!SB_SAFE_VISIBLE;safe.setAttribute('aria-pressed',String(SB_SAFE_VISIBLE));draw(true)};
-  slider.addEventListener('input',()=>{playing=false;MP_AUTOPLAY=false;time=Number(slider.value);last=null;draw(true)});
+  slider.addEventListener('input',()=>{playing=false;MP_AUTOPLAY=false;manualPage=null;time=Number(slider.value);last=null;draw(true)});
   slider.addEventListener('pointerdown',()=>{playing=false;MP_AUTOPLAY=false;draw(true)});
   draw(true);raf=requestAnimationFrame(frameTick);
   MP_PLAYER={destroy(){disposed=true;cancelAnimationFrame(raf)}};
@@ -211,7 +241,7 @@ function mpFrameAt(c,time,enabled=true){
   svg.insertBefore(scene,svg.querySelector('.safe-guide')||frame);
   for(const e of c.storyboard.elements){const g=svg.querySelector(`[data-board-element="${e.id}"]`),s=p.states.get(e.id);if(!g)continue;
     const cx=e.x*9.6,cy=e.y*5.4;g.setAttribute('transform',`translate(${(s.x-e.x)*9.6} ${(s.y-e.y)*5.4}) translate(${cx} ${cy}) rotate(${s.angle}) scale(${(s.mirrored?-1:1)*s.squash} 1) translate(${-cx} ${-cy})`);g.setAttribute('opacity',s.opacity);
-    const resource=DATA.storyboardImages[s.flipped&&e.reverseImage?e.reverseImage:e.image];if(resource?.data)for(const im of g.querySelectorAll('image'))im.setAttribute('href',resource.data);
+    const resource=DATA.storyboardImages[s.flipped&&e.reverseImage?e.reverseImage:s.image||e.image];if(resource?.data)for(const im of g.querySelectorAll('image'))im.setAttribute('href',resource.data);
   }
   scene.setAttribute('transform',`translate(480 270) scale(${cam.zoom}) translate(${-cam.x} ${-cam.y})`);
   return svg;
