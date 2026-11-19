@@ -107,7 +107,7 @@
 .screen-preview-large{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;background:#e7ebe7;border-radius:8px;padding:1rem;margin:1rem 0}.screen-preview-large img{max-width:100%;max-height:420px;object-fit:contain;min-width:0}
 @media(max-width:600px){.screen-preview{width:76px;height:76px;flex-basis:76px}.screen-audit{padding:.7rem}.screen-preparation-card{padding:.55rem}}
 
-</style><meta name="robots" content="noindex"><link rel="stylesheet" href="motion/viewer-motion.css">
+</style><meta name="robots" content="noindex"><link rel="stylesheet" href="motion/viewer-motion.css?v=20261119-cuts2">
 </head><body>
 <button class="backdrop" id="backdrop" aria-label="목록 닫기"></button>
 <aside aria-label="씬과 컷 탐색"><div class="sidehead"><div class="brand">NNS · PAPER FILM</div><div class="brandtitle">대본과 촬영 가이드</div><label for="version" class="fieldlabel">버전 선택</label><select id="version"><option value="part1">1부</option><option value="part2">2부</option><option value="combined" selected>통합본</option></select><div class="versionmeta" id="versionmeta"></div><label for="search" class="fieldlabel">씬·컷·준비물 검색</label><div class="searchwrap"><input type="search" id="search" placeholder="대사, 장면, 준비물 이름·ID" autocomplete="off"><button class="clear" id="clearSearch" aria-label="검색 지우기">×</button></div><div class="sidestatus" id="searchstatus"></div><button class="rangeShortcut" id="rangeShortcut">이미지 준비물 모아보기</button><a class="rangeShortcut shortcutLink" href="video/part1/" target="_blank" rel="noopener">1부 영상 보기 ↗</a><a class="rangeShortcut shortcutLink" href="video/part1-edit/" target="_blank" rel="noopener">1부 촬영 편집본 보기 ↗</a><a class="rangeShortcut shortcutLink" href="script/" target="_blank" rel="noopener">전체 대본 보기 ↗</a></div><nav class="scenelist" id="sceneList" aria-label="씬별 컷 목록"></nav><div class="sidefooter">2026.11.19 · 컷별 연출 수정·64컷</div></aside>
@@ -873,5 +873,5 @@ updateDockToggle();
 try{const saved=JSON.parse(localStorage.getItem(KEY)||'null');if(saved&&DATA.versions[saved.version]){version=saved.version;selected=saved.selected;language=['kr','jp','compare'].includes(saved.language)?saved.language:'kr';view=saved.view==='assets'?'assets':'cuts';ranges=saved.ranges&&typeof saved.ranges==='object'?saved.ranges:{}}}catch(e){}
 initPreparationFilters();
 const hash=decodeURIComponent(location.hash.slice(1)).split('/');if(DATA.versions[hash[0]]){version=hash[0];if(hash[1]==='assets'){view='assets';ranges[version]={start:hash[2],end:hash[3]}}else{view='cuts';selected=hash[1]||''}}if(DATA.cutAliases?.[selected])selected=DATA.cutAliases[selected];$('version').value=version;refresh();
-</script><script src="motion/viewer-motion.js"></script>
+</script><script src="motion/viewer-motion.js?v=20261119-cuts2"></script>
 </body></html>
