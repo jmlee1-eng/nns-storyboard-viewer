@@ -7,7 +7,7 @@ CatShinobi `develop`을 `344cb3ceac`에서 최신 `56c577ef651a86bbec2de3682fdae
 | 뷰어 컷 | 대본 행 | 게임 대본 bg_name | 페이지에 연결한 공식 원본 |
 | --- | --- | --- | --- |
 | P2-S01 C01 | 4007001 | `BackAlley_Apparition_2-2` | 같은 이름의 StoryBG PNG · 주소 일치 |
-| P2-S12 C01, S18 C02 | 4023001 | `ClockTower_Sky_18-1_FullBloom` | `Lobby_ClockTowerSky_FinalBarrier_BG.png` · 공식 대응 그림 |
+| P2-S12 C01~C02, S18 C02 | 4023001 | `ClockTower_Sky_18-1_FullBloom` | `Lobby_ClockTowerSky_FinalBarrier_BG.png` · 공식 대응 그림 |
 | P2-S14 C01, S17 C01 | 4025001 | `City_PetalSky_19-1` | `Lobby_ClockTowerSky_FinalBarrier_BG.png` · 공식 결계 배경 재사용 |
 | P2-S26 C01, C03, C05 | 4032001 | `Core_Collapse_Finale-3` | `Lobby_PostBarrierCollapse_StarryNight_BG.png` · 공식 대응 그림 |
 
@@ -22,3 +22,5 @@ CatShinobi `develop`을 `344cb3ceac`에서 최신 `56c577ef651a86bbec2de3682fdae
 - `Assets/_Project/Sprite/UI/Sprite/LobbyBg/Lobby_PostBarrierCollapse_StarryNight_BG.png`
 
 뮤게 첫 등장 원문은 Dialogue 4009001~4010025 (`scene_id=2713~2714`)이며, 세나 찻집의 4012001 (`scene_id=2716`)보다 앞입니다. 이때 대본 배경 `ClockTower_Sky_12-1` 역시 등록 이름과 달라, 촬영에서는 공식 `Lobby_ClockTowerSky_Default_BG.png`가 대응 그림입니다.
+
+이후 사용자 촬영본은 뮤게 첫 등장을 S12의 설계 보고로 재구성했습니다. 추가한 S15 C01~C02 코어 입구 대화는 등록된 공식 `Lobby_BarrierCore_Entrance_BG.png`를 전체 배경으로 사용합니다. 원문 Dialogue 4027001의 토큰은 `ClockTower_CoreEntrance_19-2`이며, 촬영용 대응 그림의 출처와 해시는 새 준비물 카드에 별도로 기록했습니다.
