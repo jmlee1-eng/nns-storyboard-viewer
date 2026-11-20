@@ -10,7 +10,7 @@
 - `phonograph-components.webp`, `component-*.svg`: 실린더/상자/둥근 덮개/나팔/태엽 다섯 독립 파츠.
 - `mob-group.webp`, `mob-black.svg`: 편안하게 서 있는 얼굴 없는 모브 세 명과 같은 윤곽의 검은 뒷면. 같은 크기로 재사용합니다.
 - `thorn-one-side.webp`: 기존 `FX013_가시덩굴_일자_컬러.png`의 선·명암·색. 가시는 한쪽 면에만, 양 끝은 안쪽으로 아주 살짝 말립니다.
-- `earth-wall.webp`: 폭을 줄이고 높이를 키운 흙·자갈 방벽, 단순한 색면과 명암.
+- `earth-wall.webp`: 이전 흙·자갈 시안. 현재 컷은 [목제 이동 방벽](../wooden-wall-20261120/README.md)으로 교체했습니다.
 - `contract-full.webp`: 기존 PR002 손글씨 그림을 참고한 공통 원본. **위에만 목제 봉**, 아래는 펼친 종이 끝입니다. 본문은 읽히지 않는 휘갈긴 손글씨, 마지막 조항 제목만 일본어 붓 손글씨 `解約`. 폰트로 조판한 조항은 없습니다.
 - `contract-torn.svg`, `contract-tear-*.svg`: 같은 원본의 마지막 조항 절취 상태와 실제 한 장 찢기의 두 절반.
 - `BackAlley_Apparition_2-2.webp`, `Lobby_ClockTowerSky_FinalBarrier_BG.webp`, `Lobby_PostBarrierCollapse_StarryNight_BG.webp`: 최신 게임 저장소의 공식 원본 PNG를 표시용으로 변환한 파일. 배경을 생성하거나 다시 칠하지 않았습니다.
