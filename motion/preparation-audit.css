@@ -1,0 +1,12 @@
+.psb-preparation-cell{display:flex;flex-direction:column;align-items:flex-start;gap:5px;padding:4px 0}
+.psb-audit-tag{display:inline-block;border:1px solid #c6ced5;border-radius:4px;padding:3px 5px;font-size:11px;line-height:1.35;color:#34495e;background:#f1f4f7;white-space:normal;font-weight:500}
+.psb-audit-tag[data-action="추가 배치"]{background:#fff3dd;border-color:#e1b76f;color:#805617}
+.psb-audit-tag[data-action="소스 통일 확인"]{background:#fde9e9;border-color:#d7a6aa;color:#8d3640}
+.psb-audit-tag[data-action="가공·규격 확인"]{background:#fff8ec;border-color:#d7c7a8;color:#725b35}
+.psb-audit-tag[data-action="1부 재활용"]{background:#edf3f2;border-color:#b5c6c1;color:#36584e}
+.psb-audit-catalog-summary{margin:12px 0;padding:10px 12px;border:1px solid #c5cdd5;border-radius:6px;background:#f4f6f8;color:#334a60;font-size:13px;line-height:1.6}
+.psb-audit-dialog{margin-top:18px;padding-top:12px;border-top:1px solid #ccd3d9}
+.psb-audit-dialog li{overflow-wrap:anywhere;font-size:12px;line-height:1.7}
+.psb-audit-dialog img{display:block;max-height:360px;max-width:100%;object-fit:contain;margin-top:8px}
+.psb-audit-explanation{font-size:12px;color:#506379}
+.psb-audit-missing{font-size:12px;color:#8a5612;font-weight:600}
