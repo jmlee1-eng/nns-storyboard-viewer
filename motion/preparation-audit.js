@@ -1,5 +1,6 @@
 /* 2026-11-20 material inventory and live PSB comparison. */
-function psbAuditRecord(category,name){return preparation(category,assetName(name,category)).audit20261120||null}
+function psbAuditRecord(category,name){const record=preparation(category,assetName(name,category));return record.audit20261123||record.audit20261120||null}
+function psbAuditDate(){return (DATA.psbPreparationAudit20261123?.date||'2026-11-20').replaceAll('-','.')}
 function psbAuditTag(audit){const tag=node('span',audit.label,'psb-audit-tag');tag.dataset.action=audit.action;tag.title=[audit.psbStatus,...audit.layerPaths,audit.sizeReview].filter(Boolean).join('\n');return tag}
 const PSB_OLD_PREPARATION_CELL=preparationCell;
 preparationCell=function(category,asset){
@@ -21,9 +22,9 @@ renderScreenAudit=function(c){
  const box=PSB_OLD_SCREEN_AUDIT(c),records=new Map();
  for(const item of c.preparationAudit.items){const a=psbAuditRecord(item.category,item.name);if(a)records.set(a.canonicalKey,{a,name:item.name})}
  if(!records.size)return box;
- const missing=[...records.values()].filter(x=>x.a.action==='추가 배치');
- box.querySelector('summary').textContent+=' · PSB 추가 배치 '+missing.length;
- const first=box.querySelector('p');if(first)first.textContent=first.textContent.replace('2026.11.19','2026.11.20');
+ const missing=[...records.values()].filter(x=>x.a.missingRequiredPrint||x.a.action==='추가 배치');
+ box.querySelector('summary').textContent+=' · PSB 추가 출력 '+missing.length;
+ const first=box.querySelector('p');if(first)first.textContent=first.textContent.replace('2026.11.19',psbAuditDate());
  box.append(node('p','PSB 대조 · 1부 출력물은 재활용하고, 배치 확인은 인쇄 완료와 구분합니다.','psb-audit-explanation'));
  if(missing.length)box.append(node('p','PSB에 추가할 준비물: '+missing.map(x=>x.name).join(' · '),'psb-audit-missing'));
  return box;
@@ -48,6 +49,7 @@ renderCatalog=function(){
   for(const row of section.querySelectorAll('tbody tr')){const a=psbAuditRecord(category,row.dataset.asset);if(a)counts.set(a.action,(counts.get(a.action)||0)+1)}
  }
  if(!note){note=node('p',undefined,'psb-audit-catalog-summary');note.id='psbAuditCatalogSummary';$('catalogGroups').before(note)}
- note.textContent='2026.11.20 PSB 대조 · '+[...counts].map(([label,count])=>label+' '+count+'종').join(' · ');
+ note.textContent=psbAuditDate()+' PSB 대조 · '+[...counts].map(([label,count])=>label+' '+count+'종').join(' · ');
+ if(DATA.psbPreparationAudit20261123?.reportUrl){const link=node('a','대조표·누락 검토 보기');link.href=DATA.psbPreparationAudit20261123.reportUrl;link.style.marginLeft='1em';note.append(link)}
 };
 if(view==='assets')renderCatalog();else render();
