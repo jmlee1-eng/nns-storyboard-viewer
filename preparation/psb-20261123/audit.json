@@ -22,13 +22,12 @@
         "5144": true
       }
     },
-    "checkedRows": 113,
+    "checkedRows": 111,
     "psbAssetLayers": 57,
     "outerLayerRenames": 68,
     "nestedLayerRenames": 44,
     "counts": {
       "1부 재활용": 37,
-      "선택 문구 출력": 2,
       "재출력 배치": 7,
       "PSB 배치됨": 44,
       "1부 재가공": 7,
@@ -70,7 +69,16 @@
         "basis": "PSB 실제 에셋 확인 후 기존 캐릭터 번호·상태 체계로 할당"
       }
     ],
-    "note": "1부 기출력은 누락에서 제외. 꽃잎·방벽·눈물 6종은 사용자 지시로 미출력·연출 재검토 대기."
+    "note": "1부 기출력은 누락에서 제외. 꽃잎·방벽·눈물 6종은 사용자 지시로 미출력·연출 재검토 대기.",
+    "excludedFromPrinting": [
+      "props|「完」마무리",
+      "props|「第2部」표지"
+    ],
+    "preparationStatusCounts": {
+      "완료": 42,
+      "출력 필요": 54,
+      "가공 필요": 15
+    }
   },
   "rows": [
     {
@@ -92,18 +100,21 @@
         "canonicalKey": "background|단색바탕",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4762
-        ],
-        "layerPaths": [
-          "/01_배경/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -122,59 +133,6 @@
       "previewKind": "1부 기출력 재사용"
     },
     {
-      "key": "props|「第2部」표지",
-      "category": "props",
-      "id": "PR076",
-      "name": "「第2部」 표지",
-      "aliases": [
-        "props|「第2部」표지"
-      ],
-      "cuts": [
-        "P02-INTRO-C01"
-      ],
-      "elements": [
-        {
-          "cut": "P02-INTRO-C01",
-          "id": "p2_470f04e033",
-          "image": "p2-diagram-09ab83e7df907b",
-          "w": 38,
-          "h": 38.0,
-          "count": 1,
-          "printSpecId": "PS-8df868501128",
-          "paperFragmentOf": null
-        }
-      ],
-      "status": "가공 필요",
-      "audit": {
-        "canonicalKey": "props|「第2部」표지",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "없음",
-        "psbStatus": "일부 준비",
-        "layerIds": [],
-        "layerPaths": [],
-        "requiredQty": 1,
-        "evidence": "뷰어 도안/구성은 있으나 PSB 완성 레이어 미확인",
-        "sizeReview": "",
-        "psbPreview": null
-      },
-      "layerIds": [],
-      "alreadyPrintedPart1": false,
-      "action": "선택 문구 출력",
-      "note": "2부 단독본 전용 第2部 문구는 PSB에 없음. 통합본만 촬영하면 별도 출력 불필요.",
-      "layerPaths": [],
-      "requiredQty": 1,
-      "images": [
-        "p2-diagram-09ab83e7df907b"
-      ],
-      "availableCopies": 0,
-      "psbLayerNames": [],
-      "missingRequiredPrint": false,
-      "missingText": false,
-      "deferred": false,
-      "previewKind": "등록 원본 · PSB 미배치"
-    },
-    {
       "key": "background|공식결계골목",
       "category": "background",
       "id": "BG-P02-S01-C01-01",
@@ -191,18 +149,21 @@
         "canonicalKey": "background|공식결계골목",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          29
-        ],
-        "layerPaths": [
-          "/01_배경/1부/BG-P01-S04-C01-01_밤의 상점가 (괴이)"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "BG09와 공식 BackAlley_Apparition_2-2의 같은 배경을 육안 대조",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -485,23 +446,32 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "완료",
+      "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|치코링_각성전",
-        "action": "1부 재활용",
-        "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
+        "action": "재출력 배치",
+        "label": "재출력 배치",
+        "reuse": "1부 기출력",
+        "psbStatus": "재출력 배치",
         "layerIds": [
-          4760
+          4874,
+          4875
         ],
         "layerPaths": [
-          "/02_캐릭터/1부"
+          "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA002-03_치코링_각성전_일체형",
+          "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA002-03_치코링_각성전_분절형"
         ],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4874",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [
         4874,
@@ -509,7 +479,7 @@
       ],
       "alreadyPrintedPart1": true,
       "action": "재출력 배치",
-      "note": "1부 기출력 실물이 있고 2부 PSB에도 재출력용으로 배치됨. 누락 아님. 재출력 파일의 인쇄 전이라도 기존 실물로 대응 가능. 4874는 일체형, 4875는 지팡이·손을 분리한 분절형.",
+      "note": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
       "layerPaths": [
         "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA002-03_치코링_각성전_일체형",
         "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA002-03_치코링_각성전_분절형"
@@ -684,34 +654,37 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "완료",
+      "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|주군_고향",
-        "action": "1부 재활용",
-        "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
+        "action": "재출력 배치",
+        "label": "재출력 배치",
+        "reuse": "1부 기출력",
+        "psbStatus": "재출력 배치",
         "layerIds": [
-          470,
-          4261,
-          537
+          4902
         ],
         "layerPaths": [
-          "/02_캐릭터/1부/CHA001-01_주군 분절",
-          "/02_캐릭터/1부/CHA001-01_주군",
-          "/02_캐릭터/1부/CHA001-01_주군_와카1 타마1"
+          "/02_캐릭터/출력시트_CHA04_주군·내미는손/CHA001-01_주군_고향"
         ],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4902",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [
         4902
       ],
       "alreadyPrintedPart1": true,
       "action": "재출력 배치",
-      "note": "1부 기출력 실물이 있고 2부 PSB에도 재출력용으로 배치됨. 누락 아님. 재출력 파일의 인쇄 전이라도 기존 실물로 대응 가능.",
+      "note": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
       "layerPaths": [
         "/02_캐릭터/출력시트_CHA04_주군·내미는손/CHA001-01_주군_고향"
       ],
@@ -787,18 +760,21 @@
         "canonicalKey": "props|유령불",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          625
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이펙트/이펙트"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 2,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -845,18 +821,21 @@
         "canonicalKey": "props|「黎明の少女」チコりん이름표",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4415
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이름표/이름표"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
-        "sizeReview": "뷰어 1829×371px / 1부 1219×149px",
-        "psbPreview": null
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+        "sizeReview": "",
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -891,16 +870,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "background|2부도시지도전체",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "미배치",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5145
+        ],
+        "layerPaths": [
+          "/01_배경/BG-P2-CITY-MAP_2부_도시_지도_전체_03챕터"
+        ],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5145",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5145
@@ -944,19 +934,26 @@
       "audit": {
         "canonicalKey": "background|오래된찻집",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4866
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/01_배경/BG-P02-S03-C01-01 · 오래된 찻집"
+          "/01_배경/BG-P02-S03-C01-01_오래된_찻집"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4866",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4866
@@ -1040,19 +1037,26 @@
       "audit": {
         "canonicalKey": "people|세나_고향",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4857
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/Char_01_레오나 세나 라르므/CHA007-01 · 세나_고향"
+          "/02_캐릭터/출력시트_CHA01_세나·라르므·흰실루엣/CHA007-01_세나_고향"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4857",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4857
@@ -1104,18 +1108,21 @@
         "canonicalKey": "props|「氷華の少女」セナ이름표",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4415
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이름표/이름표"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "이름표 스마트 오브젝트 안에 NP022/023/025/026 확인",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -1266,30 +1273,37 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "완료",
+      "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|이리스_마녀",
-        "action": "1부 재활용",
-        "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
+        "action": "재출력 배치",
+        "label": "재출력 배치",
+        "reuse": "1부 기출력",
+        "psbStatus": "재출력 배치",
         "layerIds": [
-          4760
+          4926
         ],
         "layerPaths": [
-          "/02_캐릭터/1부"
+          "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHB001-03_이리스_마녀_슬픈미소"
         ],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4926",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [
         4926
       ],
       "alreadyPrintedPart1": true,
       "action": "재출력 배치",
-      "note": "1부 기출력 실물이 있고 2부 PSB에도 재출력용으로 배치됨. 누락 아님. 재출력 파일의 인쇄 전이라도 기존 실물로 대응 가능.",
+      "note": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
       "layerPaths": [
         "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHB001-03_이리스_마녀_슬픈미소"
       ],
@@ -1332,20 +1346,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|이리스_흑화전",
-        "action": "소스 통일 확인",
-        "label": "그림 통일 확인",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "그림 차이 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4930
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/Char_03_이리스 뮤게 모브/이리스 흑화전 아야뿅"
+          "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHB001-02_이리스_흑화전"
         ],
         "requiredQty": 1,
-        "evidence": "스마트 오브젝트 합성 그림 육안 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": "psb-audit-4930"
+        "psbPreview": "psb26-layer-4930",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4930
@@ -1418,19 +1439,26 @@
       "audit": {
         "canonicalKey": "people|평범한자세의얼굴없는모브동료묶음",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4937
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/Char_03_이리스 뮤게 모브/모브들"
+          "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHC004-05_평범한_자세의_얼굴_없는_모브_동료_묶음"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4937",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4937
@@ -1482,18 +1510,21 @@
         "canonicalKey": "props|「満開の少女」あやぴょん이름표",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4415
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이름표/이름표"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "이름표 스마트 오브젝트 안에 NP022/023/025/026 확인",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -1548,19 +1579,26 @@
       "audit": {
         "canonicalKey": "props|만개한꽃_분리출력",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4996
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 10/만개한 꽃"
+          "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/PR019-BLOOM_만개한_꽃_분리_출력"
         ],
-        "requiredQty": 2,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "requiredQty": 1,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4996",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4996
@@ -1611,19 +1649,26 @@
       "audit": {
         "canonicalKey": "props|시든꽃_분리출력",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4995
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 10/시든 꽃"
+          "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/PR019-WITHERED_시든_꽃_분리_출력"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4995",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4995
@@ -1667,19 +1712,26 @@
       "audit": {
         "canonicalKey": "background|꽃을뺀만개설명배경",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4935
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/01_배경/Layer 1061"
+          "/01_배경/BG-FLOWERLESS_꽃을_뺀_만개_설명_배경"
         ],
         "requiredQty": 1,
-        "evidence": "내부 그림이 꽃 없는 초승달·분홍 구름 배경과 일치",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4935",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4935
@@ -1731,18 +1783,21 @@
         "canonicalKey": "props|검은소용돌이결계",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          625
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이펙트/이펙트"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -1784,18 +1839,21 @@
         "canonicalKey": "background|버려진성당내부",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          41
-        ],
-        "layerPaths": [
-          "/01_배경/1부/BG-P01-S11-C01-01_버려진 성당내부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -1935,30 +1993,37 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "완료",
+      "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|히땅_마법소녀",
-        "action": "1부 재활용",
-        "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
+        "action": "재출력 배치",
+        "label": "재출력 배치",
+        "reuse": "1부 기출력",
+        "psbStatus": "재출력 배치",
         "layerIds": [
-          4760
+          4878
         ],
         "layerPaths": [
-          "/02_캐릭터/1부"
+          "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA003-03_히땅_마법소녀"
         ],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
-        "sizeReview": "뷰어 1166×2034px / 1부 1039×2028px",
-        "psbPreview": null
+        "evidence": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
+        "sizeReview": "",
+        "psbPreview": "psb26-layer-4878",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [
         4878
       ],
       "alreadyPrintedPart1": true,
       "action": "재출력 배치",
-      "note": "1부 기출력 실물이 있고 2부 PSB에도 재출력용으로 배치됨. 누락 아님. 재출력 파일의 인쇄 전이라도 기존 실물로 대응 가능.",
+      "note": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
       "layerPaths": [
         "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA003-03_히땅_마법소녀"
       ],
@@ -2036,18 +2101,21 @@
         "canonicalKey": "people|에글랑틴_마녀",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
-        "sizeReview": "뷰어 1485×2012px / 1부 1187×2027px",
-        "psbPreview": null
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+        "sizeReview": "",
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -2092,21 +2160,28 @@
       "audit": {
         "canonicalKey": "props|한쪽에만가시가난줄기",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4998,
           4999
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 10/에글랑틴_한쪽가시_줄기",
-          "/2부 · 가공 필요 73종/03_소품/Group 10/에글랑틴_한쪽가시_줄기 copy"
+          "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/FX-THORN-ONE_한쪽에만_가시가_난_줄기_01",
+          "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/FX-THORN-ONE_한쪽에만_가시가_난_줄기_02"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4998",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4998,
@@ -2189,30 +2264,31 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "가공 필요",
+      "status": "완료",
       "audit": {
         "canonicalKey": "people|시민_분절01",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
-        "layerIds": [
-          546,
-          4262
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부/Group 7 이리스 시즈쿠 에글랑틴 시민",
-          "/02_캐릭터/1부/Group 7 이리스 반전 시민 아웃라인"
-        ],
+        "action": "1부 재가공",
+        "label": "1부 재가공",
+        "reuse": "1부 재가공",
+        "psbStatus": "1부 재가공",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 시민 군중 및 아웃라인 출력 그룹 존재. 2부 별도 4묶음 레이어는 없음",
+        "evidence": "1부에서 지정된 네 묶음으로 이미 재단해 사용한 실물을 그대로 재사용. 추가 재단·출력 불필요.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
       "action": "1부 재가공",
-      "note": "1부에서 이미 출력한 시민 종이를 지정된 네 묶음으로 재배치·재단. 2부 PSB에 없더라도 누락으로 계산하지 않음.",
+      "note": "1부에서 지정된 네 묶음으로 이미 재단해 사용한 실물을 그대로 재사용. 추가 재단·출력 불필요.",
       "layerPaths": [],
       "requiredQty": 1,
       "images": [
@@ -2281,30 +2357,31 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "가공 필요",
+      "status": "완료",
       "audit": {
         "canonicalKey": "people|시민_분절02",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
-        "layerIds": [
-          546,
-          4262
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부/Group 7 이리스 시즈쿠 에글랑틴 시민",
-          "/02_캐릭터/1부/Group 7 이리스 반전 시민 아웃라인"
-        ],
+        "action": "1부 재가공",
+        "label": "1부 재가공",
+        "reuse": "1부 재가공",
+        "psbStatus": "1부 재가공",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 시민 군중 및 아웃라인 출력 그룹 존재. 2부 별도 4묶음 레이어는 없음",
+        "evidence": "1부에서 지정된 네 묶음으로 이미 재단해 사용한 실물을 그대로 재사용. 추가 재단·출력 불필요.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
       "action": "1부 재가공",
-      "note": "1부에서 이미 출력한 시민 종이를 지정된 네 묶음으로 재배치·재단. 2부 PSB에 없더라도 누락으로 계산하지 않음.",
+      "note": "1부에서 지정된 네 묶음으로 이미 재단해 사용한 실물을 그대로 재사용. 추가 재단·출력 불필요.",
       "layerPaths": [],
       "requiredQty": 1,
       "images": [
@@ -2373,30 +2450,31 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "가공 필요",
+      "status": "완료",
       "audit": {
         "canonicalKey": "people|시민_분절03",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
-        "layerIds": [
-          546,
-          4262
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부/Group 7 이리스 시즈쿠 에글랑틴 시민",
-          "/02_캐릭터/1부/Group 7 이리스 반전 시민 아웃라인"
-        ],
+        "action": "1부 재가공",
+        "label": "1부 재가공",
+        "reuse": "1부 재가공",
+        "psbStatus": "1부 재가공",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 시민 군중 및 아웃라인 출력 그룹 존재. 2부 별도 4묶음 레이어는 없음",
+        "evidence": "1부에서 지정된 네 묶음으로 이미 재단해 사용한 실물을 그대로 재사용. 추가 재단·출력 불필요.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
       "action": "1부 재가공",
-      "note": "1부에서 이미 출력한 시민 종이를 지정된 네 묶음으로 재배치·재단. 2부 PSB에 없더라도 누락으로 계산하지 않음.",
+      "note": "1부에서 지정된 네 묶음으로 이미 재단해 사용한 실물을 그대로 재사용. 추가 재단·출력 불필요.",
       "layerPaths": [],
       "requiredQty": 1,
       "images": [
@@ -2465,30 +2543,31 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "가공 필요",
+      "status": "완료",
       "audit": {
         "canonicalKey": "people|시민_분절04",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
-        "layerIds": [
-          546,
-          4262
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부/Group 7 이리스 시즈쿠 에글랑틴 시민",
-          "/02_캐릭터/1부/Group 7 이리스 반전 시민 아웃라인"
-        ],
+        "action": "1부 재가공",
+        "label": "1부 재가공",
+        "reuse": "1부 재가공",
+        "psbStatus": "1부 재가공",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 시민 군중 및 아웃라인 출력 그룹 존재. 2부 별도 4묶음 레이어는 없음",
+        "evidence": "1부에서 지정된 네 묶음으로 이미 재단해 사용한 실물을 그대로 재사용. 추가 재단·출력 불필요.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
       "action": "1부 재가공",
-      "note": "1부에서 이미 출력한 시민 종이를 지정된 네 묶음으로 재배치·재단. 2부 PSB에 없더라도 누락으로 계산하지 않음.",
+      "note": "1부에서 지정된 네 묶음으로 이미 재단해 사용한 실물을 그대로 재사용. 추가 재단·출력 불필요.",
       "layerPaths": [],
       "requiredQty": 1,
       "images": [
@@ -2529,18 +2608,21 @@
         "canonicalKey": "props|「結縛の魔女」エグランティーヌ이름표",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4415
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이름표/이름표"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
-        "sizeReview": "뷰어 1840×392px / 1부 1221×149px",
-        "psbPreview": null
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+        "sizeReview": "",
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -2586,18 +2668,21 @@
         "canonicalKey": "props|「縁の少女」エグランティーヌ이름표",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4415
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이름표/이름표"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "이름표 스마트 오브젝트 안에 NP022/023/025/026 확인",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -2655,13 +2740,20 @@
         "action": "실물 준비",
         "label": "실물 준비",
         "reuse": "없음",
-        "psbStatus": "PSB 외 실물",
+        "psbStatus": "실물 준비",
         "layerIds": [],
         "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "연출용 실물 소품",
+        "evidence": "기출력 붉은 실/실물 실을 사용. PSB 이미지 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -2730,18 +2822,21 @@
         "canonicalKey": "props|가시덩굴컬러띠",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          593
-        ],
-        "layerPaths": [
-          "/03_소품/1부/소품/Group 2 광장 가시덩굴"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 2,
-        "evidence": "동일 png-FX018·동일 출력 규격. Group 2 내부 FX018 확인",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -2786,19 +2881,26 @@
       "audit": {
         "canonicalKey": "people|치코링·에글랑틴손인서트_내밀기",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4943
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/주군, 손/맞잡는 손"
+          "/02_캐릭터/출력시트_CHA04_주군·내미는손/CH-HANDS-01_치코링·에글랑틴_손_인서트_내밀기"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4943",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4943
@@ -2848,16 +2950,27 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "people|치코링·에글랑틴손인서트_맞잡기",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "가공·규격 확인",
+        "label": "가공·규격 확인",
         "reuse": "없음",
-        "psbStatus": "미배치",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "가공·규격 확인",
+        "layerIds": [
+          4943
+        ],
+        "layerPaths": [
+          "/02_캐릭터/출력시트_CHA04_주군·내미는손/CH-HANDS-01_치코링·에글랑틴_손_인서트_내밀기"
+        ],
         "requiredQty": 1,
-        "evidence": "내부 두 레이어와 합성 그림에서 손을 아직 잡지 않은 상태 확인",
+        "evidence": "4943은 실제로 서로 떨어진 두 손. 이 두 종이를 겹쳐 맞잡는 연출로 조립할지, 맞잡은 상태의 그림을 별도 출력할지 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4943",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4943
@@ -2899,18 +3012,21 @@
         "canonicalKey": "background|주군의하숙방",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          30
-        ],
-        "layerPaths": [
-          "/01_배경/1부/BG-P01-S05-C01-01_주군의 하숙방"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -3001,18 +3117,21 @@
         "canonicalKey": "people|와카_인형",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
-        "sizeReview": "뷰어 806×967px / 1부 1186×1322px",
-        "psbPreview": null
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+        "sizeReview": "",
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -3105,18 +3224,21 @@
         "canonicalKey": "people|타마_인형",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
-        "sizeReview": "뷰어 790×970px / 1부 1123×1373px",
-        "psbPreview": null
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+        "sizeReview": "",
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -3176,18 +3298,21 @@
         "canonicalKey": "props|낮은책상",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          585
-        ],
-        "layerPaths": [
-          "/03_소품/1부/소품/Group 1"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -3244,18 +3369,25 @@
         "canonicalKey": "props|공통원본_해약마지막줄절취",
         "action": "가공·규격 확인",
         "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
+        "reuse": "없음",
+        "psbStatus": "가공·규격 확인",
         "layerIds": [
           4986
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/공통 계약서"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-COMMON-FULL_공통_원본_전문_해약_마지막_조항"
         ],
         "requiredQty": 1,
-        "evidence": "공통 계약서 전문 존재",
+        "evidence": "공통 원본 4986의 여분을 같은 크기로 출력한 뒤 마지막 조항을 절취. 새 작화 누락이 아니라 절취용 여분·가공 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4986",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4986
@@ -3305,20 +3437,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|황혼빛아이_기본",
-        "action": "소스 통일 확인",
-        "label": "그림 통일 확인",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "그림 차이 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4924
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/Char_02_치코링 히땅 황혼/유카리_실루엣"
+          "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA013-01_황혼빛_아이_기본"
         ],
         "requiredQty": 1,
-        "evidence": "유카리_실루엣 내부 이미지 육안 확인 / 관리 ID 미할당은 기존 정책으로 유지; 실물 누락을 뜻하지 않음",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": "psb-audit-4924"
+        "psbPreview": "psb26-layer-4924",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4924
@@ -3359,18 +3498,21 @@
         "canonicalKey": "background|골동품상점내부",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          27
-        ],
-        "layerPaths": [
-          "/01_배경/1부/BG-P01-S02-C01-01_골동품상점 내부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -3416,18 +3558,21 @@
         "canonicalKey": "people|하케씨_인간",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -3529,17 +3674,24 @@
         "action": "조립 참고",
         "label": "조립 참고",
         "reuse": "없음",
-        "psbStatus": "부품 내부 확인",
+        "psbStatus": "조립 참고",
         "layerIds": [
           4978
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/축음기"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-REC-01_실린더_축음기_5부품_세트"
         ],
         "requiredQty": 0,
-        "evidence": "스마트 오브젝트 안에 두 세트와 다섯 부품 확인",
+        "evidence": "PSB 4978 안에 다섯 부품과 조립 참고가 있음. 세트 그림을 별도 출력 준비물 1종으로 중복 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4978",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4978
@@ -3584,19 +3736,26 @@
       "audit": {
         "canonicalKey": "props|실린더원통",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4978
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/축음기"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-REC-01_실린더_축음기_5부품_세트"
         ],
         "requiredQty": 1,
-        "evidence": "PR-REC-CYLINDER/BOX/LID/HORN/CRANK 내부 레이어 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4978",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4978
@@ -3647,19 +3806,26 @@
       "audit": {
         "canonicalKey": "props|축음기상자",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4978
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/축음기"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-REC-01_실린더_축음기_5부품_세트"
         ],
         "requiredQty": 1,
-        "evidence": "PR-REC-CYLINDER/BOX/LID/HORN/CRANK 내부 레이어 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4978",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4978
@@ -3715,19 +3881,26 @@
       "audit": {
         "canonicalKey": "props|축음기상자뚜껑",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4978
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/축음기"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-REC-01_실린더_축음기_5부품_세트"
         ],
         "requiredQty": 1,
-        "evidence": "PR-REC-CYLINDER/BOX/LID/HORN/CRANK 내부 레이어 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4978",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4978
@@ -3778,19 +3951,26 @@
       "audit": {
         "canonicalKey": "props|축음기나팔",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4978
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/축음기"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-REC-01_실린더_축음기_5부품_세트"
         ],
         "requiredQty": 1,
-        "evidence": "PR-REC-CYLINDER/BOX/LID/HORN/CRANK 내부 레이어 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4978",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4978
@@ -3841,19 +4021,26 @@
       "audit": {
         "canonicalKey": "props|축음기태엽",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4978
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/축음기"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-REC-01_실린더_축음기_5부품_세트"
         ],
         "requiredQty": 1,
-        "evidence": "PR-REC-CYLINDER/BOX/LID/HORN/CRANK 내부 레이어 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4978",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4978
@@ -3904,18 +4091,21 @@
         "canonicalKey": "background|목공소내부(오후)",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          34
-        ],
-        "layerPaths": [
-          "/01_배경/1부/BG-P01-S08-C01-01_목공소 내부(오후)"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -3994,18 +4184,21 @@
         "canonicalKey": "people|쿠로코_목수",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
-        "sizeReview": "뷰어 769×2292px / 1부 760×2296px",
-        "psbPreview": null
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+        "sizeReview": "",
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -4104,19 +4297,26 @@
       "audit": {
         "canonicalKey": "props|공통원본_전문_해약마지막조항",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4986
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/공통 계약서"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-COMMON-FULL_공통_원본_전문_해약_마지막_조항"
         ],
-        "requiredQty": 2,
-        "evidence": "계약서 스마트 오브젝트 6개 레이어와 합성 그림 확인",
+        "requiredQty": 1,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인. 마지막 줄 절취용·최종 찢기용은 같은 원본의 별도 여분으로 준비.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4986",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4986
@@ -4196,20 +4396,33 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|「個別契約」문서",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
-          585
+          5150,
+          5151,
+          5152,
+          5153
         ],
         "layerPaths": [
-          "/03_소품/1부/소품/Group 1"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-CONTRACT-S_계약서_작은버전1~4_01",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-CONTRACT-S_계약서_작은버전1~4_02",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-CONTRACT-S_계약서_작은버전1~4_03",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-CONTRACT-S_계약서_작은버전1~4_04"
         ],
         "requiredQty": 4,
-        "evidence": "1부 소품 Group 1 안에 치코/히스이 계약서 각 2개 확인",
+        "evidence": "설명용 개별 문서는 PSB 소형 계약서 5148~5153을 사용. 별도의 個別契約 도식을 새로 출력하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5150",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5150,
@@ -4274,13 +4487,20 @@
         "action": "실물 준비",
         "label": "실물 준비",
         "reuse": "없음",
-        "psbStatus": "PSB 외 실물",
+        "psbStatus": "실물 준비",
         "layerIds": [],
         "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "연출용 연결선",
+        "evidence": "실물 실·종이 띠를 사용. PSB 이미지 누락과 구분.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -4317,18 +4537,21 @@
         "canonicalKey": "background|목공소내부(일기배경)",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          35
-        ],
-        "layerPaths": [
-          "/01_배경/1부/BG-P01-S08-C04-01_목공소 내부(일기 배경)"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -4457,30 +4680,37 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "완료",
+      "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|레오나_마법소녀",
-        "action": "1부 재활용",
-        "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
+        "action": "재출력 배치",
+        "label": "재출력 배치",
+        "reuse": "1부 기출력",
+        "psbStatus": "재출력 배치",
         "layerIds": [
-          4760
+          4890
         ],
         "layerPaths": [
-          "/02_캐릭터/1부"
+          "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA004-03_레오나_마법소녀"
         ],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4890",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [
         4890
       ],
       "alreadyPrintedPart1": true,
       "action": "재출력 배치",
-      "note": "1부 기출력 실물이 있고 2부 PSB에도 재출력용으로 배치됨. 누락 아님. 재출력 파일의 인쇄 전이라도 기존 실물로 대응 가능.",
+      "note": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
       "layerPaths": [
         "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA004-03_레오나_마법소녀"
       ],
@@ -4558,18 +4788,21 @@
         "canonicalKey": "people|엔마_마법소녀",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -4610,19 +4843,26 @@
       "audit": {
         "canonicalKey": "background|공식시계탑상공_최종결계",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4864
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/01_배경/BG-P02-S12-C01-01 · 도시 전체 결계"
+          "/01_배경/BG-P02-S12-C01-01-REV_공식_시계탑_상공_최종_결계"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4864",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4864
@@ -4706,19 +4946,26 @@
       "audit": {
         "canonicalKey": "people|뮤게_마녀",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           5003
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/Char_03_이리스 뮤게 모브/뮤게_치사"
+          "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHB005-03_뮤게_마녀"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5003",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5003
@@ -4768,16 +5015,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|「造花の魔女」ミュゲ・シエル이름표",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "미배치",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5090
+        ],
+        "layerPaths": [
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/NP027_뮤게_마녀_이름표_출력묶음/NP027_「造花の魔女」ミュゲ・シエル_이름표"
+        ],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5090",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5090
@@ -4827,22 +5085,29 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|목제이동방벽",
-        "action": "소스 통일 확인",
-        "label": "그림 통일 확인",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "그림 차이 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           5011,
           5012
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 10/쿠로코_목제이동방벽_뒷면",
-          "/2부 · 가공 필요 73종/03_소품/Group 10/쿠로코_목제이동방벽_뒷면 copy"
+          "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/FX-EARTH-WALL_목제_이동_방벽_01",
+          "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/FX-EARTH-WALL_목제_이동_방벽_02"
         ],
         "requiredQty": 1,
-        "evidence": "최종 넓은 목제 방벽 뒷면 두 레이어 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5011",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5011,
@@ -4908,18 +5173,21 @@
         "canonicalKey": "people|쥬리땅_마법소녀",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -4976,19 +5244,26 @@
       "audit": {
         "canonicalKey": "props|확성기",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4799
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/PR042 · 확성기"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR042_확성기"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4799",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4799
@@ -5028,16 +5303,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "background|공식시계탑코어입구",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "미배치",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5120
+        ],
+        "layerPaths": [
+          "/01_배경/BG-MUGUET-CORE_공식_시계탑_코어_입구"
+        ],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5120",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5120
@@ -5091,19 +5377,26 @@
       "audit": {
         "canonicalKey": "background|시계탑결계코어내부",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4862
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/01_배경/BG-P02-S15-C01-01 · 시계탑 결계 코어 내부"
+          "/01_배경/BG-P02-S15-C01-01_시계탑_결계_코어_내부"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4862",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4862
@@ -5164,20 +5457,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|모브동료검은뒷종이",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
-          4937
+          5108
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/Char_03_이리스 뮤게 모브/모브들"
+          "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHC004-06_모브_동료_검은_뒷종이"
         ],
         "requiredQty": 1,
-        "evidence": "모브 내부는 색상 보정과 컬러 앞면 두 레이어이며 검정 뒷면 없음",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5108",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5108
@@ -5238,22 +5538,23 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|닫히는꽃잎하늘",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
-        "layerIds": [
-          4781,
-          4782
-        ],
-        "layerPaths": [
-          "/2부 · 가공 필요 73종/04_이펙트/FX041 · 닫히는 꽃잎 하늘",
-          "/2부 · 가공 필요 73종/04_이펙트/FX044 · 접히는 하늘"
-        ],
+        "action": "연출 재검토",
+        "label": "연출 재검토",
+        "reuse": "없음",
+        "psbStatus": "연출 재검토",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "FX041/FX044가 시계탑 상공 PNG 복제. 독립 꽃잎 레이어 아님",
+        "evidence": "사용자 확인: 아직 출력하지 않았으며 실제로 필요한 소품인지 연출 재검토 예정. 현재 PSB 미배치이나 필수 누락 집계에서 제외하고 검토 대기로 유지.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": true,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -5297,16 +5598,23 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|시계탑코어입구",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "추가 출력 필요",
+        "label": "추가 출력 필요",
         "reuse": "없음",
-        "psbStatus": "미배치",
+        "psbStatus": "추가 출력 필요",
         "layerIds": [],
         "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "배경판 5120은 있으나 움직이는 소형 입구 조각이 별도로 배치되지 않음. 작은 규격의 입구 파츠를 추가 출력.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": true,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -5350,20 +5658,23 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|작은꽃잎",
-        "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "action": "연출 재검토",
+        "label": "연출 재검토",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
-        "layerIds": [
-          4787
-        ],
-        "layerPaths": [
-          "/2부 · 가공 필요 73종/04_이펙트/FX036 · 작은 꽃잎"
-        ],
+        "psbStatus": "연출 재검토",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "사용자 확인: 아직 출력하지 않았으며 실제로 필요한 소품인지 연출 재검토 예정. 현재 PSB 미배치이나 필수 누락 집계에서 제외하고 검토 대기로 유지.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": true,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -5426,30 +5737,37 @@
           "paperFragmentOf": null
         }
       ],
-      "status": "완료",
+      "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|일본어일기",
-        "action": "1부 재활용",
-        "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
+        "action": "재출력 배치",
+        "label": "재출력 배치",
+        "reuse": "1부 기출력",
+        "psbStatus": "재출력 배치",
         "layerIds": [
-          585
+          4912
         ],
         "layerPaths": [
-          "/03_소품/1부/소품/Group 1"
+          "/03_소품/출력시트_PR03_PR011·PR-DIARY-PAGES_일기/PR011_일본어_일기_어제와오늘_속지포함"
         ],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4912",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [
         4912
       ],
       "alreadyPrintedPart1": true,
       "action": "재출력 배치",
-      "note": "1부 기출력 실물이 있고 2부 PSB에도 재출력용으로 배치됨. 누락 아님. 재출력 파일의 인쇄 전이라도 기존 실물로 대응 가능.",
+      "note": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
       "layerPaths": [
         "/03_소품/출력시트_PR03_PR011·PR-DIARY-PAGES_일기/PR011_일본어_일기_어제와오늘_속지포함"
       ],
@@ -5498,20 +5816,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|일기속지_어제와오늘_넘김",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4912
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/PR-P03-S01-C01-01_Countdown_Book"
+          "/03_소품/출력시트_PR03_PR011·PR-DIARY-PAGES_일기/PR011_일본어_일기_어제와오늘_속지포함"
         ],
-        "requiredQty": 1,
-        "evidence": "빈 속지 2장과 펼친 책 바탕만 확인",
+        "requiredQty": 2,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인. 어제 怖かった 3회 및 오늘 실제 본문 속지 두 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4912",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4912
@@ -5572,20 +5897,27 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "people|치코링_각성전-맞잡는손",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
+        "action": "1부 재가공",
+        "label": "1부 재가공",
+        "reuse": "1부 재가공",
+        "psbStatus": "1부 재가공",
         "layerIds": [
           4943
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/주군, 손/맞잡는 손"
+          "/02_캐릭터/출력시트_CHA04_주군·내미는손/CH-HANDS-01_치코링·에글랑틴_손_인서트_내밀기"
         ],
         "requiredQty": 1,
-        "evidence": "S16 C02 손 파츠와 큰 손 인서트는 출력 크기가 달라 별도 항목 유지",
+        "evidence": "1부 손 출력물과 PSB 4943의 손을 분리·재배치해 사용. 작은 규격과 맞잡는 위치 확인; 1부 기출력을 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4943",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4943
@@ -5641,20 +5973,27 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "people|에글랑틴_마녀-맞잡는손",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
+        "action": "1부 재가공",
+        "label": "1부 재가공",
+        "reuse": "1부 재가공",
+        "psbStatus": "1부 재가공",
         "layerIds": [
           4943
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/주군, 손/맞잡는 손"
+          "/02_캐릭터/출력시트_CHA04_주군·내미는손/CH-HANDS-01_치코링·에글랑틴_손_인서트_내밀기"
         ],
         "requiredQty": 1,
-        "evidence": "S16 C02 손 파츠와 큰 손 인서트는 출력 크기가 달라 별도 항목 유지",
+        "evidence": "1부 손 출력물과 PSB 4943의 손을 분리·재배치해 사용. 작은 규격과 맞잡는 위치 확인; 1부 기출력을 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4943",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4943
@@ -5732,22 +6071,27 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|일본어일기_휴대용",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
+        "action": "1부 재가공",
+        "label": "1부 재가공",
+        "reuse": "1부 재가공",
+        "psbStatus": "1부 재가공",
         "layerIds": [
-          585,
           4912
         ],
         "layerPaths": [
-          "/03_소품/1부/소품/Group 1",
-          "/2부 · 가공 필요 73종/03_소품/Group 9/PR-P03-S01-C01-01_Countdown_Book"
+          "/03_소품/출력시트_PR03_PR011·PR-DIARY-PAGES_일기/PR011_일본어_일기_어제와오늘_속지포함"
         ],
         "requiredQty": 1,
-        "evidence": "기존 책 바탕 존재. 소형 휴대본 전용 레이어 미확인",
+        "evidence": "1부 PR011 책과 PSB 4912 원본을 사용. 큰 인서트와 구분해 휴대용 크기를 확인; 1부 기출력 책이 있으므로 신규 이미지 누락에서 제외.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4912",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4912
@@ -5853,16 +6197,23 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|씨앗",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "추가 출력 필요",
+        "label": "추가 출력 필요",
         "reuse": "없음",
-        "psbStatus": "미배치",
+        "psbStatus": "추가 출력 필요",
         "layerIds": [],
         "layerPaths": [],
         "requiredQty": 6,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "구슬 속 씨앗은 4980~4985에 있지만 독립 씨앗 종이는 없음. 씨앗만 분리한 출력물 필요.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": true,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -5906,20 +6257,29 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "people|이리스_마녀_표정클로즈업",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "미배치",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
-          4926
+          5103,
+          5102
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/Char_03_이리스 뮤게 모브/이리스 슬픈 미소"
+          "/02_캐릭터/CHB001-03-CU_이리스_표정클로즈업_일반_출력시트/CHB001-03-CU_이리스_마녀_표정클로즈업_일반",
+          "/02_캐릭터/CHB001-03-CU_이리스_표정클로즈업_슬픈미소_출력시트/CHB001-03-CU_이리스_마녀_표정클로즈업_슬픈미소"
         ],
         "requiredQty": 1,
-        "evidence": "스마트 오브젝트를 열어 전신 그림임을 육안 확인. 전용 표정 클로즈업과 구분",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": "psb-audit-4926"
+        "psbPreview": "psb26-layer-5103",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5103,
@@ -6029,19 +6389,26 @@
       "audit": {
         "canonicalKey": "people|라르므_마녀",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4842
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/02_캐릭터/Char_01_레오나 세나 라르므/라르므_마녀"
+          "/02_캐릭터/출력시트_CHA01_세나·라르므·흰실루엣/CHB003-03_라르므_마녀"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인 / 관리 ID 미할당은 기존 정책으로 유지; 실물 누락을 뜻하지 않음",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4842",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4842
@@ -6093,18 +6460,21 @@
         "canonicalKey": "props|「悲嘆の魔女」ラルム이름표",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4415
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이름표/이름표"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "이름표 스마트 오브젝트 안에 NP022/023/025/026 확인",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -6189,9 +6559,9 @@
       "audit": {
         "canonicalKey": "props|씨앗하나를가둔검은유리구슬",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4980,
           4981,
@@ -6201,17 +6571,24 @@
           4985
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/구슬 01",
-          "/2부 · 가공 필요 73종/03_소품/Group 9/구슬 02",
-          "/2부 · 가공 필요 73종/03_소품/Group 9/구슬 03",
-          "/2부 · 가공 필요 73종/03_소품/Group 9/구슬 04",
-          "/2부 · 가공 필요 73종/03_소품/Group 9/구슬 05",
-          "/2부 · 가공 필요 73종/03_소품/Group 9/구슬 06"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-SEED-GLASS_씨앗_하나를_가둔_검은_유리구슬_01",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-SEED-GLASS_씨앗_하나를_가둔_검은_유리구슬_02",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-SEED-GLASS_씨앗_하나를_가둔_검은_유리구슬_03",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-SEED-GLASS_씨앗_하나를_가둔_검은_유리구슬_04",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-SEED-GLASS_씨앗_하나를_가둔_검은_유리구슬_05",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-SEED-GLASS_씨앗_하나를_가둔_검은_유리구슬_06"
         ],
         "requiredQty": 5,
-        "evidence": "구슬 01~06 및 구슬 속 씨앗 육안 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4980",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4980,
@@ -6311,18 +6688,21 @@
         "canonicalKey": "people|네네링_마법소녀",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -6377,20 +6757,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|히땅바람이펙트",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "재가공",
-        "psbStatus": "일부 준비",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
-          4790
+          5136
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/04_이펙트/FX029 · 파편"
+          "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게/FX-REV-WIND_히땅_바람_이펙트"
         ],
         "requiredQty": 1,
-        "evidence": "원본 파일명이 PR-P02-S05-C03-04_바람띠_일러스트.png",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5136",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5136
@@ -6451,16 +6838,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|네네링섬광이펙트",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "일부 준비",
-        "layerIds": [],
-        "layerPaths": [],
-        "requiredQty": 2,
-        "evidence": "뷰어 도안/구성은 있으나 PSB 완성 레이어 미확인",
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5137
+        ],
+        "layerPaths": [
+          "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게/FX-REV-FLASH_네네링_섬광_이펙트"
+        ],
+        "requiredQty": 1,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5137",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5137
@@ -6524,18 +6922,21 @@
         "canonicalKey": "props|불꽃띠",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          625
-        ],
-        "layerPaths": [
-          "/03_소품/1부/이펙트/이펙트"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "뷰어 불꽃 방벽과 1부 불꽃 띠가 같은 이미지·동일 출력 규격",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -6579,20 +6980,23 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|꽃잎방벽",
-        "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "action": "연출 재검토",
+        "label": "연출 재검토",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
-        "layerIds": [
-          4786
-        ],
-        "layerPaths": [
-          "/2부 · 가공 필요 73종/04_이펙트/FX048 · 꽃잎 방벽"
-        ],
+        "psbStatus": "연출 재검토",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "사용자 확인: 아직 출력하지 않았으며 실제로 필요한 소품인지 연출 재검토 예정. 현재 PSB 미배치이나 필수 누락 집계에서 제외하고 검토 대기로 유지.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": true,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -6636,16 +7040,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|뮤게가면이펙트",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "일부 준비",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5140
+        ],
+        "layerPaths": [
+          "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게/FX-REV-MASK_뮤게_가면_이펙트"
+        ],
         "requiredQty": 1,
-        "evidence": "뷰어 도안/구성은 있으나 PSB 완성 레이어 미확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5140",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5140
@@ -6693,7 +7108,30 @@
         }
       ],
       "status": "출력 필요",
-      "audit": null,
+      "audit": {
+        "canonicalKey": "people|라르므_흰실루엣",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5156
+        ],
+        "layerPaths": [
+          "/02_캐릭터/출력시트_CHA01_세나·라르므·흰실루엣/CHB-LARME-WHITE_라르므_흰실루엣_뒷면사용"
+        ],
+        "requiredQty": 1,
+        "evidence": "라르므 복제본 5156을 앞면과 같은 윤곽으로 재단한 뒤 뒷면을 보이게 사용. 흰색 별도 인쇄나 새 작화 불필요.",
+        "sizeReview": "",
+        "psbPreview": "psb26-layer-5156",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
+      },
       "layerIds": [
         5156
       ],
@@ -6751,7 +7189,30 @@
         }
       ],
       "status": "출력 필요",
-      "audit": null,
+      "audit": {
+        "canonicalKey": "props|치코계약서_작은버전",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5149
+        ],
+        "layerPaths": [
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR020-S_치코_계약서_작은버전"
+        ],
+        "requiredQty": 1,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
+        "sizeReview": "",
+        "psbPreview": "psb26-layer-5149",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
+      },
       "layerIds": [
         5149
       ],
@@ -6807,30 +7268,37 @@
           "paperFragmentOf": "hisui-small · 출력 종이 한 장"
         }
       ],
-      "status": "완료",
+      "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|히스이의일본어계약서",
-        "action": "1부 재활용",
-        "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
+        "action": "재출력 배치",
+        "label": "재출력 배치",
+        "reuse": "1부 기출력",
+        "psbStatus": "재출력 배치",
         "layerIds": [
-          585
+          5148
         ],
         "layerPaths": [
-          "/03_소품/1부/소품/Group 1"
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR007_히스이의_일본어_계약서_작은버전"
         ],
-        "requiredQty": 2,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "requiredQty": 1,
+        "evidence": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5148",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [
         5148
       ],
       "alreadyPrintedPart1": true,
       "action": "재출력 배치",
-      "note": "1부 기출력 실물이 있고 2부 PSB에도 재출력용으로 배치됨. 누락 아님. 재출력 파일의 인쇄 전이라도 기존 실물로 대응 가능.",
+      "note": "2부 PSB에 재출력용으로 배치됨. 이번 출력 대상으로 준비.",
       "layerPaths": [
         "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR007_히스이의_일본어_계약서_작은버전"
       ],
@@ -6941,7 +7409,36 @@
         }
       ],
       "status": "출력 필요",
-      "audit": null,
+      "audit": {
+        "canonicalKey": "props|계약서_작은버전1~4",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5150,
+          5151,
+          5152,
+          5153
+        ],
+        "layerPaths": [
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-CONTRACT-S_계약서_작은버전1~4_01",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-CONTRACT-S_계약서_작은버전1~4_02",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-CONTRACT-S_계약서_작은버전1~4_03",
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-CONTRACT-S_계약서_작은버전1~4_04"
+        ],
+        "requiredQty": 4,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
+        "sizeReview": "",
+        "psbPreview": "psb26-layer-5150",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
+      },
       "layerIds": [
         5150,
         5151,
@@ -6995,19 +7492,26 @@
       "audit": {
         "canonicalKey": "background|공식결계해제후별밤",
         "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
+        "psbStatus": "PSB 배치됨",
         "layerIds": [
           4859
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/01_배경/BG-P02-S27-C01-01 · 밤하늘"
+          "/01_배경/BG-P02-S27-C01-01_공식_결계_해제_후_별밤"
         ],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4859",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4859
@@ -7092,18 +7596,21 @@
         "canonicalKey": "people|치코_평상복",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          541
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부/Group 1 치코 히스이 괴이"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 학생 치코 그림 / 관리 ID 미할당은 기존 정책으로 유지; 실물 누락을 뜻하지 않음",
-        "sizeReview": "뷰어 501×1872px / 1부 496×1862px",
-        "psbPreview": null
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+        "sizeReview": "",
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -7160,18 +7667,21 @@
         "canonicalKey": "people|히스이_평상복",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          541
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부/Group 1 치코 히스이 괴이"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 히스이 고향 그림 / 관리 ID 미할당은 기존 정책으로 유지; 실물 누락을 뜻하지 않음",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -7217,18 +7727,21 @@
         "canonicalKey": "people|네네_평상복",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          895
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부/Group 8 네네 쿠로코"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "Group 8 안의 CHA006-01 네네_고향 / 관리 ID 미할당은 기존 정책으로 유지; 실물 누락을 뜻하지 않음",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -7272,20 +7785,23 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|큰꽃잎",
-        "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "action": "연출 재검토",
+        "label": "연출 재검토",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
-        "layerIds": [
-          4788
-        ],
-        "layerPaths": [
-          "/2부 · 가공 필요 73종/04_이펙트/FX025 · 큰 꽃잎"
-        ],
+        "psbStatus": "연출 재검토",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "사용자 확인: 아직 출력하지 않았으며 실제로 필요한 소품인지 연출 재검토 예정. 현재 PSB 미배치이나 필수 누락 집계에서 제외하고 검토 대기로 유지.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": true,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -7329,16 +7845,23 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|타버린씨앗그림",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "추가 출력 필요",
+        "label": "추가 출력 필요",
         "reuse": "없음",
-        "psbStatus": "미배치",
+        "psbStatus": "추가 출력 필요",
         "layerIds": [],
         "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "현재 2부 PSB에 타버린 씨앗 그림이 없음. 기존 전달 원본을 추가 배치·출력.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": true,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -7371,16 +7894,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "background|들어오고나가는문이있는정원",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "미배치",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5117
+        ],
+        "layerPaths": [
+          "/01_배경/BG-GARDEN-DOORS_들어오고_나가는_문이_있는_정원"
+        ],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5117",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5117
@@ -7430,20 +7964,23 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|꽃잎조각",
-        "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "action": "연출 재검토",
+        "label": "연출 재검토",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
-        "layerIds": [
-          4783
-        ],
-        "layerPaths": [
-          "/2부 · 가공 필요 73종/04_이펙트/FX052 · 꽃잎 조각"
-        ],
+        "psbStatus": "연출 재검토",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "사용자 확인: 아직 출력하지 않았으며 실제로 필요한 소품인지 연출 재검토 예정. 현재 PSB 미배치이나 필수 누락 집계에서 제외하고 검토 대기로 유지.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": true,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -7487,20 +8024,23 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|눈물표식",
-        "action": "PSB 배치됨",
-        "label": "PSB 배치 확인",
+        "action": "연출 재검토",
+        "label": "연출 재검토",
         "reuse": "없음",
-        "psbStatus": "배치 확인",
-        "layerIds": [
-          4776
-        ],
-        "layerPaths": [
-          "/2부 · 가공 필요 73종/04_이펙트/FX054 · 눈물 표식"
-        ],
+        "psbStatus": "연출 재검토",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "열린 PSB의 대응 레이어 및 스마트 오브젝트 내부 확인",
+        "evidence": "사용자 확인: 아직 출력하지 않았으며 실제로 필요한 소품인지 연출 재검토 예정. 현재 PSB 미배치이나 필수 누락 집계에서 제외하고 검토 대기로 유지.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": true,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -7535,14 +8075,21 @@
         "canonicalKey": "background|흰바탕",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
         "layerIds": [],
         "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "단색 바탕",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -7561,59 +8108,6 @@
       "previewKind": "1부 기출력 재사용"
     },
     {
-      "key": "props|「完」마무리",
-      "category": "props",
-      "id": "PR077",
-      "name": "「完」 마무리",
-      "aliases": [
-        "props|「完」마무리"
-      ],
-      "cuts": [
-        "P02-OUTRO-C01"
-      ],
-      "elements": [
-        {
-          "cut": "P02-OUTRO-C01",
-          "id": "p2_0afffc9912",
-          "image": "p2-diagram-804a79e24e7e42",
-          "w": 38,
-          "h": 38.0,
-          "count": 1,
-          "printSpecId": "PS-6bf9838ffb38",
-          "paperFragmentOf": null
-        }
-      ],
-      "status": "가공 필요",
-      "audit": {
-        "canonicalKey": "props|「完」마무리",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
-        "reuse": "없음",
-        "psbStatus": "일부 준비",
-        "layerIds": [],
-        "layerPaths": [],
-        "requiredQty": 1,
-        "evidence": "뷰어 도안/구성은 있으나 PSB 완성 레이어 미확인",
-        "sizeReview": "",
-        "psbPreview": null
-      },
-      "layerIds": [],
-      "alreadyPrintedPart1": false,
-      "action": "선택 문구 출력",
-      "note": "2부 단독본 전용 完 문구는 PSB에 없음. 통합본만 촬영하면 별도 출력 불필요.",
-      "layerPaths": [],
-      "requiredQty": 1,
-      "images": [
-        "p2-diagram-804a79e24e7e42"
-      ],
-      "availableCopies": 0,
-      "psbLayerNames": [],
-      "missingRequiredPrint": false,
-      "missingText": false,
-      "deferred": false,
-      "previewKind": "등록 원본 · PSB 미배치"
-    },
-    {
       "key": "background|네코저택내부낮",
       "category": "background",
       "id": "BG-P03-S01-C01-01",
@@ -7630,18 +8124,21 @@
         "canonicalKey": "background|네코저택내부낮",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          11
-        ],
-        "layerPaths": [
-          "/01_배경/1부/BG-P03-S01-C01-01_네코저택 내부 낮"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "PSB /01_배경/1부/BG-P03-S01-C01-01",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -7687,20 +8184,21 @@
         "canonicalKey": "people|주군_고향-손확대",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4261,
-          470
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부/CHA001-01_주군",
-          "/02_캐릭터/1부/CHA001-01_주군 분절"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 주군 분절 PSD 및 출력물",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -7746,18 +8244,21 @@
         "canonicalKey": "people|쥬리_고향",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -7801,20 +8302,27 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|「マジカル☆シノビ」각본집",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
-        "reuse": "재가공",
-        "psbStatus": "미배치",
+        "action": "본문 가공 필요",
+        "label": "본문 가공 필요",
+        "reuse": "없음",
+        "psbStatus": "본문 가공 필요",
         "layerIds": [
           4912
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/PR-P03-S01-C01-01_Countdown_Book"
+          "/03_소품/출력시트_PR03_PR011·PR-DIARY-PAGES_일기/PR011_일본어_일기_어제와오늘_속지포함"
         ],
         "requiredQty": 1,
-        "evidence": "PSB는 빈 책 바탕이며 완성 SVG는 Office 전달본에 있음",
+        "evidence": "PSB 4912의 빈 책 바탕은 있으나 マジカル☆シノビ 제목·배역 본문은 없음. 에필로그용 문구를 인쇄·부착하거나 손글씨로 가공.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4912",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": true,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4912
@@ -7870,16 +8378,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|아침밥인서트",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "미배치",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5127
+        ],
+        "layerPaths": [
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR066_아침밥_인서트"
+        ],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5127",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5127
@@ -7921,18 +8440,21 @@
         "canonicalKey": "background|네코저택외부낮",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          10
-        ],
-        "layerPaths": [
-          "/01_배경/1부/BG-P01-S01-C01-01_네코저택 외부 낮"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -7989,18 +8511,21 @@
         "canonicalKey": "people|치코_고향",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -8044,20 +8569,27 @@
       "status": "가공 필요",
       "audit": {
         "canonicalKey": "props|고향일기_이유불명",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
-        "reuse": "재가공",
-        "psbStatus": "미배치",
+        "action": "본문 가공 필요",
+        "label": "본문 가공 필요",
+        "reuse": "없음",
+        "psbStatus": "본문 가공 필요",
         "layerIds": [
           4912
         ],
         "layerPaths": [
-          "/2부 · 가공 필요 73종/03_소품/Group 9/PR-P03-S01-C01-01_Countdown_Book"
+          "/03_소품/출력시트_PR03_PR011·PR-DIARY-PAGES_일기/PR011_일본어_일기_어제와오늘_속지포함"
         ],
         "requiredQty": 1,
-        "evidence": "PSB는 빈 책 바탕이며 완성 SVG는 Office 전달본에 있음",
+        "evidence": "PSB 4912의 빈 책 바탕은 있으나 主君・ジュリ・理由不明 본문은 없음. 에필로그용 본문을 인쇄·부착하거나 손글씨로 가공.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-4912",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": true,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         4912
@@ -8102,16 +8634,23 @@
       "status": "완료",
       "audit": {
         "canonicalKey": "background|아야메의담장과꽃밭",
-        "action": "가공·규격 확인",
-        "label": "가공·규격 확인",
+        "action": "1부 재활용",
+        "label": "1부 재활용",
         "reuse": "없음",
-        "psbStatus": "일부 준비",
+        "psbStatus": "1부 재활용",
         "layerIds": [],
         "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "뷰어 도안/구성은 있으나 PSB 완성 레이어 미확인",
+        "evidence": "현재 배치도는 1부 네코저택 외부 낮 그림(png-BG01)을 그대로 사용. 기존 출력 배경판으로 촬영하며 별도 새 배경 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [],
       "alreadyPrintedPart1": false,
@@ -8157,18 +8696,21 @@
         "canonicalKey": "people|아야메_고향",
         "action": "1부 재활용",
         "label": "1부 재활용",
-        "reuse": "재활용",
-        "psbStatus": "1부 레이어 확인",
-        "layerIds": [
-          4760
-        ],
-        "layerPaths": [
-          "/02_캐릭터/1부"
-        ],
+        "reuse": "1부 기출력",
+        "psbStatus": "1부 재활용",
+        "layerIds": [],
+        "layerPaths": [],
         "requiredQty": 1,
-        "evidence": "1부 사용 컷 및 PSB 1부 출력 그룹",
+        "evidence": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": null,
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": true
       },
       "layerIds": [],
       "alreadyPrintedPart1": true,
@@ -8212,16 +8754,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|빵",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "미배치",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5128
+        ],
+        "layerPaths": [
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR070_빵"
+        ],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5128",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5128
@@ -8271,16 +8824,27 @@
       "status": "출력 필요",
       "audit": {
         "canonicalKey": "props|온전한붓꽃",
-        "action": "추가 배치",
-        "label": "PSB 추가 배치",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
         "reuse": "없음",
-        "psbStatus": "미배치",
-        "layerIds": [],
-        "layerPaths": [],
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5129
+        ],
+        "layerPaths": [
+          "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR071_온전한_붓꽃"
+        ],
         "requiredQty": 1,
-        "evidence": "원본 파일 또는 전달본은 확보, PSB 대응 레이어 미확인",
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
         "sizeReview": "",
-        "psbPreview": null
+        "psbPreview": "psb26-layer-5129",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
       },
       "layerIds": [
         5129
@@ -8315,7 +8879,30 @@
         "props|엔마루윤회고리이펙트"
       ],
       "status": "출력 필요",
-      "audit": null,
+      "audit": {
+        "canonicalKey": "props|엔마루윤회고리이펙트",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5138
+        ],
+        "layerPaths": [
+          "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게/FX-REV-RING_엔마루_윤회고리_이펙트"
+        ],
+        "requiredQty": 1,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인. 현재 컷 지정 밖의 PSB 추가 에셋으로 준비물 목록에 등록.",
+        "sizeReview": "",
+        "psbPreview": "psb26-layer-5138",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
+      },
       "extra": true,
       "layerIds": [
         5138
@@ -8350,7 +8937,30 @@
         "background|2부도시지도전체_04챕터"
       ],
       "status": "출력 필요",
-      "audit": null,
+      "audit": {
+        "canonicalKey": "background|2부도시지도전체_04챕터",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          5144
+        ],
+        "layerPaths": [
+          "/01_배경/BG-P2-CITY-MAP-04_2부_도시_지도_전체_04챕터"
+        ],
+        "requiredQty": 1,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인. 현재 컷 지정 밖의 PSB 추가 에셋으로 준비물 목록에 등록.",
+        "sizeReview": "",
+        "psbPreview": "psb26-layer-5144",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
+      },
       "extra": true,
       "layerIds": [
         5144
@@ -8385,7 +8995,30 @@
         "background|해방된결계코어"
       ],
       "status": "출력 필요",
-      "audit": null,
+      "audit": {
+        "canonicalKey": "background|해방된결계코어",
+        "action": "PSB 배치됨",
+        "label": "PSB 배치됨",
+        "reuse": "없음",
+        "psbStatus": "PSB 배치됨",
+        "layerIds": [
+          4860
+        ],
+        "layerPaths": [
+          "/01_배경/BG-P02-S26-C01-01_해방된_결계_코어"
+        ],
+        "requiredQty": 1,
+        "evidence": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인. 현재 컷 지정 밖의 PSB 추가 에셋으로 준비물 목록에 등록.",
+        "sizeReview": "",
+        "psbPreview": "psb26-layer-4860",
+        "checkedAt": "2026-11-23",
+        "sourceDocumentId": 64,
+        "sourcePath": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
+        "missingRequiredPrint": false,
+        "missingText": false,
+        "deferred": false,
+        "alreadyPrintedPart1": false
+      },
       "extra": true,
       "layerIds": [
         4860
@@ -8818,6 +9451,114 @@
       "before": "2NDCHAGroup_01_레오나 세나 라르므",
       "after": "출력시트_CHA01_세나·라르므·흰실루엣",
       "pathBefore": "/02_캐릭터/2NDCHAGroup_01_레오나 세나 라르므"
+    }
+  ],
+  "excludedRows": [
+    {
+      "key": "props|「第2部」표지",
+      "category": "props",
+      "id": "PR076",
+      "name": "「第2部」 표지",
+      "aliases": [
+        "props|「第2部」표지"
+      ],
+      "cuts": [
+        "P02-INTRO-C01"
+      ],
+      "elements": [
+        {
+          "cut": "P02-INTRO-C01",
+          "id": "p2_470f04e033",
+          "image": "p2-diagram-09ab83e7df907b",
+          "w": 38,
+          "h": 38.0,
+          "count": 1,
+          "printSpecId": "PS-8df868501128",
+          "paperFragmentOf": null
+        }
+      ],
+      "status": "가공 필요",
+      "audit": {
+        "canonicalKey": "props|「第2部」표지",
+        "action": "가공·규격 확인",
+        "label": "가공·규격 확인",
+        "reuse": "없음",
+        "psbStatus": "일부 준비",
+        "layerIds": [],
+        "layerPaths": [],
+        "requiredQty": 1,
+        "evidence": "뷰어 도안/구성은 있으나 PSB 완성 레이어 미확인",
+        "sizeReview": "",
+        "psbPreview": null
+      },
+      "layerIds": [],
+      "alreadyPrintedPart1": false,
+      "action": "선택 문구 출력",
+      "note": "2부 단독본 전용 第2部 문구는 PSB에 없음. 통합본만 촬영하면 별도 출력 불필요.",
+      "layerPaths": [],
+      "requiredQty": 1,
+      "images": [
+        "p2-diagram-09ab83e7df907b"
+      ],
+      "availableCopies": 0,
+      "psbLayerNames": [],
+      "missingRequiredPrint": false,
+      "missingText": false,
+      "deferred": false,
+      "previewKind": "등록 원본 · PSB 미배치"
+    },
+    {
+      "key": "props|「完」마무리",
+      "category": "props",
+      "id": "PR077",
+      "name": "「完」 마무리",
+      "aliases": [
+        "props|「完」마무리"
+      ],
+      "cuts": [
+        "P02-OUTRO-C01"
+      ],
+      "elements": [
+        {
+          "cut": "P02-OUTRO-C01",
+          "id": "p2_0afffc9912",
+          "image": "p2-diagram-804a79e24e7e42",
+          "w": 38,
+          "h": 38.0,
+          "count": 1,
+          "printSpecId": "PS-6bf9838ffb38",
+          "paperFragmentOf": null
+        }
+      ],
+      "status": "가공 필요",
+      "audit": {
+        "canonicalKey": "props|「完」마무리",
+        "action": "가공·규격 확인",
+        "label": "가공·규격 확인",
+        "reuse": "없음",
+        "psbStatus": "일부 준비",
+        "layerIds": [],
+        "layerPaths": [],
+        "requiredQty": 1,
+        "evidence": "뷰어 도안/구성은 있으나 PSB 완성 레이어 미확인",
+        "sizeReview": "",
+        "psbPreview": null
+      },
+      "layerIds": [],
+      "alreadyPrintedPart1": false,
+      "action": "선택 문구 출력",
+      "note": "2부 단독본 전용 完 문구는 PSB에 없음. 통합본만 촬영하면 별도 출력 불필요.",
+      "layerPaths": [],
+      "requiredQty": 1,
+      "images": [
+        "p2-diagram-804a79e24e7e42"
+      ],
+      "availableCopies": 0,
+      "psbLayerNames": [],
+      "missingRequiredPrint": false,
+      "missingText": false,
+      "deferred": false,
+      "previewKind": "등록 원본 · PSB 미배치"
     }
   ]
 }
