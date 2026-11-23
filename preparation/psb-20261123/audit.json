@@ -12,14 +12,14 @@
       "modified": "Mon Nov 23 2026 21:49:36 GMT+0900",
       "path": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb"
     },
-    "checkedRows": 101,
+    "checkedRows": 100,
     "psbAssetLayers": 68,
     "outerLayerRenames": 68,
     "nestedLayerRenames": 44,
     "counts": {
       "가공 필요": 4,
-      "완료": 36,
-      "출력 필요": 61
+      "완료": 37,
+      "출력 필요": 59
     },
     "requiredPrintGaps": [
       "props|씨앗",
@@ -56,15 +56,47 @@
   },
   "rows": [
     {
-      "key": "background|공식결계골목",
+      "key": "background|시계탑상공_최종결계",
       "category": "background",
-      "name": "공식 결계 골목",
-      "id": "BG-P02-S01-C01-01",
+      "name": "시계탑 상공_최종 결계",
+      "id": "BG-P02-S12-C02",
       "cuts": [
-        "P02-S01-C01"
+        "P02-S00-C01",
+        "P02-S12-C02",
+        "P02-S18-C02"
       ],
       "images": [
-        "official-BackAlley_Apparition_2-2"
+        "ending-psb-5161"
+      ],
+      "status": "출력 필요",
+      "note": "사용자가 이름을 바꾼 최종 결계 배경. S12 C02의 결계 완성에 사용.",
+      "layerIds": [
+        5161
+      ],
+      "layerPaths": [
+        "/01_배경/BG-P02-S12-C02_시계탑_상공_최종_결계"
+      ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "background|버려진성당내부",
+      "category": "background",
+      "name": "버려진 성당내부",
+      "id": "BG-P01-S11-C01-01",
+      "cuts": [
+        "P02-S00-C02",
+        "P02-S05-C01",
+        "P02-S06-C01",
+        "P02-S06-C02",
+        "P02-S06-C03",
+        "P02-S06-C04",
+        "P02-S06-C05",
+        "P02-S15-C04",
+        "P02-S16-C02"
+      ],
+      "images": [
+        "png-BG16"
       ],
       "status": "완료",
       "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
@@ -79,6 +111,7 @@
       "name": "치코링_각성전",
       "id": "CHA002-03",
       "cuts": [
+        "P02-S00-C02",
         "P02-S01-C01",
         "P02-S03-C01",
         "P02-S03-C03",
@@ -88,8 +121,9 @@
         "P02-S05-C01",
         "P02-S06-C03",
         "P02-S06-C05",
-        "P02-S11-C01",
-        "P02-S13-C01",
+        "P02-S11-C02",
+        "P02-S13-C04",
+        "P02-S13-C06",
         "P02-S15-C01",
         "P02-S15-C02",
         "P02-S15-C03",
@@ -117,6 +151,143 @@
         "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA002-03_치코링_각성전_일체형",
         "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA002-03_치코링_각성전_분절형"
       ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "people|에글랑틴_마녀",
+      "category": "people",
+      "name": "에글랑틴_마녀",
+      "id": "CHB002-03",
+      "cuts": [
+        "P02-S00-C02",
+        "P02-S05-C01",
+        "P02-S06-C01",
+        "P02-S06-C03",
+        "P02-S06-C05"
+      ],
+      "images": [
+        "png-CHB002-03"
+      ],
+      "status": "완료",
+      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "background|도시전체결계",
+      "category": "background",
+      "name": "도시 전체 결계",
+      "id": "BG-P02-S12-C01-01-REV",
+      "cuts": [
+        "P02-S00-C03",
+        "P02-S00-C04",
+        "P02-S13-C01",
+        "P02-S13-C02",
+        "P02-S13-C03",
+        "P02-S13-C04",
+        "P02-S13-C05",
+        "P02-S13-C06"
+      ],
+      "images": [
+        "psb26-layer-4864"
+      ],
+      "status": "출력 필요",
+      "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
+      "layerIds": [
+        4864
+      ],
+      "layerPaths": [
+        "/01_배경/BG-P02-S12-C01-01-REV_공식_시계탑_상공_최종_결계"
+      ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "people|료_학생",
+      "category": "people",
+      "name": "료_학생",
+      "id": "CHA015-02",
+      "cuts": [
+        "P02-S00-C03",
+        "P02-S13-C01"
+      ],
+      "images": [
+        "png-CHA015-02"
+      ],
+      "status": "완료",
+      "note": "1부에서 촬영한 CHA015-02 료 교복 출력물을 2부 하이라이트와 총력전 통신 인서트에 재사용한다. 별도의 무전기·중계기 소품은 추가하지 않는다.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "people|쿠로코_목수",
+      "category": "people",
+      "name": "쿠로코_목수",
+      "id": "CHA010-02",
+      "cuts": [
+        "P02-S00-C04",
+        "P02-S10-C01",
+        "P02-S13-C05",
+        "P02-S13-C06",
+        "P02-S21-C04",
+        "P02-S27-C02"
+      ],
+      "images": [
+        "png-CHA010-02"
+      ],
+      "status": "완료",
+      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "props|목제이동방벽",
+      "category": "props",
+      "name": "목제 이동 방벽",
+      "id": "FX-EARTH-WALL",
+      "cuts": [
+        "P02-S00-C04",
+        "P02-S13-C05",
+        "P02-S13-C06"
+      ],
+      "images": [
+        "psb26-layer-5011"
+      ],
+      "status": "출력 필요",
+      "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
+      "layerIds": [
+        5011,
+        5012
+      ],
+      "layerPaths": [
+        "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/FX-EARTH-WALL_목제_이동_방벽_01",
+        "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/FX-EARTH-WALL_목제_이동_방벽_02"
+      ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "background|공식결계골목",
+      "category": "background",
+      "name": "공식 결계 골목",
+      "id": "BG-P02-S01-C01-01",
+      "cuts": [
+        "P02-S01-C01"
+      ],
+      "images": [
+        "official-BackAlley_Apparition_2-2"
+      ],
+      "status": "완료",
+      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+      "layerIds": [],
+      "layerPaths": [],
       "requiredQty": 1,
       "missingRequiredPrint": false
     },
@@ -154,7 +325,7 @@
         "P02-S04-C04",
         "P02-S08-C01",
         "P02-S10-C01",
-        "P02-S13-C01",
+        "P02-S13-C06",
         "P02-S19-C02",
         "P02-S21-C02",
         "P02-S21-C05",
@@ -435,31 +606,6 @@
       "missingRequiredPrint": false
     },
     {
-      "key": "background|버려진성당내부",
-      "category": "background",
-      "name": "버려진 성당내부",
-      "id": "BG-P01-S11-C01-01",
-      "cuts": [
-        "P02-S05-C01",
-        "P02-S06-C01",
-        "P02-S06-C02",
-        "P02-S06-C03",
-        "P02-S06-C04",
-        "P02-S06-C05",
-        "P02-S15-C04",
-        "P02-S16-C02"
-      ],
-      "images": [
-        "png-BG16"
-      ],
-      "status": "완료",
-      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
-      "layerIds": [],
-      "layerPaths": [],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
       "key": "people|히땅_마법소녀",
       "category": "people",
       "name": "히땅_마법소녀",
@@ -468,8 +614,9 @@
         "P02-S05-C01",
         "P02-S06-C03",
         "P02-S06-C05",
-        "P02-S11-C01",
-        "P02-S13-C01",
+        "P02-S11-C02",
+        "P02-S13-C03",
+        "P02-S13-C06",
         "P02-S21-C01",
         "P02-S21-C03",
         "P02-S21-C04",
@@ -487,27 +634,6 @@
       "layerPaths": [
         "/02_캐릭터/출력시트_CHA02_치코링2장·히땅·레오나·황혼빛아이/CHA003-03_히땅_마법소녀"
       ],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "people|에글랑틴_마녀",
-      "category": "people",
-      "name": "에글랑틴_마녀",
-      "id": "CHB002-03",
-      "cuts": [
-        "P02-S05-C01",
-        "P02-S06-C01",
-        "P02-S06-C03",
-        "P02-S06-C05"
-      ],
-      "images": [
-        "png-CHB002-03"
-      ],
-      "status": "완료",
-      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
-      "layerIds": [],
-      "layerPaths": [],
       "requiredQty": 1,
       "missingRequiredPrint": false
     },
@@ -561,9 +687,7 @@
       "id": "CHC001-05",
       "cuts": [
         "P02-S06-C01",
-        "P02-S06-C02",
-        "P02-S14-C01",
-        "P02-S17-C01"
+        "P02-S06-C02"
       ],
       "images": [
         "citizen-4part-01"
@@ -582,9 +706,7 @@
       "id": "CHC001-06",
       "cuts": [
         "P02-S06-C01",
-        "P02-S06-C02",
-        "P02-S14-C01",
-        "P02-S17-C01"
+        "P02-S06-C02"
       ],
       "images": [
         "citizen-4part-02"
@@ -603,9 +725,7 @@
       "id": "CHC001-07",
       "cuts": [
         "P02-S06-C01",
-        "P02-S06-C02",
-        "P02-S14-C01",
-        "P02-S17-C01"
+        "P02-S06-C02"
       ],
       "images": [
         "citizen-4part-03"
@@ -624,9 +744,7 @@
       "id": "CHC001-08",
       "cuts": [
         "P02-S06-C01",
-        "P02-S06-C02",
-        "P02-S14-C01",
-        "P02-S17-C01"
+        "P02-S06-C02"
       ],
       "images": [
         "citizen-4part-04"
@@ -879,7 +997,7 @@
         "P02-S09-C01",
         "P02-S10-C01",
         "P02-S10-C03",
-        "P02-S11-C01",
+        "P02-S11-C02",
         "P02-S19-C01",
         "P02-S19-C04"
       ],
@@ -906,7 +1024,7 @@
         "P02-S09-C01",
         "P02-S10-C01",
         "P02-S10-C03",
-        "P02-S11-C01",
+        "P02-S11-C02",
         "P02-S19-C01",
         "P02-S19-C04"
       ],
@@ -933,7 +1051,7 @@
         "P02-S09-C01",
         "P02-S10-C01",
         "P02-S10-C03",
-        "P02-S11-C01",
+        "P02-S11-C02",
         "P02-S19-C01",
         "P02-S19-C04"
       ],
@@ -961,7 +1079,7 @@
         "P02-S09-C01",
         "P02-S10-C01",
         "P02-S10-C03",
-        "P02-S11-C01",
+        "P02-S11-C02",
         "P02-S19-C01",
         "P02-S19-C04"
       ],
@@ -988,7 +1106,7 @@
         "P02-S09-C01",
         "P02-S10-C01",
         "P02-S10-C03",
-        "P02-S11-C01",
+        "P02-S11-C02",
         "P02-S19-C01",
         "P02-S19-C04"
       ],
@@ -1015,7 +1133,7 @@
         "P02-S09-C01",
         "P02-S10-C01",
         "P02-S10-C03",
-        "P02-S11-C01",
+        "P02-S11-C02",
         "P02-S19-C01",
         "P02-S19-C04"
       ],
@@ -1042,32 +1160,12 @@
         "P02-S10-C01",
         "P02-S10-C02",
         "P02-S11-C01",
+        "P02-S11-C02",
         "P02-S21-C04",
         "P02-S27-C02"
       ],
       "images": [
         "png-BG13"
-      ],
-      "status": "완료",
-      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
-      "layerIds": [],
-      "layerPaths": [],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "people|쿠로코_목수",
-      "category": "people",
-      "name": "쿠로코_목수",
-      "id": "CHA010-02",
-      "cuts": [
-        "P02-S10-C01",
-        "P02-S13-C01",
-        "P02-S21-C04",
-        "P02-S27-C02"
-      ],
-      "images": [
-        "png-CHA010-02"
       ],
       "status": "완료",
       "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
@@ -1172,13 +1270,56 @@
       "missingRequiredPrint": false
     },
     {
+      "key": "people|네네링_마법소녀",
+      "category": "people",
+      "name": "네네링_마법소녀",
+      "id": "CHA006-03",
+      "cuts": [
+        "P02-S11-C01",
+        "P02-S13-C03",
+        "P02-S21-C01",
+        "P02-S21-C04",
+        "P02-S22-C01",
+        "P02-S27-C02"
+      ],
+      "images": [
+        "png-CHA006-03"
+      ],
+      "status": "완료",
+      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "people|쥬리땅_마법소녀",
+      "category": "people",
+      "name": "쥬리땅_마법소녀",
+      "id": "CHA005-03",
+      "cuts": [
+        "P02-S11-C01"
+      ],
+      "images": [
+        "png-CHA005-03",
+        "png-JURI-CLOSE"
+      ],
+      "status": "완료",
+      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
       "key": "people|레오나_마법소녀",
       "category": "people",
       "name": "레오나_마법소녀",
       "id": "CHA004-03",
       "cuts": [
-        "P02-S11-C01",
-        "P02-S13-C01",
+        "P02-S11-C02",
+        "P02-S13-C02",
+        "P02-S13-C06",
         "P02-S21-C01",
         "P02-S21-C02",
         "P02-S21-C04",
@@ -1207,7 +1348,8 @@
       "name": "엔마_마법소녀",
       "id": "CHA014-03",
       "cuts": [
-        "P02-S11-C01",
+        "P02-S11-C02",
+        "P02-S13-C04",
         "P02-S21-C04",
         "P02-S22-C01",
         "P02-S27-C02"
@@ -1287,141 +1429,6 @@
       ],
       "layerPaths": [
         "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/NP027_뮤게_마녀_이름표_출력묶음/NP027_「造花の魔女」ミュゲ・シエル_이름표"
-      ],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "background|시계탑상공_최종결계",
-      "category": "background",
-      "name": "시계탑 상공_최종 결계",
-      "id": "BG-P02-S12-C02",
-      "cuts": [
-        "P02-S12-C02",
-        "P02-S18-C02"
-      ],
-      "images": [
-        "ending-psb-5161"
-      ],
-      "status": "출력 필요",
-      "note": "사용자가 이름을 바꾼 최종 결계 배경. S12 C02의 결계 완성에 사용.",
-      "layerIds": [
-        5161
-      ],
-      "layerPaths": [
-        "/01_배경/BG-P02-S12-C02_시계탑_상공_최종_결계"
-      ],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "background|도시전체결계",
-      "category": "background",
-      "name": "도시 전체 결계",
-      "id": "BG-P02-S12-C01-01-REV",
-      "cuts": [
-        "P02-S13-C01"
-      ],
-      "images": [
-        "psb26-layer-4864"
-      ],
-      "status": "출력 필요",
-      "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
-      "layerIds": [
-        4864
-      ],
-      "layerPaths": [
-        "/01_배경/BG-P02-S12-C01-01-REV_공식_시계탑_상공_최종_결계"
-      ],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "props|목제이동방벽",
-      "category": "props",
-      "name": "목제 이동 방벽",
-      "id": "FX-EARTH-WALL",
-      "cuts": [
-        "P02-S13-C01"
-      ],
-      "images": [
-        "psb26-layer-5011"
-      ],
-      "status": "출력 필요",
-      "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
-      "layerIds": [
-        5011,
-        5012
-      ],
-      "layerPaths": [
-        "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/FX-EARTH-WALL_목제_이동_방벽_01",
-        "/03_소품/출력시트_PR02_가시줄기·목제방벽·만개꽃·시든꽃/FX-EARTH-WALL_목제_이동_방벽_02"
-      ],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "background|공식시계탑결계_대피전재사용",
-      "category": "background",
-      "name": "공식 시계탑 결계_대피전 재사용",
-      "id": "BG-P02-S12-C01-01-REV",
-      "cuts": [
-        "P02-S14-C01",
-        "P02-S17-C01"
-      ],
-      "images": [
-        "psb26-layer-4864"
-      ],
-      "status": "출력 필요",
-      "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
-      "layerIds": [
-        4864
-      ],
-      "layerPaths": [
-        "/01_배경/BG-P02-S12-C01-01-REV_공식_시계탑_상공_최종_결계"
-      ],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "people|쥬리땅_마법소녀",
-      "category": "people",
-      "name": "쥬리땅_마법소녀",
-      "id": "CHA005-03",
-      "cuts": [
-        "P02-S14-C01",
-        "P02-S17-C01"
-      ],
-      "images": [
-        "png-CHA005-03",
-        "png-JURI-CLOSE"
-      ],
-      "status": "완료",
-      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
-      "layerIds": [],
-      "layerPaths": [],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "props|확성기",
-      "category": "props",
-      "name": "확성기",
-      "id": "PR042",
-      "cuts": [
-        "P02-S14-C01",
-        "P02-S17-C01"
-      ],
-      "images": [
-        "psb26-layer-4799"
-      ],
-      "status": "출력 필요",
-      "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
-      "layerIds": [
-        4799
-      ],
-      "layerPaths": [
-        "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR042_확성기"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1671,27 +1678,6 @@
         "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR-SEED-GLASS_씨앗_하나를_가둔_검은_유리구슬_06"
       ],
       "requiredQty": 5,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "people|네네링_마법소녀",
-      "category": "people",
-      "name": "네네링_마법소녀",
-      "id": "CHA006-03",
-      "cuts": [
-        "P02-S21-C01",
-        "P02-S21-C04",
-        "P02-S22-C01",
-        "P02-S27-C02"
-      ],
-      "images": [
-        "png-CHA006-03"
-      ],
-      "status": "완료",
-      "note": "1부에서 이미 출력한 실물 재사용. 2부 PSB에 없어도 누락으로 계산하지 않음.",
-      "layerIds": [],
-      "layerPaths": [],
-      "requiredQty": 1,
       "missingRequiredPrint": false
     },
     {
