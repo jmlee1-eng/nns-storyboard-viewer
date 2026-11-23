@@ -36,9 +36,13 @@ function mpCompiled(c) {
     if (q.op === 'fade') {to.opacity=q.toOpacity??0;to.vanish=1-to.opacity;}
     let otherFrom=null,otherTo=null,revealTo=null;
     if(q.op==='tear'){
+      // A traveling intact sheet becomes two visible fragments at the tear cue.
+      if(q.leftImage){from.image=q.leftImage;to.image=q.leftImage;}
       to.x+=q.dx||-6;to.angle=-7;
       if(q.otherTarget&&poses.has(q.otherTarget)){
-        otherFrom={...poses.get(q.otherTarget)};otherTo={...otherFrom,x:otherFrom.x+(q.otherDx||6),angle:7};
+        otherFrom={...poses.get(q.otherTarget)};
+        if(q.revealOther)otherFrom.opacity=1;
+        otherTo={...otherFrom,x:otherFrom.x+(q.otherDx||6),angle:7};
         poses.set(q.otherTarget,{...otherTo});
       }
     }
