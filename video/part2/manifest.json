@@ -42,7 +42,7 @@
       "title": "세나가 기억하는 동료",
       "start": 76.58333333333334,
       "end": 152.375,
-      "file": "scenes/P02-S03.mp4",
+      "file": "scenes/P02-S03.mp4?v=power-release-20261124-final",
       "audio": {
         "kr": "scenes/P02-S03_kr.m4a",
         "jp": "scenes/P02-S03_jp.m4a"
@@ -75,7 +75,7 @@
       "title": "에글랑틴의 작별과 벨의 마지막 방송",
       "start": 307.58333333333337,
       "end": 489.5,
-      "file": "scenes/P02-S06.mp4",
+      "file": "scenes/P02-S06.mp4?v=power-release-20261124-final",
       "audio": {
         "kr": "scenes/P02-S06_kr.m4a",
         "jp": "scenes/P02-S06_jp.m4a"
@@ -163,7 +163,7 @@
       "title": "코어의 문을 넘어 이리스에게",
       "start": 853.0833333333333,
       "end": 1030.6666666666665,
-      "file": "scenes/P02-S15.mp4",
+      "file": "scenes/P02-S15.mp4?v=power-release-20261124-final",
       "audio": {
         "kr": "scenes/P02-S15_kr.m4a",
         "jp": "scenes/P02-S15_jp.m4a"
@@ -185,7 +185,7 @@
       "title": "내일의 나를 보고 싶다",
       "start": 1057.9583333333333,
       "end": 1089.5,
-      "file": "scenes/P02-S18.mp4",
+      "file": "scenes/P02-S18.mp4?v=power-release-20261124-final",
       "audio": {
         "kr": "scenes/P02-S18_kr.m4a",
         "jp": "scenes/P02-S18_jp.m4a"
@@ -196,7 +196,7 @@
       "title": "되찾은 해약 조항",
       "start": 1089.5,
       "end": 1186.0,
-      "file": "scenes/P02-S19.mp4",
+      "file": "scenes/P02-S19.mp4?v=power-release-20261124-final",
       "audio": {
         "kr": "scenes/P02-S19_kr.m4a",
         "jp": "scenes/P02-S19_jp.m4a"
@@ -207,7 +207,7 @@
       "title": "마지막 줄을 찢은 라르므",
       "start": 1186.0,
       "end": 1286.3749999999998,
-      "file": "scenes/P02-S20.mp4",
+      "file": "scenes/P02-S20.mp4?v=power-release-20261124-final",
       "audio": {
         "kr": "scenes/P02-S20_kr.m4a",
         "jp": "scenes/P02-S20_jp.m4a"
@@ -240,10 +240,10 @@
       "title": "소녀들과 뮤게가 놓는 것",
       "start": 1502.4166666666663,
       "end": 1558.333333333333,
-      "file": "scenes/P02-S23.mp4",
+      "file": "scenes/P02-S23.mp4?v=power-release-20261124-final",
       "audio": {
-        "kr": "scenes/P02-S23_kr.m4a",
-        "jp": "scenes/P02-S23_jp.m4a"
+        "kr": "scenes/P02-S23_kr.m4a?v=power-release-20261124-final",
+        "jp": "scenes/P02-S23_jp.m4a?v=power-release-20261124-final"
       }
     },
     {
@@ -273,10 +273,10 @@
       "title": "문이 있는 정원",
       "start": 1605.208333333333,
       "end": 1639.9166666666663,
-      "file": "scenes/P02-S26.mp4",
+      "file": "scenes/P02-S26.mp4?v=power-release-20261124-final",
       "audio": {
-        "kr": "scenes/P02-S26_kr.m4a",
-        "jp": "scenes/P02-S26_jp.m4a"
+        "kr": "scenes/P02-S26_kr.m4a?v=power-release-20261124-final",
+        "jp": "scenes/P02-S26_jp.m4a?v=power-release-20261124-final"
       }
     },
     {
@@ -295,5 +295,6 @@
     "kr": "SunHi",
     "jp": "Nanami"
   },
-  "audioPolicy": "KR/JP 행별 긴 쪽에 맞춤; 미리보기용 합성 나레이션"
+  "audioPolicy": "KR/JP 행별 긴 쪽에 맞춤; 미리보기용 합성 나레이션",
+  "mediaRevision": "power-release-20261124-final"
 }
