@@ -4,23 +4,23 @@
     "document": {
       "id": 64,
       "name": "A3 사이즈 출력 정리_2부.psb",
-      "path": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
       "saved": true,
+      "path": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb",
       "width": 4961,
       "height": 3508,
       "ppi": 300,
-      "bytes": 2381393785,
-      "modified": "Tue Nov 24 2026 11:23:08 GMT+0900"
+      "activeLayerId": 4926,
+      "bytes": 2374997572
     },
-    "checkedRows": 108,
-    "psbAssetLayers": 72,
+    "checkedRows": 112,
+    "psbAssetLayers": 76,
     "outerLayerRenames": 68,
     "nestedLayerRenames": 44,
     "counts": {
       "가공 필요": 4,
       "완료": 38,
       "촬영 완료": 1,
-      "출력 필요": 65
+      "출력 필요": 69
     },
     "requiredPrintGaps": [],
     "requiredTextWork": [],
@@ -41,7 +41,7 @@
         "basis": "PSB 실제 에셋 확인 후 기존 캐릭터 번호·상태 체계로 할당"
       }
     ],
-    "note": "현재 PSB 레이어 확인. 추가 8종은 A3 한 장에 배치. 1부 기존 출력물은 재사용.",
+    "note": "현재 PSB 레이어·대본·화면 구성·영상용 준비물을 대조. 모브 앞뒤 2종, 씨앗 1개, 마법소녀 6명의 힘 회수와 뮤게 효과 반영.",
     "excludedFromPrinting": [
       "props|「完」마무리",
       "props|「第2部」표지"
@@ -51,7 +51,7 @@
       "출력 필요": 54,
       "가공 필요": 15
     },
-    "checkedAt": "2026-11-24T02:28:15.956901+00:00",
+    "checkedAt": "2026-11-24T03:47:15.538894+00:00",
     "addedLayerIds": [
       5252,
       5253,
@@ -140,7 +140,6 @@
         "P02-S15-C05",
         "P02-S18-C01",
         "P02-S19-C02",
-        "P02-S19-C03",
         "P02-S21-C02",
         "P02-S21-C04",
         "P02-S22-C01",
@@ -210,7 +209,7 @@
         4864
       ],
       "layerPaths": [
-        "/01_배경/BG-P02-S12-C01-01-REV_공식_시계탑_상공_최종_결계"
+        "/01_배경/BG-P02-S12-C01_시계탑_상공_황혼빛"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -307,8 +306,7 @@
       "name": "유령불",
       "id": "FX008",
       "cuts": [
-        "P02-S01-C01",
-        "P02-S19-C03"
+        "P02-S01-C01"
       ],
       "images": [
         "png-FX008",
@@ -476,7 +474,7 @@
         4926
       ],
       "layerPaths": [
-        "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHB001-03_이리스_마녀_슬픈미소"
+        "/02_캐릭터/출력시트_CHA03_이리스·모브/CHB001-03_이리스_마녀_슬픈미소"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -498,7 +496,7 @@
         4930
       ],
       "layerPaths": [
-        "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHB001-02_이리스_흑화전"
+        "/02_캐릭터/출력시트_CHA03_이리스·모브/CHB001-02_이리스_흑화전"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -514,7 +512,7 @@
         "P02-S18-C03"
       ],
       "images": [
-        "ending-psb-4937"
+        "power26-CHC004-05-current"
       ],
       "status": "출력 필요",
       "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
@@ -522,7 +520,7 @@
         4937
       ],
       "layerPaths": [
-        "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHC004-05_평범한_자세의_얼굴_없는_모브_동료_묶음"
+        "/02_캐릭터/출력시트_CHA03_이리스·모브/CHC004-05_평범한_자세의_얼굴_없는_모브_동료_묶음"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -631,6 +629,7 @@
         "P02-S21-C03",
         "P02-S21-C04",
         "P02-S22-C01",
+        "P02-S23-C01",
         "P02-S27-C02"
       ],
       "images": [
@@ -870,7 +869,7 @@
         5252
       ],
       "layerPaths": [
-        "/05_추가준비물_20261124_출력시트_ADD01/CHB004-03_벨_마녀"
+        "/02_캐릭터/출력시트_CHA06_벨·뮤게/CHB004-03_벨_마녀"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -892,7 +891,7 @@
         5255
       ],
       "layerPaths": [
-        "/05_추가준비물_20261124_출력시트_ADD01/NP028_「風聞の魔女」ベル 이름표"
+        "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/NP028_「風聞の魔女」ベル 이름표"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -933,7 +932,7 @@
         5253
       ],
       "layerPaths": [
-        "/05_추가준비물_20261124_출력시트_ADD01/CHB004-01_메이_고향"
+        "/02_캐릭터/출력시트_CHA06_벨·뮤게/CHB004-01_메이_고향"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -955,7 +954,7 @@
         5256
       ],
       "layerPaths": [
-        "/05_추가준비물_20261124_출력시트_ADD01/NP029_「メイ（猫谷）」이름표"
+        "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/NP029_「メイ（猫谷）」이름표"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1301,6 +1300,7 @@
         "P02-S11-C01",
         "P02-S11-C02",
         "P02-S21-C04",
+        "P02-S23-C01",
         "P02-S27-C02"
       ],
       "images": [
@@ -1419,6 +1419,7 @@
         "P02-S21-C01",
         "P02-S21-C04",
         "P02-S22-C01",
+        "P02-S23-C01",
         "P02-S27-C02"
       ],
       "images": [
@@ -1437,7 +1438,8 @@
       "name": "쥬리땅_마법소녀",
       "id": "CHA005-03",
       "cuts": [
-        "P02-S11-C01"
+        "P02-S11-C01",
+        "P02-S23-C01"
       ],
       "images": [
         "png-CHA005-03",
@@ -1463,6 +1465,7 @@
         "P02-S21-C02",
         "P02-S21-C04",
         "P02-S22-C01",
+        "P02-S23-C01",
         "P02-S25-C01",
         "P02-S27-C01",
         "P02-S27-C02"
@@ -1491,6 +1494,7 @@
         "P02-S13-C04",
         "P02-S21-C04",
         "P02-S22-C01",
+        "P02-S23-C01",
         "P02-S27-C02"
       ],
       "images": [
@@ -1547,7 +1551,7 @@
         5003
       ],
       "layerPaths": [
-        "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHB005-03_뮤게_마녀"
+        "/02_캐릭터/출력시트_CHA06_벨·뮤게/CHB005-03_뮤게_마녀"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1569,7 +1573,7 @@
         5090
       ],
       "layerPaths": [
-        "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/NP027_뮤게_마녀_이름표_출력묶음/NP027_「造花の魔女」ミュゲ・シエル_이름표"
+        "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/NP027_이름표_출력묶음/NP027_「造花の魔女」ミュゲ・シエル_이름표"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1591,7 +1595,7 @@
         5254
       ],
       "layerPaths": [
-        "/05_추가준비물_20261124_출력시트_ADD01/CHB005-01_치사_고향"
+        "/02_캐릭터/출력시트_CHA06_벨·뮤게/CHB005-01_치사_고향"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1613,7 +1617,7 @@
         5257
       ],
       "layerPaths": [
-        "/05_추가준비물_20261124_출력시트_ADD01/NP030_「チサ（猫谷）」이름표"
+        "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/NP030_「チサ（猫谷）」이름표"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1687,7 +1691,7 @@
         "P02-S20-C02"
       ],
       "images": [
-        "ending-psb-5108"
+        "power26-CHC004-06-current"
       ],
       "status": "출력 필요",
       "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
@@ -1695,7 +1699,7 @@
         5108
       ],
       "layerPaths": [
-        "/02_캐릭터/출력시트_CHA03_이리스·뮤게·모브앞뒤/CHC004-06_모브_동료_검은_뒷종이"
+        "/02_캐릭터/출력시트_CHA03_이리스·모브/CHC004-06_모브_동료_검은_뒷종이"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1750,6 +1754,50 @@
       "missingRequiredPrint": false
     },
     {
+      "key": "people|모브_동료_회수됨",
+      "category": "people",
+      "name": "모브_동료_회수됨",
+      "id": "CHC004-08",
+      "cuts": [
+        "P02-S19-C03"
+      ],
+      "images": [
+        "power26-CHC004-08-current"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 힘 회수 연출용 실제 PSB 레이어. 인쇄·재단 필요.",
+      "layerIds": [
+        5272
+      ],
+      "layerPaths": [
+        "/02_캐릭터/출력시트_CHA03_이리스·모브/CHC004-08_모브_동료_회수됨"
+      ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "people|모브_동료",
+      "category": "people",
+      "name": "모브_동료",
+      "id": "CHC004-07",
+      "cuts": [
+        "P02-S19-C03"
+      ],
+      "images": [
+        "power26-CHC004-07-current"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 힘 회수 연출용 실제 PSB 레이어. 인쇄·재단 필요.",
+      "layerIds": [
+        5278
+      ],
+      "layerPaths": [
+        "/02_캐릭터/출력시트_CHA03_이리스·모브/CHC004-07_모브_동료"
+      ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
       "key": "props|씨앗",
       "category": "props",
       "name": "씨앗",
@@ -1758,17 +1806,17 @@
         "P02-S19-C03"
       ],
       "images": [
-        "p2-source-e518d5d46441d3c1"
+        "power26-PR049"
       ],
       "status": "출력 필요",
-      "note": "추가 준비물 A3 출력판(4961×3508px, 300ppi)에 기존 촬영 규격으로 배치. 인쇄·재단 필요.",
+      "note": "P2-S19 C03에서 모브에게서 빠져나오는 씨앗 1개. 현재 PSB의 PR049 한 장을 재사용한다.",
       "layerIds": [
         5258
       ],
       "layerPaths": [
-        "/05_추가준비물_20261124_출력시트_ADD01/PR049_씨앗"
+        "/03_소품/출력시트_PR01_계약서·구슬·축음기·이름표·에필로그/PR049_씨앗"
       ],
-      "requiredQty": 6,
+      "requiredQty": 1,
       "missingRequiredPrint": false
     },
     {
@@ -1891,7 +1939,7 @@
         5136
       ],
       "layerPaths": [
-        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게/FX-REV-WIND_히땅_바람_이펙트"
+        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게·치코링·쥬리땅/FX-REV-WIND_히땅_바람_이펙트"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1914,7 +1962,7 @@
         5137
       ],
       "layerPaths": [
-        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게/FX-REV-FLASH_네네링_섬광_이펙트"
+        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게·치코링·쥬리땅/FX-REV-FLASH_네네링_섬광_이펙트"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1973,7 +2021,73 @@
         5172
       ],
       "layerPaths": [
-        "/03_소품/출력시트_PR03_치코링 일기/PR-DIARY-CLOSED_일본어_일기_닫힘"
+        "/03_소품/출력시트_PR03-02_치코링 일기 속/PR-DIARY-CLOSED_일본어_일기_닫힘_작은_\tS22 C01"
+      ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "props|치코링새벽빛이펙트",
+      "category": "props",
+      "name": "치코링 새벽빛 이펙트",
+      "id": "FX-REV-DAWN",
+      "cuts": [
+        "P02-S23-C01"
+      ],
+      "images": [
+        "power26-FX-REV-DAWN"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 힘 회수 연출용 실제 PSB 레이어. 인쇄·재단 필요.",
+      "layerIds": [
+        5275
+      ],
+      "layerPaths": [
+        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게·치코링·쥬리땅/FX-REV-DAWN_치코링_새벽빛_이펙트"
+      ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "props|엔마루윤회고리이펙트",
+      "category": "props",
+      "name": "엔마루 윤회고리 이펙트",
+      "id": "FX-REV-RING",
+      "cuts": [
+        "P02-S23-C01"
+      ],
+      "images": [
+        "psb26-layer-5138"
+      ],
+      "status": "출력 필요",
+      "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인. 현재 컷 지정 밖의 PSB 추가 에셋으로 준비물 목록에 등록.",
+      "layerIds": [
+        5138
+      ],
+      "layerPaths": [
+        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게·치코링·쥬리땅/FX-REV-RING_엔마루_윤회고리_이펙트"
+      ],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "props|쥬리땅유성이펙트",
+      "category": "props",
+      "name": "쥬리땅 유성 이펙트",
+      "id": "FX-REV-METEOR",
+      "cuts": [
+        "P02-S23-C01"
+      ],
+      "images": [
+        "power26-FX-REV-METEOR"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 힘 회수 연출용 실제 PSB 레이어. 인쇄·재단 필요.",
+      "layerIds": [
+        5276
+      ],
+      "layerPaths": [
+        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게·치코링·쥬리땅/FX-REV-METEOR_쥬리땅_유성_이펙트"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -1995,7 +2109,7 @@
         5140
       ],
       "layerPaths": [
-        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게/FX-REV-MASK_뮤게_가면_이펙트"
+        "/04_이펙트/출력시트_FX01_히땅·네네링·엔마루·뮤게·치코링·쥬리땅/FX-REV-MASK_뮤게_가면_이펙트"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -2194,28 +2308,6 @@
       ],
       "layerPaths": [
         "/01_배경/BG-P02-S27-C01-01_공식_결계_해제_후_별밤"
-      ],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
-      "key": "props|타버린씨앗그림",
-      "category": "props",
-      "name": "타버린 씨앗 그림",
-      "id": "PR057",
-      "cuts": [
-        "P02-S26-C01"
-      ],
-      "images": [
-        "p2-source-7954c4fa52d01932"
-      ],
-      "status": "출력 필요",
-      "note": "추가 준비물 A3 출력판(4961×3508px, 300ppi)에 기존 촬영 규격으로 배치. 인쇄·재단 필요.",
-      "layerIds": [
-        5259
-      ],
-      "layerPaths": [
-        "/05_추가준비물_20261124_출력시트_ADD01/PR057_타버린 씨앗 그림"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -2484,7 +2576,7 @@
         5164
       ],
       "layerPaths": [
-        "/02_캐릭터/출력시트_CHA05 치코 클로즈업/CHA002-01-CU 치코 클로즈업"
+        "/02_캐릭터/출력시트_CHA05_치코 클로즈업/CHA002-01-CU 치코 클로즈업"
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
@@ -2555,6 +2647,7 @@
     "FX052",
     "FX054",
     "PR044",
-    "PR071"
+    "PR071",
+    "PR057"
   ]
 }
