@@ -75,7 +75,7 @@
       "title": "에글랑틴의 작별과 벨의 마지막 방송",
       "start": 307.58333333333337,
       "end": 489.5,
-      "file": "scenes/P02-S06.mp4?v=review-20261124-madeleine",
+      "file": "scenes/P02-S06.mp4?v=final-prep-audit-20261124",
       "audio": {
         "kr": "scenes/P02-S06_kr.m4a",
         "jp": "scenes/P02-S06_jp.m4a"
@@ -141,7 +141,7 @@
       "title": "도시를 닫는 이리스의 꽃",
       "start": 706.4166666666666,
       "end": 800.3333333333333,
-      "file": "scenes/P02-S12.mp4",
+      "file": "scenes/P02-S12.mp4?v=final-prep-audit-20261124",
       "audio": {
         "kr": "scenes/P02-S12_kr.m4a",
         "jp": "scenes/P02-S12_jp.m4a"
@@ -296,5 +296,5 @@
     "jp": "Nanami"
   },
   "audioPolicy": "KR/JP 행별 긴 쪽에 맞춤; 미리보기용 합성 나레이션",
-  "mediaRevision": "review-20261124-madeleine"
+  "mediaRevision": "final-prep-audit-20261124"
 }

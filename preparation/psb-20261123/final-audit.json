@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-24",
+  "auditedVideoCuts": 78,
+  "activePreparations": 111,
+  "removedPrintImageLayers": 10,
+  "removedNodes": [
+    4860,
+    4875,
+    4985,
+    4999,
+    5102,
+    5144,
+    5157,
+    5213,
+    5222,
+    5255,
+    5256,
+    5257
+  ],
+  "remainingPsbNodes": 99,
+  "allRetainedPrintAssetsAssigned": true,
+  "remainingLayerDimensionsTransformsAndLocksPreserved": true,
+  "psbSaved": true,
+  "psbBytesBefore": 2351352412,
+  "psbBytesAfter": 1873176711,
+  "scriptAndNarrationUnchanged": true,
+  "editedNameplates": {
+    "NP028": 5261,
+    "NP029": 5265,
+    "NP030": 5269,
+    "NP027": 5090
+  }
+}
