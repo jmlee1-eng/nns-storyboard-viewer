@@ -12,16 +12,23 @@
       "modified": "Mon Nov 23 2026 21:49:36 GMT+0900",
       "path": "C:\\Users\\jmlee1\\Desktop\\Jongmin\\261021_NNS_2HalfBingeWatching\\00_Pre\\02_준비물 정리\\A3 사이즈 출력 정리_2부.psb"
     },
-    "checkedRows": 100,
+    "checkedRows": 108,
     "psbAssetLayers": 68,
     "outerLayerRenames": 68,
     "nestedLayerRenames": 44,
     "counts": {
       "가공 필요": 4,
-      "완료": 37,
-      "출력 필요": 59
+      "완료": 38,
+      "촬영 완료": 1,
+      "출력 필요": 65
     },
     "requiredPrintGaps": [
+      "people|벨_마녀",
+      "props|「風聞の魔女」ベル이름표",
+      "people|메이_고향",
+      "props|「メイ（猫谷）」이름표",
+      "people|치사_고향",
+      "props|「チサ（猫谷）」이름표",
       "props|씨앗",
       "props|타버린씨앗그림"
     ],
@@ -62,7 +69,7 @@
       "id": "BG-P02-S12-C02",
       "cuts": [
         "P02-S00-C01",
-        "P02-S12-C02",
+        "P02-S12-C03",
         "P02-S18-C02"
       ],
       "images": [
@@ -121,6 +128,7 @@
         "P02-S05-C01",
         "P02-S06-C03",
         "P02-S06-C05",
+        "P02-S06-C07",
         "P02-S11-C02",
         "P02-S13-C04",
         "P02-S13-C06",
@@ -448,7 +456,7 @@
       "cuts": [
         "P02-S03-C02",
         "P02-S04-C02",
-        "P02-S12-C01",
+        "P02-S12-C02",
         "P02-S15-C03",
         "P02-S15-C05",
         "P02-S18-C01",
@@ -820,6 +828,119 @@
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
+    },
+    {
+      "key": "background|도심광장(쥬리X)",
+      "category": "background",
+      "name": "ジュリたんのいない広場",
+      "id": "BG-P01-S17-C01-01",
+      "cuts": [
+        "P02-S06-C06",
+        "P02-S06-C07",
+        "P02-S06-C08"
+      ],
+      "images": [
+        "png-BG21"
+      ],
+      "status": "완료",
+      "note": "쥬리 이미지가 빠지고 전광판이 노이즈로 바뀐 배경. 완전한 빈 전광판은 아님.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "people|벨_마녀",
+      "category": "people",
+      "name": "벨_마녀",
+      "id": "CHB004-03",
+      "cuts": [
+        "P02-S06-C06",
+        "P02-S06-C07",
+        "P02-S06-C08"
+      ],
+      "images": [
+        "belle-chisa-CHB004-03"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 추가 소개 장면. 공식 원화에서 투명 여백만 정리한 신규 준비물. 기존 PSB에 배치된 것으로 간주하지 않는다.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": true
+    },
+    {
+      "key": "props|「風聞の魔女」ベル이름표",
+      "category": "props",
+      "name": "「風聞の魔女」ベル 이름표",
+      "id": "NP028",
+      "cuts": [
+        "P02-S06-C06"
+      ],
+      "images": [
+        "belle-chisa-NP028"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 추가 소개 장면. 공식 원화에서 투명 여백만 정리한 신규 준비물. 기존 PSB에 배치된 것으로 간주하지 않는다.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": true
+    },
+    {
+      "key": "background|고향네코다니",
+      "category": "background",
+      "name": "고향 네코다니",
+      "id": "BG-P01-S01-C03-01",
+      "cuts": [
+        "P02-S06-C06",
+        "P02-S12-C01"
+      ],
+      "images": [
+        "png-HOME"
+      ],
+      "status": "촬영 완료",
+      "note": "최신 PNG에서 재단 · 원본 픽셀 크기 100% · 출력 회전 복원. 고향 네코다니 · 세로 조각 1747×2613px · 11-09 1부 출력(사용자 확인) · 1부에서 촬영 완료 · 2부/통합본 에필로그 재사용 없음",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": false
+    },
+    {
+      "key": "people|메이_고향",
+      "category": "people",
+      "name": "메이_고향",
+      "id": "CHB004-01",
+      "cuts": [
+        "P02-S06-C06"
+      ],
+      "images": [
+        "belle-chisa-CHB004-01"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 추가 소개 장면. 공식 원화에서 투명 여백만 정리한 신규 준비물. 기존 PSB에 배치된 것으로 간주하지 않는다.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": true
+    },
+    {
+      "key": "props|「メイ（猫谷）」이름표",
+      "category": "props",
+      "name": "「メイ（猫谷）」이름표",
+      "id": "NP029",
+      "cuts": [
+        "P02-S06-C06"
+      ],
+      "images": [
+        "belle-chisa-NP029"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 추가 소개 장면. 공식 원화에서 투명 여백만 정리한 신규 준비물. 기존 PSB에 배치된 것으로 간주하지 않는다.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": true
     },
     {
       "key": "background|주군의하숙방",
@@ -1370,7 +1491,8 @@
       "name": "시계탑 상공_황혼빛",
       "id": "BG-P02-S12-C01",
       "cuts": [
-        "P02-S12-C01"
+        "P02-S12-C01",
+        "P02-S12-C02"
       ],
       "images": [
         "ending-psb-4864"
@@ -1393,6 +1515,7 @@
       "id": "CHB005-03",
       "cuts": [
         "P02-S12-C01",
+        "P02-S12-C02",
         "P02-S15-C01",
         "P02-S15-C02",
         "P02-S23-C01"
@@ -1432,6 +1555,42 @@
       ],
       "requiredQty": 1,
       "missingRequiredPrint": false
+    },
+    {
+      "key": "people|치사_고향",
+      "category": "people",
+      "name": "치사_고향",
+      "id": "CHB005-01",
+      "cuts": [
+        "P02-S12-C01"
+      ],
+      "images": [
+        "belle-chisa-CHB005-01"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 추가 소개 장면. 공식 원화에서 투명 여백만 정리한 신규 준비물. 기존 PSB에 배치된 것으로 간주하지 않는다.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": true
+    },
+    {
+      "key": "props|「チサ（猫谷）」이름표",
+      "category": "props",
+      "name": "「チサ（猫谷）」이름표",
+      "id": "NP030",
+      "cuts": [
+        "P02-S12-C01"
+      ],
+      "images": [
+        "belle-chisa-NP030"
+      ],
+      "status": "출력 필요",
+      "note": "2026-11-24 추가 소개 장면. 공식 원화에서 투명 여백만 정리한 신규 준비물. 기존 PSB에 배치된 것으로 간주하지 않는다.",
+      "layerIds": [],
+      "layerPaths": [],
+      "requiredQty": 1,
+      "missingRequiredPrint": true
     },
     {
       "key": "background|공식시계탑코어입구",

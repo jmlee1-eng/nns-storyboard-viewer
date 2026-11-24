@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-24",
+  "part": "에필로그",
+  "duration": 173.41666666666669,
+  "cuts": 4,
+  "scenes": [
+    {
+      "id": "P03-S01",
+      "title": "고향에 남은 각본집",
+      "start": 0.0,
+      "end": 64.75,
+      "file": "scenes/P03-S01.mp4",
+      "audio": {
+        "kr": "scenes/P03-S01_kr.m4a",
+        "jp": "scenes/P03-S01_jp.m4a"
+      }
+    },
+    {
+      "id": "P03-S02",
+      "title": "이유를 모르는 일기",
+      "start": 64.75,
+      "end": 108.29166666666667,
+      "file": "scenes/P03-S02.mp4",
+      "audio": {
+        "kr": "scenes/P03-S02_kr.m4a",
+        "jp": "scenes/P03-S02_jp.m4a"
+      }
+    },
+    {
+      "id": "P03-S03",
+      "title": "아야메와 꺾인 붓꽃",
+      "start": 108.29166666666667,
+      "end": 173.41666666666669,
+      "file": "scenes/P03-S03.mp4",
+      "audio": {
+        "kr": "scenes/P03-S03_kr.m4a",
+        "jp": "scenes/P03-S03_jp.m4a"
+      }
+    }
+  ],
+  "voices": {
+    "kr": "SunHi",
+    "jp": "Nanami"
+  },
+  "audioPolicy": "KR/JP 행별 긴 쪽에 맞춤; 미리보기용 합성 나레이션"
+}
