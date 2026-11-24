@@ -28,10 +28,10 @@
     },
     {
       "id": "P03-S03",
-      "title": "아야메와 꺾인 붓꽃",
+      "title": "동그란 마들렌과 꿈의 질문",
       "start": 108.29166666666667,
       "end": 173.41666666666669,
-      "file": "scenes/P03-S03.mp4",
+      "file": "scenes/P03-S03.mp4?v=review-20261124-madeleine",
       "audio": {
         "kr": "scenes/P03-S03_kr.m4a",
         "jp": "scenes/P03-S03_jp.m4a"
@@ -42,5 +42,6 @@
     "kr": "SunHi",
     "jp": "Nanami"
   },
-  "audioPolicy": "KR/JP 행별 긴 쪽에 맞춤; 미리보기용 합성 나레이션"
+  "audioPolicy": "KR/JP 행별 긴 쪽에 맞춤; 미리보기용 합성 나레이션",
+  "mediaRevision": "review-20261124-madeleine"
 }

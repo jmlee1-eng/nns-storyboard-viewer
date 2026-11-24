@@ -9,24 +9,22 @@
       "width": 4961,
       "height": 3508,
       "ppi": 300,
-      "activeLayerId": 4926,
-      "bytes": 2374997572
+      "activeLayerId": 5128,
+      "bytes": 2351352412
     },
-    "checkedRows": 112,
+    "checkedRows": 111,
     "psbAssetLayers": 76,
     "outerLayerRenames": 68,
     "nestedLayerRenames": 44,
     "counts": {
-      "가공 필요": 4,
+      "가공 필요": 3,
       "완료": 38,
       "촬영 완료": 1,
       "출력 필요": 69
     },
     "requiredPrintGaps": [],
     "requiredTextWork": [],
-    "deferredItems": [
-      "props|꽃잎방벽"
-    ],
+    "deferredItems": [],
     "firstPartNotMissing": true,
     "reportUrl": "preparation/psb-20261123/index.html",
     "idAllocations": [
@@ -909,7 +907,7 @@
         "png-HOME"
       ],
       "status": "촬영 완료",
-      "note": "최신 PNG에서 재단 · 원본 픽셀 크기 100% · 출력 회전 복원. 고향 네코다니 · 세로 조각 1747×2613px · 11-09 1부 출력(사용자 확인) · 1부에서 촬영 완료 · 2부/통합본 에필로그 재사용 없음",
+      "note": "1부에서 촬영 완료한 고향 네코다니 세로 배경 조각을 재사용. 현재 2부의 고향 인물 소개 장면에서도 사용한다.",
       "layerIds": [],
       "layerPaths": [],
       "requiredQty": 1,
@@ -1987,24 +1985,6 @@
       "missingRequiredPrint": false
     },
     {
-      "key": "props|꽃잎방벽",
-      "category": "props",
-      "name": "꽃잎 방벽",
-      "id": "FX048",
-      "cuts": [
-        "P02-S21-C01"
-      ],
-      "images": [
-        "p2-source-5b60683b6a781611"
-      ],
-      "status": "가공 필요",
-      "note": "사용자 확인: 아직 출력하지 않았으며 실제로 필요한 소품인지 연출 재검토 예정. 현재 PSB 미배치이나 필수 누락 집계에서 제외하고 검토 대기로 유지.",
-      "layerIds": [],
-      "layerPaths": [],
-      "requiredQty": 1,
-      "missingRequiredPrint": false
-    },
-    {
       "key": "props|일본어일기_닫힘_휴대용",
       "category": "props",
       "name": "일본어 일기_닫힘_휴대용",
@@ -2626,10 +2606,10 @@
         "P03-S03-C01"
       ],
       "images": [
-        "psb26-layer-5128"
+        "power26-PR070-madeleine"
       ],
       "status": "출력 필요",
-      "note": "현재 열린 2부 PSB의 실제 출력 에셋 확인. 인쇄·재단 상태 확인.",
+      "note": "원작 대본에서 마들렌이 동그랗게 부풀어 오른 과자. 길쭉한 빵 대신 둥글고 볼록한 마들렌으로 다시 작화, 현재 PSB PR070_빵에 반영. 인쇄·재단 필요.",
       "layerIds": [
         5128
       ],
@@ -2648,6 +2628,10 @@
     "FX054",
     "PR044",
     "PR071",
-    "PR057"
+    "PR057",
+    "FX048",
+    "PR042",
+    "PR066",
+    "PR068"
   ]
 }
