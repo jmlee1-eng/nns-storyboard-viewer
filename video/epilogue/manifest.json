@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-26",
   "part": "에필로그",
   "duration": 173.41666666666669,
   "cuts": 4,
@@ -20,7 +20,7 @@
       "title": "이유를 모르는 일기",
       "start": 64.75,
       "end": 108.29166666666667,
-      "file": "scenes/P03-S02.mp4",
+      "file": "scenes/P03-S02.mp4?v=shooting-20261126",
       "audio": {
         "kr": "scenes/P03-S02_kr.m4a",
         "jp": "scenes/P03-S02_jp.m4a"
@@ -43,5 +43,5 @@
     "jp": "Nanami"
   },
   "audioPolicy": "KR/JP 행별 긴 쪽에 맞춤; 미리보기용 합성 나레이션",
-  "mediaRevision": "review-20261124-madeleine"
+  "mediaRevision": "shooting-20261126"
 }
