@@ -143,8 +143,8 @@
       "end": 619.5416666666669,
       "file": "scenes/P02-S13.mp4?v=direction-20261126-v2",
       "audio": {
-        "kr": "scenes/P02-S13_kr.m4a?v=direction-20261126-v2",
-        "jp": "scenes/P02-S13_jp.m4a?v=direction-20261126-v2"
+        "kr": "scenes/P02-S13_kr.m4a?v=vox-repair-20261126",
+        "jp": "scenes/P02-S13_jp.m4a?v=vox-repair-20261126"
       }
     },
     {
@@ -165,8 +165,8 @@
       "end": 694.416666666667,
       "file": "scenes/P02-S16.mp4?v=direction-20261126-v2",
       "audio": {
-        "kr": "scenes/P02-S16_kr.m4a?v=direction-20261126-v2",
-        "jp": "scenes/P02-S16_jp.m4a?v=direction-20261126-v2"
+        "kr": "scenes/P02-S16_kr.m4a?v=vox-repair-20261126",
+        "jp": "scenes/P02-S16_jp.m4a?v=vox-repair-20261126"
       }
     },
     {
@@ -176,8 +176,8 @@
       "end": 724.916666666667,
       "file": "scenes/P02-S18.mp4?v=direction-20261126-v2",
       "audio": {
-        "kr": "scenes/P02-S18_kr.m4a?v=direction-20261126-v2",
-        "jp": "scenes/P02-S18_jp.m4a?v=direction-20261126-v2"
+        "kr": "scenes/P02-S18_kr.m4a?v=vox-repair-20261126",
+        "jp": "scenes/P02-S18_jp.m4a?v=vox-repair-20261126"
       }
     },
     {
@@ -187,8 +187,8 @@
       "end": 823.0000000000003,
       "file": "scenes/P02-S19.mp4?v=direction-20261126-v2",
       "audio": {
-        "kr": "scenes/P02-S19_kr.m4a?v=direction-20261126-v2",
-        "jp": "scenes/P02-S19_jp.m4a?v=direction-20261126-v2"
+        "kr": "scenes/P02-S19_kr.m4a?v=vox-repair-20261126",
+        "jp": "scenes/P02-S19_jp.m4a?v=vox-repair-20261126"
       }
     },
     {
@@ -198,7 +198,7 @@
       "end": 918.2083333333337,
       "file": "scenes/P02-S20.mp4?v=direction-20261126-v2",
       "audio": {
-        "kr": "scenes/P02-S20_kr.m4a?v=direction-20261126-v2",
+        "kr": "scenes/P02-S20_kr.m4a?v=vox-repair-20261126",
         "jp": "scenes/P02-S20_jp.m4a?v=direction-20261126-v2"
       }
     },
@@ -210,7 +210,7 @@
       "file": "scenes/P02-S21.mp4?v=direction-20261126-v2",
       "audio": {
         "kr": "scenes/P02-S21_kr.m4a?v=direction-20261126-v2",
-        "jp": "scenes/P02-S21_jp.m4a?v=direction-20261126-v2"
+        "jp": "scenes/P02-S21_jp.m4a?v=vox-repair-20261126"
       }
     },
     {
@@ -231,8 +231,8 @@
       "end": 1146.7083333333337,
       "file": "scenes/P02-S23.mp4?v=direction-20261126-v2",
       "audio": {
-        "kr": "scenes/P02-S23_kr.m4a?v=direction-20261126-v2",
-        "jp": "scenes/P02-S23_jp.m4a?v=direction-20261126-v2"
+        "kr": "scenes/P02-S23_kr.m4a?v=vox-repair-20261126",
+        "jp": "scenes/P02-S23_jp.m4a?v=vox-repair-20261126"
       }
     },
     {
@@ -253,8 +253,8 @@
       "end": 1180.541666666667,
       "file": "scenes/P02-S25.mp4?v=direction-20261126-v2",
       "audio": {
-        "kr": "scenes/P02-S25_kr.m4a?v=direction-20261126-v2",
-        "jp": "scenes/P02-S25_jp.m4a?v=direction-20261126-v2"
+        "kr": "scenes/P02-S25_kr.m4a?v=vox-repair-20261126",
+        "jp": "scenes/P02-S25_jp.m4a?v=vox-repair-20261126"
       }
     },
     {
@@ -275,7 +275,7 @@
       "end": 1248.7083333333335,
       "file": "scenes/P02-S27.mp4?v=direction-20261126-v2",
       "audio": {
-        "kr": "scenes/P02-S27_kr.m4a?v=direction-20261126-v2",
+        "kr": "scenes/P02-S27_kr.m4a?v=vox-repair-20261126",
         "jp": "scenes/P02-S27_jp.m4a?v=direction-20261126-v2"
       }
     }
@@ -284,6 +284,7 @@
     "kr": "ElevenLabs eleven_v4",
     "jp": "ElevenLabs eleven_v4"
   },
-  "audioPolicy": "기존 캐릭터 음성 재사용. 새 나레이션만 임시 시스템 음성. 자막은 문장 종결 기준.",
-  "mediaRevision": "direction-20261126-v2"
+  "audioPolicy": "2부와 통합본 전용 장면의 추가 대사 및 첫 음절 보정에 기존 캐릭터별 ElevenLabs 한·일 보이스 사용.",
+  "mediaRevision": "direction-20261126-v2",
+  "audioRevision": "vox-repair-20261126"
 }
