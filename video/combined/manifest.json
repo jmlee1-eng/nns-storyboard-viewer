@@ -1,0 +1,514 @@
+{
+  "date": "2026-11-26",
+  "part": "통합본",
+  "duration": 2684.9583333333335,
+  "cuts": 119,
+  "scenes": [
+    {
+      "id": "P01-S01",
+      "title": "낯선 골목의 레오나와 결계의 밤",
+      "start": 0.0,
+      "end": 98.0,
+      "file": "../part1/scenes/P01-S01.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S01_kr.m4a",
+        "jp": "../part1/scenes/P01-S01_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S02",
+      "title": "골동품상의 하케와 여우 인형",
+      "start": 98.0,
+      "end": 133.08333333333334,
+      "file": "../part1/scenes/P01-S02.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S02_kr.m4a",
+        "jp": "../part1/scenes/P01-S02_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S03",
+      "title": "등굣길에서 만난 치코",
+      "start": 133.08333333333334,
+      "end": 206.70833333333334,
+      "file": "../part1/scenes/P01-S03.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S03_kr.m4a",
+        "jp": "../part1/scenes/P01-S03_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S04",
+      "title": "치코의 구출과 품속의 속삭임",
+      "start": 206.70833333333334,
+      "end": 241.16666666666666,
+      "file": "../part1/scenes/P01-S04.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S04_kr.m4a",
+        "jp": "../part1/scenes/P01-S04_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S05",
+      "title": "책상 위의 계약 권유",
+      "start": 241.16666666666666,
+      "end": 322.4166666666667,
+      "file": "../part1/scenes/P01-S05.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S05_kr.m4a",
+        "jp": "../part1/scenes/P01-S05_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S06",
+      "title": "평범한 하굣길에서 치코의 계약까지",
+      "start": 322.4166666666667,
+      "end": 463.4583333333333,
+      "file": "../part1/scenes/P01-S06.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S06_kr.m4a",
+        "jp": "../part1/scenes/P01-S06_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S07",
+      "title": "히스이의 구출과 히땅의 계약",
+      "start": 463.4583333333333,
+      "end": 503.25,
+      "file": "../part1/scenes/P01-S07.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S07_kr.m4a",
+        "jp": "../part1/scenes/P01-S07_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S08",
+      "title": "쿠로코의 목공소",
+      "start": 503.25,
+      "end": 536.9166666666666,
+      "file": "scenes/P01-S08.mp4",
+      "audio": {
+        "kr": "scenes/P01-S08_kr.m4a",
+        "jp": "scenes/P01-S08_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S09",
+      "title": "쥬리땅의 공개전",
+      "start": 536.9166666666666,
+      "end": 594.25,
+      "file": "../part1/scenes/P01-S09.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S09_kr.m4a",
+        "jp": "../part1/scenes/P01-S09_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S10",
+      "title": "이리스와 움직이지 않는 몸",
+      "start": 594.25,
+      "end": 666.3333333333334,
+      "file": "../part1/scenes/P01-S10.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S10_kr.m4a",
+        "jp": "../part1/scenes/P01-S10_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S11",
+      "title": "가시 성당의 패배",
+      "start": 666.3333333333334,
+      "end": 780.1666666666666,
+      "file": "../part1/scenes/P01-S11.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S11_kr.m4a",
+        "jp": "../part1/scenes/P01-S11_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S12",
+      "title": "병실에서 만난 네네링",
+      "start": 780.1666666666666,
+      "end": 809.75,
+      "file": "../part1/scenes/P01-S12.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S12_kr.m4a",
+        "jp": "../part1/scenes/P01-S12_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S13",
+      "title": "손끝에 나타난 이상",
+      "start": 809.75,
+      "end": 819.7916666666666,
+      "file": "../part1/scenes/P01-S13.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S13_kr.m4a",
+        "jp": "../part1/scenes/P01-S13_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S14",
+      "title": "공개전에서 쓰러진 쥬리땅",
+      "start": 819.7916666666666,
+      "end": 838.4166666666666,
+      "file": "../part1/scenes/P01-S14.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S14_kr.m4a",
+        "jp": "../part1/scenes/P01-S14_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S15",
+      "title": "숨겨 온 계약의 대가",
+      "start": 838.4166666666666,
+      "end": 928.7916666666666,
+      "file": "scenes/P01-S15.mp4",
+      "audio": {
+        "kr": "scenes/P01-S15_kr.m4a",
+        "jp": "scenes/P01-S15_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S16",
+      "title": "소녀들이 떠난 목공소",
+      "start": 928.7916666666666,
+      "end": 937.7083333333334,
+      "file": "../part1/scenes/P01-S16.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S16_kr.m4a",
+        "jp": "../part1/scenes/P01-S16_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S17",
+      "title": "스타가 사라진 광장",
+      "start": 937.7083333333334,
+      "end": 988.375,
+      "file": "scenes/P01-S17.mp4",
+      "audio": {
+        "kr": "scenes/P01-S17_kr.m4a",
+        "jp": "scenes/P01-S17_jp.m4a"
+      }
+    },
+    {
+      "id": "P01-S18",
+      "title": "서명한 어른의 새로운 목표",
+      "start": 988.375,
+      "end": 1006.3333333333334,
+      "file": "../part1/scenes/P01-S18.mp4",
+      "audio": {
+        "kr": "../part1/scenes/P01-S18_kr.m4a",
+        "jp": "../part1/scenes/P01-S18_jp.m4a"
+      }
+    },
+    {
+      "id": "P02-S01",
+      "title": "오늘 밤을 지키는 치코링",
+      "start": 1006.3333333333334,
+      "end": 1036.2916666666667,
+      "file": "../part2/scenes/P02-S01.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S01_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S01_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S02",
+      "title": "아이들이 돌아올 길을 찾는 주군",
+      "start": 1036.2916666666667,
+      "end": 1049.3333333333333,
+      "file": "../part2/scenes/P02-S02.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S02_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S02_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S03",
+      "title": "세나가 기억하는 동료",
+      "start": 1049.3333333333333,
+      "end": 1119.4583333333333,
+      "file": "../part2/scenes/P02-S03.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S03_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S03_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S04",
+      "title": "이기지 않을 방법",
+      "start": 1119.4583333333333,
+      "end": 1180.75,
+      "file": "../part2/scenes/P02-S04.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S04_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S04_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S05",
+      "title": "무기를 내리고 성당으로",
+      "start": 1180.75,
+      "end": 1263.625,
+      "file": "../part2/scenes/P02-S05.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S05_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S05_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S06",
+      "title": "에글랑틴의 작별과 벨의 마지막 방송",
+      "start": 1263.625,
+      "end": 1434.8333333333333,
+      "file": "scenes/P02-S06.mp4",
+      "audio": {
+        "kr": "scenes/P02-S06_kr.m4a",
+        "jp": "scenes/P02-S06_jp.m4a"
+      }
+    },
+    {
+      "id": "P02-S07",
+      "title": "입회인이 요구한 계약서 전문",
+      "start": 1434.8333333333333,
+      "end": 1479.25,
+      "file": "../part2/scenes/P02-S07.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S07_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S07_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S08",
+      "title": "황혼빛 아이가 남긴 단서",
+      "start": 1479.25,
+      "end": 1519.5,
+      "file": "../part2/scenes/P02-S08.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S08_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S08_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S09",
+      "title": "골동품상에 남은 목소리",
+      "start": 1519.5,
+      "end": 1544.2916666666667,
+      "file": "../part2/scenes/P02-S09.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S09_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S09_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S10",
+      "title": "수리된 실린더와 도시의 원본",
+      "start": 1544.2916666666667,
+      "end": 1594.375,
+      "file": "../part2/scenes/P02-S10.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S10_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S10_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S11",
+      "title": "목공소에 다시 모인 아이들과 마지막 작전",
+      "start": 1594.375,
+      "end": 1632.4166666666667,
+      "file": "../part2/scenes/P02-S11.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S11_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S11_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S12",
+      "title": "도시를 닫는 이리스의 꽃",
+      "start": 1632.4166666666667,
+      "end": 1715.75,
+      "file": "scenes/P02-S12.mp4",
+      "audio": {
+        "kr": "scenes/P02-S12_kr.m4a",
+        "jp": "scenes/P02-S12_jp.m4a"
+      }
+    },
+    {
+      "id": "P02-S13",
+      "title": "결계 아래에서 모이는 소녀들",
+      "start": 1715.75,
+      "end": 1749.875,
+      "file": "../part2/scenes/P02-S13.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S13_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S13_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S15",
+      "title": "코어의 문을 넘어 이리스에게",
+      "start": 1749.875,
+      "end": 1907.5416666666667,
+      "file": "scenes/P02-S15.mp4",
+      "audio": {
+        "kr": "scenes/P02-S15_kr.m4a",
+        "jp": "scenes/P02-S15_jp.m4a"
+      }
+    },
+    {
+      "id": "P02-S16",
+      "title": "치코가 기억하는 어제와 오늘",
+      "start": 1907.5416666666667,
+      "end": 1936.75,
+      "file": "../part2/scenes/P02-S16.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S16_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S16_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S18",
+      "title": "내일의 나를 보고 싶다",
+      "start": 1936.75,
+      "end": 1967.25,
+      "file": "../part2/scenes/P02-S18.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S18_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S18_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S19",
+      "title": "되찾은 해약 조항",
+      "start": 1967.25,
+      "end": 2065.3333333333335,
+      "file": "../part2/scenes/P02-S19.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S19_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S19_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S20",
+      "title": "마지막 줄을 찢은 라르므",
+      "start": 2065.3333333333335,
+      "end": 2160.5416666666665,
+      "file": "../part2/scenes/P02-S20.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S20_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S20_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S21",
+      "title": "함께 버티며 힘을 놓기로 하다",
+      "start": 2160.5416666666665,
+      "end": 2288.375,
+      "file": "../part2/scenes/P02-S21.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S21_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S21_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S22",
+      "title": "도시 곳곳에서 펼쳐지는 손",
+      "start": 2288.375,
+      "end": 2328.4166666666665,
+      "file": "../part2/scenes/P02-S22.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S22_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S22_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S23",
+      "title": "소녀들과 뮤게가 놓는 것",
+      "start": 2328.4166666666665,
+      "end": 2409.5416666666665,
+      "file": "scenes/P02-S23.mp4",
+      "audio": {
+        "kr": "scenes/P02-S23_kr.m4a",
+        "jp": "scenes/P02-S23_jp.m4a"
+      }
+    },
+    {
+      "id": "P02-S24",
+      "title": "공통 원본의 파기",
+      "start": 2409.5416666666665,
+      "end": 2439.5416666666665,
+      "file": "../part2/scenes/P02-S24.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S24_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S24_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S25",
+      "title": "진짜 밤하늘이 열린 도시",
+      "start": 2439.5416666666665,
+      "end": 2443.375,
+      "file": "../part2/scenes/P02-S25.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S25_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S25_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S26",
+      "title": "문이 있는 정원",
+      "start": 2443.375,
+      "end": 2477.0,
+      "file": "../part2/scenes/P02-S26.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S26_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S26_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P02-S27",
+      "title": "잊기 전에 남기는 기록",
+      "start": 2477.0,
+      "end": 2511.5416666666665,
+      "file": "../part2/scenes/P02-S27.mp4?v=direction-20261126-v2",
+      "audio": {
+        "kr": "../part2/scenes/P02-S27_kr.m4a?v=direction-20261126-v2",
+        "jp": "../part2/scenes/P02-S27_jp.m4a?v=direction-20261126-v2"
+      }
+    },
+    {
+      "id": "P03-S01",
+      "title": "고향에 남은 각본집",
+      "start": 2511.5416666666665,
+      "end": 2576.2916666666665,
+      "file": "../epilogue/scenes/P03-S01.mp4",
+      "audio": {
+        "kr": "../epilogue/scenes/P03-S01_kr.m4a",
+        "jp": "../epilogue/scenes/P03-S01_jp.m4a"
+      }
+    },
+    {
+      "id": "P03-S02",
+      "title": "이유를 모르는 일기",
+      "start": 2576.2916666666665,
+      "end": 2619.8333333333335,
+      "file": "../epilogue/scenes/P03-S02.mp4?v=shooting-20261126",
+      "audio": {
+        "kr": "../epilogue/scenes/P03-S02_kr.m4a",
+        "jp": "../epilogue/scenes/P03-S02_jp.m4a"
+      }
+    },
+    {
+      "id": "P03-S03",
+      "title": "동그란 마들렌과 꿈의 질문",
+      "start": 2619.8333333333335,
+      "end": 2684.9583333333335,
+      "file": "../epilogue/scenes/P03-S03.mp4?v=review-20261124-madeleine",
+      "audio": {
+        "kr": "../epilogue/scenes/P03-S03_kr.m4a",
+        "jp": "../epilogue/scenes/P03-S03_jp.m4a"
+      }
+    }
+  ]
+}
