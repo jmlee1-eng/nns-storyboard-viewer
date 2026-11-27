@@ -1,40 +1,40 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "part": "에필로그",
-  "duration": 173.41666666666669,
+  "duration": 140.75,
   "cuts": 4,
   "scenes": [
     {
       "id": "P03-S01",
       "title": "고향에 남은 각본집",
-      "start": 0.0,
-      "end": 64.75,
-      "file": "scenes/P03-S01.mp4",
+      "start": 0,
+      "end": 50.333333333333336,
+      "file": "scenes/P03-S01.mp4?v=renumber-20261127",
       "audio": {
-        "kr": "scenes/P03-S01_kr.m4a",
-        "jp": "scenes/P03-S01_jp.m4a"
+        "kr": "scenes/P03-S01_kr.m4a?v=renumber-20261127",
+        "jp": "scenes/P03-S01_jp.m4a?v=renumber-20261127"
       }
     },
     {
       "id": "P03-S02",
       "title": "이유를 모르는 일기",
-      "start": 64.75,
-      "end": 108.29166666666667,
-      "file": "scenes/P03-S02.mp4?v=shooting-20261126",
+      "start": 50.333333333333336,
+      "end": 85.875,
+      "file": "scenes/P03-S02.mp4?v=renumber-20261127",
       "audio": {
-        "kr": "scenes/P03-S02_kr.m4a",
-        "jp": "scenes/P03-S02_jp.m4a"
+        "kr": "scenes/P03-S02_kr.m4a?v=renumber-20261127",
+        "jp": "scenes/P03-S02_jp.m4a?v=renumber-20261127"
       }
     },
     {
       "id": "P03-S03",
       "title": "동그란 마들렌과 꿈의 질문",
-      "start": 108.29166666666667,
-      "end": 173.41666666666669,
-      "file": "scenes/P03-S03.mp4?v=review-20261124-madeleine",
+      "start": 85.875,
+      "end": 140.75,
+      "file": "scenes/P03-S03.mp4?v=renumber-20261127",
       "audio": {
-        "kr": "scenes/P03-S03_kr.m4a",
-        "jp": "scenes/P03-S03_jp.m4a"
+        "kr": "scenes/P03-S03_kr.m4a?v=renumber-20261127",
+        "jp": "scenes/P03-S03_jp.m4a?v=renumber-20261127"
       }
     }
   ],
@@ -43,5 +43,6 @@
     "jp": "Nanami"
   },
   "audioPolicy": "KR/JP 행별 긴 쪽에 맞춤; 미리보기용 합성 나레이션",
-  "mediaRevision": "shooting-20261126"
+  "mediaRevision": "renumber-20261127",
+  "retiming": "한·일 문장 시작을 맞추고 일본어 문장 안의 긴 쉼을 줄였습니다. 일본어가 길게 남는 문장은 최대 1.06배로 빠르게 하고, 의미를 유지하는 짧은 번역으로 14문장을 다시 녹음했습니다."
 }
